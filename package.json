@@ -6,6 +6,7 @@
     "url": "https://github.com/product-os/jellyfish-chat-widget.git"
   },
   "description": "Chat widget library for Jellyfish",
+  "main": "lib/index.jsx",
   "directories": {
     "lib": "lib"
   },
