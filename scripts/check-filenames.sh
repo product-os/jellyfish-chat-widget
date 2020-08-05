@@ -8,7 +8,7 @@
 
 set -eu
 
-DIRECTORIES=(lib test scripts)
+DIRECTORIES=(test scripts)
 
 for file in $(find "${DIRECTORIES[@]}" -type f | grep -v -E node_modules); do
 	BASENAME="$(basename "$file")"
@@ -25,18 +25,6 @@ for file in $(find "${DIRECTORIES[@]}" -type f | grep -v -E node_modules); do
 
 	# JSX capitalized files are OK
 	if [[ $BASENAME =~ ^[A-Z].*\.jsx ]]; then
-		continue
-	fi
-
-	# TODO: This whole list of exceptions shouldn't exist as React
-	# components should only be defined in jellyfish-ui-components
-	COMPONENTS_DIRECTORIES="|lib/"
-
-	# We allow lowercase files inside React component directories
-	SUBPATH="$(echo "$file" | sed -E "s#^($COMPONENTS_DIRECTORIES)##g")"
-	SUBPATH_DIRNAME="$(dirname "$SUBPATH")"
-	SUBPATH_BASENAME="$(basename "$SUBPATH")"
-	if [[ $SUBPATH_DIRNAME =~ ^[A-Z] ]] && ! [[ $SUBPATH_BASENAME =~ [A-Z] ]]; then
 		continue
 	fi
 

@@ -43,4 +43,4 @@ lint:
 
 test: LOGLEVEL = warning
 test:
-	node $(NODE_DEBUG_ARGS) ./node_modules/.bin/ava $(AVA_ARGS) $(FILES) $(DOTENV_PATH)
+	node $(NODE_DEBUG_ARGS) ./node_modules/.bin/ava $(AVA_ARGS) $(FILES)
