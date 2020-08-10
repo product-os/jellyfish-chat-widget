@@ -55,6 +55,7 @@
     "jsdoc-to-markdown": "^6.0.1",
     "lodash": "^4.17.19",
     "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
