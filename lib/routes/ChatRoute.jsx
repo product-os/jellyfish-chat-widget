@@ -17,9 +17,6 @@ import {
 	useSetup
 } from '@balena/jellyfish-ui-components/lib/SetupProvider'
 import {
-	Task
-} from '../components/Task'
-import {
 	useActions,
 	useRouter,
 	useTask
@@ -29,6 +26,9 @@ import {
 	selectMessages,
 	selectCardById
 } from '../store/selectors'
+import {
+	FETCH_MORE_MESSAGES_LIMIT
+} from '../constants'
 
 export const ChatRoute = () => {
 	// Using an empty types array will effectively disable the autocomplete
@@ -41,8 +41,35 @@ export const ChatRoute = () => {
 	const router = useRouter()
 	const actions = useActions()
 	const currentUser = useSelector(selectCurrentUser())
-	const thread = useSelector(selectCardById(router.match.params.thread))
+	const loadThreadDataTask = useTask(actions.loadThreadData)
+
 	const messages = useSelector(selectMessages(router.match.params.thread))
+
+	const threadId = router.match.params.thread
+	const thread = useSelector(selectCardById(threadId))
+
+	const query = {
+		type: 'object',
+		properties: {
+			id: {
+				const: threadId
+			}
+		},
+		$$links: {
+			'has attached element': {
+				type: 'object'
+			}
+		},
+		required: [ 'id' ]
+	}
+
+	React.useEffect(() => {
+		loadThreadDataTask.exec(
+			thread.slug,
+			query,
+			FETCH_MORE_MESSAGES_LIMIT
+		)
+	}, [])
 
 	// ToDo: implement this
 	const usersTyping = React.useMemo(() => {
@@ -98,6 +125,7 @@ export const ChatRoute = () => {
 					setTimelineMessage={_.noop}
 					eventMenuOptions={false}
 					headerOptions={timelineHeaderOptions}
+					loadMoreChannelData={actions.loadMoreThreadData}
 				/>
 			</Box>
 		</Box>
