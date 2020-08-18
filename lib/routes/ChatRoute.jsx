@@ -120,7 +120,6 @@ export const ChatRoute = () => {
 					usersTyping={usersTyping}
 					user={currentUser}
 					getActor={actions.getActor}
-					addNotification={actions.addNotification}
 					signalTyping={_.noop}
 					setTimelineMessage={_.noop}
 					eventMenuOptions={false}
