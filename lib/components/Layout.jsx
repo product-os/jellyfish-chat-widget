@@ -8,6 +8,10 @@ import React from 'react'
 import {
 	Flex, useTheme
 } from 'rendition'
+import styled from 'styled-components'
+import {
+	px
+} from '@balena/jellyfish-ui-components/lib/services/helpers'
 import {
 	Task
 } from './Task'
@@ -22,6 +26,16 @@ import {
 import {
 	Header
 } from './Header'
+
+const ChatWrapper = styled(Flex) `
+	p {
+		margin-top: 0;
+		margin-bottom: ${(props) => { px(props.theme.space[2]) }};
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+`
 
 export const Layout = ({
 	onClose, children, ...rest
@@ -41,7 +55,7 @@ export const Layout = ({
 	}, [])
 
 	return (
-		<Flex {...rest}
+		<ChatWrapper {...rest}
 			flexDirection="column"
 			color={theme.colors.secondary.main}
 			backgroundColor={theme.colors.quartenary.light}
@@ -57,6 +71,6 @@ export const Layout = ({
 				}}>
 				<Task task={combinedTask}>{() => { return children }}</Task>
 			</Flex>
-		</Flex>
+		</ChatWrapper>
 	)
 }
