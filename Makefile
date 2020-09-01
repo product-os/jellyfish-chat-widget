@@ -33,13 +33,10 @@ endif
 # -----------------------------------------------
 
 lint:
-	./node_modules/.bin/eslint --ext .js,.jsx $(ESLINT_OPTION_FIX) lib test
-	./scripts/check-filenames.sh
-	./scripts/check-licenses.sh
-	./scripts/check-deployable-lib.sh
-	shellcheck ./scripts/*.sh
-	./node_modules/.bin/deplint
-	./node_modules/.bin/depcheck --ignore-bin-package --ignores='@babel/*,@ava/babel'
+	npx eslint --ext .js,.jsx $(ESLINT_OPTION_FIX) lib test
+	npx jellycheck --ui-lib
+	npx deplint
+	npx depcheck --ignore-bin-package --ignores='@babel/*,@ava/babel'
 
 test: LOGLEVEL = warning
 test:
