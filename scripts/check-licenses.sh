@@ -33,6 +33,7 @@ LICENSE_SHEBANG_SH="#!/bin/bash
 JAVASCRIPT_FILES="$(find . \( -name '*.js' -or -name '*.jsx' \) \
 	-and -not -path './*node_modules/*' \
 	-and -not -path './dist/*' \
+	-and -not -path './.git/*' \
 	-and -not -path './.tmp/*')"
 
 SHELL_FILES="$(find . -name '*.sh' \
