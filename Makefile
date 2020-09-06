@@ -28,6 +28,9 @@ ifdef MATCH
 AVA_ARGS += --match $(MATCH)
 endif
 
+FILES ?= "'./lib/**/*.spec.{js,jsx}'"
+export FILES
+
 # -----------------------------------------------
 # Rules
 # -----------------------------------------------
