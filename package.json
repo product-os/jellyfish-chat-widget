@@ -5,6 +5,9 @@
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-chat-widget.git"
   },
+  "engines": {
+    "node": ">=12.15.0"
+  },
   "description": "Chat widget library for Jellyfish",
   "main": "lib/index.jsx",
   "directories": {
