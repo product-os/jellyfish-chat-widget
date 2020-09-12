@@ -52,7 +52,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^1.1.29",
+    "@balena/jellyfish-ui-components": "^1.1.31",
     "catch-uncommitted": "^1.6.2",
     "immutability-helper": "^3.1.1",
     "jsdoc-to-markdown": "^6.0.1",
@@ -80,7 +80,7 @@
     "browser-env": "^3.3.0",
     "depcheck": "^1.2.0",
     "deplint": "^1.1.2",
-    "eslint": "^7.8.1",
+    "eslint": "^7.9.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsdoc": "^30.4.2",
