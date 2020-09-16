@@ -24,7 +24,8 @@ import {
 import {
 	selectCurrentUser,
 	selectMessages,
-	selectCardById
+	selectCardById,
+	selectGroups
 } from '../store/selectors'
 import {
 	FETCH_MORE_MESSAGES_LIMIT
@@ -41,6 +42,7 @@ export const ChatRoute = () => {
 	const router = useRouter()
 	const actions = useActions()
 	const currentUser = useSelector(selectCurrentUser())
+	const groups = useSelector(selectGroups())
 	const loadThreadDataTask = useTask(actions.loadThreadData)
 
 	const messages = useSelector(selectMessages(router.match.params.thread))
@@ -110,9 +112,7 @@ export const ChatRoute = () => {
 					enableAutocomplete={!environment.isTest()}
 					sdk={sdk}
 					types={types}
-
-					// TODO: #4229 add support for correctly identifying and formatting group mentions in the chat widget
-					groups={null}
+					groups={groups}
 					wide={false}
 					allowWhispers={false}
 					card={thread}

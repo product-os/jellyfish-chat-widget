@@ -43,6 +43,7 @@ export const Layout = ({
 	const actions = useActions()
 	const fetchThreads = useTask(actions.fetchThreads)
 	const setCurrentUser = useTask(actions.setCurrentUser)
+	const setGroups = useTask(actions.setGroups)
 	const combinedTask = useCombineTasks(fetchThreads, setCurrentUser)
 	const theme = useTheme()
 
@@ -52,6 +53,7 @@ export const Layout = ({
 		})
 
 		setCurrentUser.exec()
+		setGroups.exec()
 	}, [])
 
 	return (
