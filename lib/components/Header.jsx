@@ -21,12 +21,14 @@ import {
 import {
 	AvailabilityStatus
 } from './AvailabilityStatus'
+import styled from 'styled-components'
 
-const Separator = () => {
-	return (
-		<Box width="1px" bg="#e8ebf2" m="4px 0 4px 18px" alignSelf="stretch" />
-	)
-}
+const Separator = styled(Box) `
+	width: 1px;
+	background-color: ${(props) => { return props.theme.colors.background.dark }};
+	margin: 4px 0 4px 18px;
+	align-self: stretch;
+`
 
 export const Header = ({
 	onClose
@@ -41,15 +43,15 @@ export const Header = ({
 		router.history.goBack()
 	}, [])
 
+	const HeaderWrapper = styled(Flex) `
+		align-items: center;
+		padding: 16px 20px;
+		background-color: ${(props) => { return props.theme.colors.background.main }};
+		border-bottom: solid 1px ${(props) => { return props.theme.colors.background.dark }};
+	`
+
 	return (
-		<Flex
-			alignItems="center"
-			p="16px 20px"
-			bg="white"
-			style={{
-				borderBottom: 'solid 1px #e8ebf2'
-			}}
-		>
+		<HeaderWrapper>
 			<Img src={logoSrc} />
 			<Separator />
 
@@ -76,6 +78,6 @@ export const Header = ({
 				icon={<FaTimes size="14px" />}
 				onClick={onClose}
 			/>
-		</Flex>
+		</HeaderWrapper>
 	)
 }
