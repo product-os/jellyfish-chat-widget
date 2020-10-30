@@ -71,6 +71,7 @@ export const Header = ({
 			<AvailabilityStatus />
 
 			<Button
+				data-test="close-chat-widget"
 				ml="20px"
 				plain
 				icon={<FaTimes size="14px" />}
