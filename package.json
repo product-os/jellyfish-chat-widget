@@ -52,7 +52,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^2.0.30",
+    "@balena/jellyfish-ui-components": "^2.0.13-ui-theme-3a0d0d0401629917713bc69bd8348bc8ac133d2b",
     "catch-uncommitted": "^1.6.2",
     "immutability-helper": "^3.1.1",
     "jsdoc-to-markdown": "^6.0.1",
