@@ -72,7 +72,7 @@
     "@ava/babel": "^1.0.1",
     "@babel/plugin-syntax-jsx": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
-    "@babel/preset-react": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
     "@babel/register": "^7.12.1",
     "@balena/jellycheck": "^0.0.7",
     "ava": "^3.13.0",
