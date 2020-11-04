@@ -99,7 +99,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,jsx}": [
       "eslint --cache --fix",
       "npm run doc"
     ]
