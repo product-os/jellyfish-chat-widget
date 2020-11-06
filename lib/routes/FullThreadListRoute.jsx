@@ -14,7 +14,7 @@ import {
 } from 'rendition'
 import {
 	InfiniteList
-} from '@balena/jellyfish-ui-components/lib/InfiniteList'
+} from '@balena/jellyfish-ui-components'
 import {
 	FETCH_MORE_CONVERSATIONS_LIMIT
 } from '../constants'

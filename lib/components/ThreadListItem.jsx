@@ -8,7 +8,9 @@ import React from 'react'
 import {
 	useSelector
 } from 'react-redux'
-import CardChatSummary from '@balena/jellyfish-ui-components/lib/CardChatSummary'
+import {
+	CardChatSummary
+} from '@balena/jellyfish-ui-components'
 import {
 	useActions
 } from '../hooks'

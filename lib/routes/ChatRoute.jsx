@@ -12,10 +12,10 @@ import {
 import {
 	Box
 } from 'rendition'
-import Timeline from '@balena/jellyfish-ui-components/lib/Timeline'
 import {
+	Timeline,
 	useSetup
-} from '@balena/jellyfish-ui-components/lib/SetupProvider'
+} from '@balena/jellyfish-ui-components'
 import {
 	useActions,
 	useRouter,
