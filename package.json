@@ -52,7 +52,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^5.0.1",
+    "@balena/jellyfish-ui-components": "^5.0.2",
     "catch-uncommitted": "^1.6.2",
     "immutability-helper": "^3.1.1",
     "jsdoc-to-markdown": "^6.0.1",
@@ -74,7 +74,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
     "@babel/register": "^7.12.1",
-    "@balena/jellycheck": "^0.0.7",
+    "@balena/jellycheck": "^0.0.8",
     "ava": "^3.13.0",
     "bluebird": "^3.7.2",
     "browser-env": "^3.3.0",
