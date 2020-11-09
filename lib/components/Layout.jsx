@@ -10,8 +10,8 @@ import {
 } from 'rendition'
 import styled from 'styled-components'
 import {
-	px
-} from '@balena/jellyfish-ui-components/lib/services/helpers'
+	helpers
+} from '@balena/jellyfish-ui-components'
 import {
 	Task
 } from './Task'
@@ -30,7 +30,7 @@ import {
 const ChatWrapper = styled(Flex) `
 	p {
 		margin-top: 0;
-		margin-bottom: ${(props) => { px(props.theme.space[2]) }};
+		margin-bottom: ${(props) => { helpers.px(props.theme.space[2]) }};
 	}
 	p:last-child {
 		margin-bottom: 0;

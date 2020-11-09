@@ -14,10 +14,10 @@ import {
 	Input
 } from 'rendition'
 import styled from 'styled-components'
-import MessageInput from '@balena/jellyfish-ui-components/lib/Timeline/MessageInput'
 import {
+	MessageInput,
 	useSetup
-} from '@balena/jellyfish-ui-components/lib/SetupProvider'
+} from '@balena/jellyfish-ui-components'
 import {
 	TaskButton
 } from '../components/TaskButton'
