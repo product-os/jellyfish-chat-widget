@@ -53,7 +53,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^7.3.2",
+    "@balena/jellyfish-ui-components": "7.3.3-update-socketio-client-c5d86a9aade24c04c9e2cbbb0a68ef228030947f",
     "catch-uncommitted": "^1.6.2",
     "immutability-helper": "^3.1.1",
     "jsdoc-to-markdown": "^6.0.1",
