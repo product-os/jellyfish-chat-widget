@@ -29,6 +29,9 @@ import {
 import {
 	StreamProviderTask
 } from './StreamProviderTask'
+import {
+	CardLoaderContextProvider
+} from './CardLoaderContextProvider'
 
 export const App = React.memo(({
 	productTitle,
@@ -87,20 +90,22 @@ export const App = React.memo(({
 
 	return (
 		<StoreProvider store={store}>
-			<StreamProviderTask>
-				{() => {
-					return (
-						<Router>
-							<Layout flex={1} onClose={onClose}>
-								<Route path="/" exact component={IndexRoute} />
-								<Route path="/full_thread_list" exact component={FullThreadListRoute} />
-								<Route path="/new_thread" exact component={NewThreadRoute} />
-								<Route path="/chat/:thread" exact component={ChatRoute} />
-							</Layout>
-						</Router>
-					)
-				}}
-			</StreamProviderTask>
+			<CardLoaderContextProvider>
+				<StreamProviderTask>
+					{() => {
+						return (
+							<Router>
+								<Layout flex={1} onClose={onClose}>
+									<Route path="/" exact component={IndexRoute} />
+									<Route path="/full_thread_list" exact component={FullThreadListRoute} />
+									<Route path="/new_thread" exact component={NewThreadRoute} />
+									<Route path="/chat/:thread" exact component={ChatRoute} />
+								</Layout>
+							</Router>
+						)
+					}}
+				</StreamProviderTask>
+			</CardLoaderContextProvider>
 		</StoreProvider>
 	)
 })

@@ -103,12 +103,6 @@ export const ChatRoute = () => {
 				height: '100%'
 			}}>
 				<Timeline
-					selectCard={(id, type) => {
-						return (state) => {
-							return selectCardById(id)(state)
-						}
-					}}
-					getCard={actions.getCard}
 					enableAutocomplete={!environment.isTest()}
 					sdk={sdk}
 					types={types}
