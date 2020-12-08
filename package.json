@@ -53,7 +53,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^6.2.8",
+    "@balena/jellyfish-ui-components": "^6.2.9",
     "catch-uncommitted": "^1.6.2",
     "immutability-helper": "^3.1.1",
     "jsdoc-to-markdown": "^6.0.1",
@@ -67,7 +67,7 @@
     "redux-thunk": "^2.3.0",
     "rendition": "^18.19.1",
     "styled-components": "^5.2.1",
-    "uuid": "^8.3.1"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
