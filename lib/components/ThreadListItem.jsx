@@ -15,8 +15,7 @@ import {
 	useActions
 } from '../hooks'
 import {
-	selectMessages,
-	selectCardById
+	selectMessages
 } from '../store/selectors'
 
 export const ThreadListItem = ({
@@ -30,12 +29,6 @@ export const ThreadListItem = ({
 		<CardChatSummary
 			{...rest}
 			displayOwner={false}
-			selectCard={(id, type) => {
-				return (state) => {
-					return selectCardById(id)(state)
-				}
-			}}
-			getCard={actions.getCard}
 			getActor={actions.getActor}
 			card={thread}
 			timeline={timeline}
