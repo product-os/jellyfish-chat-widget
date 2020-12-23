@@ -6,14 +6,14 @@
 
 import * as React from 'react'
 import {
-	FaAngleLeft, FaTimes
-} from 'react-icons/fa'
-import {
 	useSelector
 } from 'react-redux'
 import {
 	Box, Button, Flex, Txt, Img, useTheme
 } from 'rendition'
+import {
+	Icon
+} from '@balena/jellyfish-ui-components'
 import * as logoSrc from '../assets/images/support-logo.svg'
 import {
 	useRouter
@@ -56,8 +56,9 @@ export const Header = ({
 			{router.history.canGo(-1) && (
 				<Button
 					ml="12px"
+					fontSize="20px"
 					plain
-					icon={<FaAngleLeft size="20px" />}
+					icon={<Icon name="angle-left" />}
 					onClick={handleBackButtonClick}
 					data-test="navigate-back-button"
 				/>
@@ -72,9 +73,10 @@ export const Header = ({
 
 			<Button
 				data-test="close-chat-widget"
+				fontSize="14px"
 				ml="20px"
 				plain
-				icon={<FaTimes size="14px" />}
+				icon={<Icon name="times" />}
 				onClick={onClose}
 			/>
 		</Flex>
