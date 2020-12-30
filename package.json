@@ -87,7 +87,7 @@
     "eslint-plugin-lodash": "^7.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react": "^7.22.0",
     "husky": "^5.0.6",
     "lint-staged": "^10.5.3",
     "node-hook": "^1.0.0",
