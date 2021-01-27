@@ -88,7 +88,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
-    "husky": "^5.0.6",
+    "husky": "^5.0.7",
     "lint-staged": "^10.5.3",
     "node-hook": "^1.0.0",
     "sinon": "^9.2.4"
