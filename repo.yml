@@ -1,0 +1,6 @@
+type: 'node'
+upstream:
+  - repo: 'jellyfish-ui-components'
+    url: 'https://github.com/product-os/jellyfish-ui-components'
+  - repo: 'jellycheck'
+    url: 'https://github.com/product-os/jellycheck'
