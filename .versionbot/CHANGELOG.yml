@@ -1,4 +1,27 @@
 - commits:
+    - subject: Pin xterm to 4.9.0
+      hash: 83a3c9ae29c4d3d97f87cd22df3ffb584f1502b8
+      body: >
+        Version 4.10.0 causes problems when used outside of the browser (i.e. in
+        unit tests).
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: 'patch: Update non-major'
+      hash: 7d42555915ce387abd8603eea06ab5b139f8776d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 6.0.62
+  date: 2021-03-02T04:08:21.981Z
+- commits:
     - subject: 'patch: Update dependency jsdoc-to-markdown to v7'
       hash: 5f3edbb5dfd7683d316d06ec40603af30d07babc
       body: ''
