@@ -67,7 +67,7 @@
     "rendition": "^20.10.1",
     "styled-components": "^5.2.1",
     "uuid": "^8.3.2",
-    "xterm": "4.10.0"
+    "xterm": "4.9.0"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
