@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove needless call to `uuid()`
+      hash: ae1a199c8aa898b0e32a26a4f241580013f68b2f
+      body: >
+        On a `queryDataset` even on a stream, the `id` is optional and in this
+        case having one is useless.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@balena.io>
+        signed-off-by: Carol Schulze <carol@balena.io>
+      author: Carol Schulze
+      nested: []
+  version: 6.0.63
+  date: 2021-03-03T18:44:37.425Z
+- commits:
     - subject: Pin xterm to 4.9.0
       hash: 83a3c9ae29c4d3d97f87cd22df3ffb584f1502b8
       body: >
