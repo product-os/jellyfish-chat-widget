@@ -1,4 +1,26 @@
 - commits:
+    - subject: Pin xterm at 4.9.0
+      hash: a7aeb8d03081fa09dd2b7242b7f0395e9b74c6ff
+      body: |
+        4.10.0 is incompatible with our unit tests.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: 'patch: Update non-major'
+      hash: ed920b89a866e17db18d20834f27f56e688b4e60
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 6.0.64
+  date: 2021-03-05T01:12:35.350Z
+- commits:
     - subject: Remove needless call to `uuid()`
       hash: ae1a199c8aa898b0e32a26a4f241580013f68b2f
       body: >
