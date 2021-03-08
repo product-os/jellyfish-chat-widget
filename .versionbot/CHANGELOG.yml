@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-ui-components dependency
+      hash: 3ffaff87bbf90a56c47d9c7d6d0bfb7d143d0e92
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 6.0.65
+  date: 2021-03-08T08:34:07.259Z
+- commits:
     - subject: Pin xterm at 4.9.0
       hash: a7aeb8d03081fa09dd2b7242b7f0395e9b74c6ff
       body: |
