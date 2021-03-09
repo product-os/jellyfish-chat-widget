@@ -1,4 +1,26 @@
 - commits:
+    - subject: Pin xterm at 4.9.0
+      hash: d0fc6d5beeeea2d2eb16777ce91e82cc4105d390
+      body: |
+        4.10.0 is incompatible with our enzyme unit tests.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: 'patch: Update non-major'
+      hash: 4406dbb75ce353879c114b16b4e0d4e8491d5e1f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 6.0.66
+  date: 2021-03-09T02:03:07.923Z
+- commits:
     - subject: Bump jellyfish-ui-components dependency
       hash: 3ffaff87bbf90a56c47d9c7d6d0bfb7d143d0e92
       body: ''
