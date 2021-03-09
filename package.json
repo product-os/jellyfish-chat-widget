@@ -72,7 +72,7 @@
   "devDependencies": {
     "@ava/babel": "^1.0.1",
     "@babel/plugin-syntax-jsx": "^7.12.13",
-    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "@babel/register": "^7.13.8",
     "@balena/jellycheck": "^0.1.1",
