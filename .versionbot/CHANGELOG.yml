@@ -1,4 +1,17 @@
 - commits:
+    - subject: Replace husky with simple-git-hooks
+      hash: b26df0b2e1bf2540886ea862c9f35283a0238878
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 6.0.67
+  date: 2021-03-26T07:17:51.319Z
+- commits:
     - subject: Pin xterm at 4.9.0
       hash: d0fc6d5beeeea2d2eb16777ce91e82cc4105d390
       body: |
