@@ -98,7 +98,7 @@
     "lint-staged": "^10.5.4",
     "node-hook": "^1.0.0",
     "simple-git-hooks": "^2.2.0",
-    "sinon": "^9.2.4"
+    "sinon": "^10.0.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
