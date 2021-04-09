@@ -1,4 +1,15 @@
 - commits:
+    - subject: Bump ui-components to v9
+      hash: 894c67157599775e275430b6afdd5e1ce06f244f
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Kakhaber
+      nested: []
+  version: 7.0.0
+  date: 2021-04-09T15:47:59.610Z
+- commits:
     - subject: 'patch: Update dependency sinon to v10'
       hash: 308b4f5310faf6a7a51a168663a7b6c30292582f
       body: ''
