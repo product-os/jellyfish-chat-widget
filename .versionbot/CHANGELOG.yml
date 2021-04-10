@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency eslint-plugin-promise to v5'
+      hash: 44ab6be86014830fd76cd42c0c889d49910f4310
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 7.0.1
+  date: 2021-04-10T00:05:53.259Z
+- commits:
     - subject: Bump ui-components to v9
       hash: 894c67157599775e275430b6afdd5e1ce06f244f
       body: ''
