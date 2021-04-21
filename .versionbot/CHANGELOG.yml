@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump dependencies
+      hash: a47e1731bd47991bcdfbb799424f5add6fe64f4e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.2
+  date: 2021-04-21T08:39:22.101Z
+- commits:
     - subject: 'patch: Update dependency eslint-plugin-promise to v5'
       hash: 44ab6be86014830fd76cd42c0c889d49910f4310
       body: ''
