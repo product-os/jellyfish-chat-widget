@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump eslint-plugin-jsdoc
+      hash: fa010aec9bff80a1d07b9ef9136801f50d1a9253
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.3
+  date: 2021-04-21T08:52:02.949Z
+- commits:
     - subject: Bump dependencies
       hash: a47e1731bd47991bcdfbb799424f5add6fe64f4e
       body: ''
