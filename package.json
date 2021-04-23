@@ -59,7 +59,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^9.0.109",
+    "@balena/jellyfish-ui-components": "^9.0.117",
     "catch-uncommitted": "^1.6.2",
     "immutability-helper": "^3.1.1",
     "jsdoc-to-markdown": "^7.0.1",
@@ -70,7 +70,7 @@
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "rendition": "^20.11.0",
+    "rendition": "^20.12.0",
     "styled-components": "^5.2.3",
     "uuid": "^8.3.2",
     "xterm": "4.9.0"
