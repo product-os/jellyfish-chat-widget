@@ -1,5 +1,18 @@
 - commits:
     - subject: Bump dependencies
+      hash: 252d6e5e0070e75006f14a05c30eb44152bc5266
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.8
+  date: 2021-04-26T07:18:04.361Z
+- commits:
+    - subject: Bump dependencies
       hash: ec6cd24c7f43fa3baadd5c8ac1a19a59ec954802
       body: ''
       footer:
