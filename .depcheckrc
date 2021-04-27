@@ -1,2 +1,2 @@
-ignores: ["xterm", "@types/jest"]
+ignores: ["@types/jest"]
 ignore-bin-package: true
