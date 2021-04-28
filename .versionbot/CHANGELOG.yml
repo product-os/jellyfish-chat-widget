@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump dependencies
+      hash: f4f86b520004abdce281cb32cb84986738655d7e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.10
+  date: 2021-04-28T01:18:22.154Z
+- commits:
     - subject: Bump xterm to v4.11.0
       hash: c9019e67b3d944d15d84ec7e741a289b8648dd35
       body: ''
