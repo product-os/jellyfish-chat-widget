@@ -1,4 +1,25 @@
 - commits:
+    - subject: 'Add missing type deps, update lodash imports'
+      hash: 2b8b5db09fb269c907a7523edb2be64d346d19cc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Convert to typescript
+      hash: 8549acbae1e730fc19ab2d629f8ca62a8884089b
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Kakhaber
+      nested: []
+  version: 8.0.0
+  date: 2021-04-28T02:24:02.930Z
+- commits:
     - subject: Bump dependencies
       hash: f4f86b520004abdce281cb32cb84986738655d7e
       body: ''
