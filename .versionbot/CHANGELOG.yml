@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 54c8f68630fa2d7e3f26b1a0f4f88150fbcd5b01
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.1
+  date: 2021-04-28T02:41:32.366Z
+- commits:
     - subject: 'Add missing type deps, update lodash imports'
       hash: 2b8b5db09fb269c907a7523edb2be64d346d19cc
       body: ''
