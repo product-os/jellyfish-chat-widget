@@ -1,4 +1,15 @@
 - commits:
+    - subject: Remove lodash chain
+      hash: b794a7506523a9a8e4f4e4cfeecd4df212ce75ec
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kakhaber
+      nested: []
+  version: 8.0.3
+  date: 2021-04-28T11:02:09.120Z
+- commits:
     - subject: Publish docs using GitHub action
       hash: 8a09821ec0fa21248c9360df4bf1b7f27a560d3a
       body: ''
