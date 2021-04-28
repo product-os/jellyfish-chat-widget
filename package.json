@@ -6,63 +6,47 @@
     "url": "https://github.com/product-os/jellyfish-chat-widget.git"
   },
   "engines": {
-    "node": ">=14.2.0"
+    "node": ">=12.15.0"
   },
   "description": "Chat widget library for Jellyfish",
-  "main": "lib/index.jsx",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/"
+  ],
   "directories": {
     "lib": "lib"
   },
   "deplint": {
     "files": [
-      "lib/**/*.{js,jsx}"
+      "lib/**/*.{ts}"
     ],
     "modules": [
       "lib"
     ]
   },
-  "ava": {
-    "timeout": "2m",
-    "verbose": true,
-    "serial": true,
-    "failWithoutAssertions": true,
-    "extensions": [
-      "jsx"
-    ],
-    "babel": {
-      "testOptions": {
-        "plugins": [
-          "@babel/plugin-syntax-jsx"
-        ]
-      }
-    },
-    "files": [
-      "lib/**/*.spec.{js,jsx}"
-    ],
-    "require": [
-      "./test/browser-setup",
-      "./test/register",
-      "./test/max-listeners"
-    ]
-  },
   "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --cache --fix",
-      "npm run doc",
-      "git add README.md"
+    "*.{ts,tsx}": [
+      "npm run lint-fix",
+      "git add ."
     ]
   },
   "scripts": {
-    "test": "npm run doc && catch-uncommitted --skip-node-versionbot-changes && make lint && make test",
-    "doc": "jsdoc2md --template doc/README.hbs lib/*.jsx lib/**/*.jsx lib/**/*.js > README.md"
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc && copyup lib/assets/**/* build",
+    "lint": "balena-lint --typescript lib && npm run check && deplint && depcheck",
+    "lint-fix": "balena-lint --typescript --fix lib",
+    "unit": "jest",
+    "test": "catch-uncommitted --skip-node-versionbot-changes && npm run lint && npm run unit",
+    "doc": "typedoc lib/ && touch docs/.nojekyll",
+    "prepack": "npm run build",
+    "check": "jellycheck"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^9.0.133",
-    "catch-uncommitted": "^1.6.2",
+    "@balena/jellyfish-ui-components": "^9.1.0",
     "immutability-helper": "^3.1.1",
-    "jsdoc-to-markdown": "^7.0.1",
     "lodash": "^4.17.21",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -72,33 +56,26 @@
     "redux-thunk": "^2.3.0",
     "rendition": "^20.12.2",
     "styled-components": "^5.2.3",
-    "uuid": "^8.3.2",
-    "xterm": "4.11.0"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@ava/babel": "^1.0.1",
-    "@babel/plugin-syntax-jsx": "^7.12.13",
-    "@babel/preset-env": "^7.13.15",
-    "@babel/preset-react": "^7.13.13",
-    "@babel/register": "^7.13.16",
     "@balena/jellycheck": "^0.1.1",
-    "ava": "^3.15.0",
+    "@balena/lint": "^5.4.1",
+    "@types/bluebird": "^3.5.33",
+    "@types/jest": "^26.0.22",
+    "@types/sinon": "^10.0.0",
     "bluebird": "^3.7.2",
-    "browser-env": "^3.3.0",
+    "catch-uncommitted": "^1.6.2",
+    "copyfiles": "^2.4.1",
     "depcheck": "^1.4.0",
     "deplint": "^1.1.3",
     "eslint": "^7.25.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^32.3.2",
-    "eslint-plugin-lodash": "^7.2.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.23.2",
+    "jest": "^26.6.3",
     "lint-staged": "^10.5.4",
-    "node-hook": "^1.0.0",
     "simple-git-hooks": "^2.4.1",
-    "sinon": "^10.0.0"
+    "sinon": "^10.0.0",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

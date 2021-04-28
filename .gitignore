@@ -64,7 +64,7 @@ dump.rdb
 *.lock
 
 # Built files
-dist/
+build/
 .cache-loader/
 *.0x
 
@@ -83,3 +83,8 @@ dist/
 
 # tmp directory
 tmp/
+
+# Doc files should not be committed. They are generated using
+# the command 'npm run doc' and committed to the root of the 
+# 'docs' branch.
+docs/
