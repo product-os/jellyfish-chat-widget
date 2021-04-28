@@ -4,7 +4,6 @@
  * Proprietary and confidential.
  */
 
-import chain from 'lodash/chain';
 import filter from 'lodash/filter';
 import orderBy from 'lodash/orderBy';
 
@@ -53,9 +52,10 @@ export const selectCurrentUser = () => {
 export const selectMessages = (threadId) => {
 	return (state) => {
 		const messages = selectCardsByType('message')(state);
-		return chain(messages)
-			.filter(['data.target', threadId])
-			.sortBy('data.timestamp')
-			.value();
+		return orderBy(
+			filter(messages, ['data.target', threadId]),
+			'data.timestamp',
+			'asc',
+		);
 	};
 };
