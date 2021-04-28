@@ -5,9 +5,10 @@
  */
 
 import sinon from 'sinon';
-import _ from 'lodash';
 import Bluebird from 'bluebird';
 import { SET_CARDS } from './action-types';
+import noop from 'lodash/noop';
+import omit from 'lodash/omit';
 import { getActor, getCard } from './action-creators';
 
 const sandbox = sinon.createSandbox();
@@ -86,7 +87,7 @@ test('getCard does not use cache if a requested link is missing', async () => {
 	// The cached card does not have any links included
 	ctx.store.getState.onCall(0).returns({
 		cards: {
-			[card.id]: _.omit(card, 'links'),
+			[card.id]: omit(card, 'links'),
 		},
 	});
 	const fetchedCard = await getCardAction(cardId, 'user', ['is member of']);
@@ -145,7 +146,7 @@ test('getCard debounces calls to fetch the same card ID', async () => {
 
 	ctx.sdk.query = sandbox.stub();
 	ctx.sdk.query.onCall(0).returns(q1Promise);
-	ctx.sdk.query.onCall(1).returns(new Promise(_.noop));
+	ctx.sdk.query.onCall(1).returns(new Promise(noop));
 
 	ctx.store.getState.returns({
 		cards: {},

@@ -4,7 +4,11 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
+import compact from 'lodash/compact';
+import every from 'lodash/every';
+import get from 'lodash/get';
+import isArray from 'lodash/isArray';
+import orderBy from 'lodash/orderBy';
 import { v4 as uuid } from 'uuid';
 import { helpers, FILE_PROXY_MESSAGE } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, SET_CURRENT_USER, SET_GROUPS } from './action-types';
@@ -200,7 +204,7 @@ export const getActor = (ctx) => {
 			return null;
 		}
 
-		const email = _.get(actor, ['data', 'email'], '');
+		const email = get(actor, ['data', 'email'], '');
 
 		let name = '';
 
@@ -209,12 +213,12 @@ export const getActor = (ctx) => {
 		 * 2. email
 		 * 3. slug
 		 */
-		const profileName = _.get(actor, ['data', 'profile', 'name']);
+		const profileName = get(actor, ['data', 'profile', 'name']);
 
 		if (profileName && (profileName.first || profileName.last)) {
-			name = _.compact([profileName.first, profileName.last]).join(' ');
+			name = compact([profileName.first, profileName.last]).join(' ');
 		} else if (email && email.length) {
-			name = _.isArray(email) ? email.join(', ') : email;
+			name = isArray(email) ? email.join(', ') : email;
 		} else {
 			name = actor.slug.replace(/^(account|user)-/, '');
 		}
@@ -224,8 +228,8 @@ export const getActor = (ctx) => {
 		return {
 			name,
 			email,
-			avatarUrl: _.get(actor, ['data', 'avatar']),
-			proxy: actor.id !== _.get(currentUser, ['id']),
+			avatarUrl: get(actor, ['data', 'avatar']),
+			proxy: actor.id !== get(currentUser, ['id']),
 			card: actor,
 		};
 	};
@@ -241,13 +245,13 @@ export const getCard = (ctx) => {
 		// Check if the cached card has all the links required by this request
 		const isCached =
 			card &&
-			_.every(linkVerbs, (linkVerb) => {
-				return Boolean(_.get(card, ['links'], {})[linkVerb]);
+			every(linkVerbs, (linkVerb) => {
+				return Boolean(get(card, ['links'], {})[linkVerb]);
 			});
 
 		if (!isCached) {
 			// API requests are debounced based on the unique combination of the card ID and the (sorted) link verbs
-			const linkVerbSlugs = _.orderBy(linkVerbs).map((verb) => {
+			const linkVerbSlugs = orderBy(linkVerbs).map((verb) => {
 				return helpers.slugify(verb);
 			});
 			const loadingCacheKey = [id].concat(linkVerbSlugs).join('_');

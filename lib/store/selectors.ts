@@ -4,11 +4,13 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
+import chain from 'lodash/chain';
+import filter from 'lodash/filter';
+import orderBy from 'lodash/orderBy';
 
 export const selectCardsByType = (type) => {
 	return (state) => {
-		return _.filter(state.cards, (card) => {
+		return filter(state.cards, (card) => {
 			return card.type.split('@')[0] === type;
 		});
 	};
@@ -31,7 +33,7 @@ export const selectGroups = () => {
 export const selectThreads = () => {
 	return (state) => {
 		const threads = selectCardsByType('support-thread')(state);
-		return _.orderBy(
+		return orderBy(
 			threads,
 			(thread) => {
 				const messages = selectMessages(thread.id)(state);
@@ -51,7 +53,7 @@ export const selectCurrentUser = () => {
 export const selectMessages = (threadId) => {
 	return (state) => {
 		const messages = selectCardsByType('message')(state);
-		return _.chain(messages)
+		return chain(messages)
 			.filter(['data.target', threadId])
 			.sortBy('data.timestamp')
 			.value();

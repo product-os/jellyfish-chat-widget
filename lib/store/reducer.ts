@@ -4,13 +4,13 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
 import update from 'immutability-helper';
+import merge from 'lodash/merge';
 import { SET_CARDS, SET_CURRENT_USER, SET_GROUPS } from './action-types';
 
 const mergeCards = (state, cards) => {
 	return cards.reduce((newCards, card) => {
-		newCards[card.id] = _.merge({}, newCards[card.id], card);
+		newCards[card.id] = merge({}, newCards[card.id], card);
 		return newCards;
 	}, state.cards);
 };

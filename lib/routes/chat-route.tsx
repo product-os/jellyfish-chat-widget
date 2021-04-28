@@ -4,7 +4,8 @@
  * Proprietary and confidential.
  */
 
-import _ from 'lodash';
+import get from 'lodash/get';
+import noop from 'lodash/noop';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Box } from 'rendition';
@@ -60,7 +61,7 @@ export const ChatRoute = () => {
 
 	const timelineHeaderOptions = React.useMemo(() => {
 		return {
-			title: _.get(thread, ['name']),
+			title: get(thread, ['name']),
 			buttons: {
 				toggleWhispers: false,
 				toggleEvents: false,
@@ -96,8 +97,8 @@ export const ChatRoute = () => {
 					usersTyping={usersTyping}
 					user={currentUser}
 					getActor={actions.getActor}
-					signalTyping={_.noop}
-					setTimelineMessage={_.noop}
+					signalTyping={noop}
+					setTimelineMessage={noop}
 					eventMenuOptions={false}
 					headerOptions={timelineHeaderOptions}
 					loadMoreChannelData={actions.loadMoreThreadData}
