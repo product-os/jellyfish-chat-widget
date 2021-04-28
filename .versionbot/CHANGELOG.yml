@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.2'
+      hash: 08cfcea139afe2085c05ab15c6e204ed457a5c9d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.4
+  date: 2021-04-28T11:13:26.065Z
+- commits:
     - subject: Remove lodash chain
       hash: b794a7506523a9a8e4f4e4cfeecd4df212ce75ec
       body: ''
