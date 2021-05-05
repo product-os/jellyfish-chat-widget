@@ -45,7 +45,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^9.1.55",
+    "@balena/jellyfish-ui-components": "^9.1.57",
     "immutability-helper": "^3.1.1",
     "lodash": "^4.17.21",
     "react": "^16.14.0",
@@ -55,7 +55,7 @@
     "redux": "^4.1.0",
     "redux-thunk": "^2.3.0",
     "rendition": "^20.12.2",
-    "styled-components": "^5.2.3",
+    "styled-components": "^5.3.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
