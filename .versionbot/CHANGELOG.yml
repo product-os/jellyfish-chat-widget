@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: f79ac15597ac62b08227345301bf8d38dcc4bde4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.44
+  date: 2021-05-05T04:20:02.810Z
+- commits:
     - subject: 'patch: Update dependency @types/bluebird to ^3.5.34'
       hash: 453327cf7d2cc55b7b5cf6e9f749f91711a5dc1b
       body: ''
