@@ -65,7 +65,7 @@
     "@types/jest": "^26.0.23",
     "@types/sinon": "^10.0.0",
     "bluebird": "^3.7.2",
-    "catch-uncommitted": "^1.6.2",
+    "catch-uncommitted": "^2.0.0",
     "copyfiles": "^2.4.1",
     "depcheck": "^1.4.0",
     "deplint": "^1.1.3",
