@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.64'
+      hash: 9b36fa5f3ddd8c6ef12e6177231bef31d0fddf40
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.52
+  date: 2021-05-08T02:11:50.144Z
+- commits:
     - subject: 'patch: Update dependency lint-staged to v11'
       hash: 59f6e6a2dd7d79b66fbfa3272e31ce8b0f07375d
       body: ''
