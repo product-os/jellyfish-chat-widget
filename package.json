@@ -54,7 +54,7 @@
     "react-router-dom": "^5.2.0",
     "redux": "^4.1.0",
     "redux-thunk": "^2.3.0",
-    "rendition": "^20.12.2",
+    "rendition": "^20.12.3",
     "styled-components": "^5.3.0",
     "uuid": "^8.3.2"
   },
