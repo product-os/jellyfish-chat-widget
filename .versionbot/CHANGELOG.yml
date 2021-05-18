@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @types/bluebird to ^3.5.35'
+      hash: 67baa6823b78c09371b72c670e6bfe771ab5e2b6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.65
+  date: 2021-05-18T18:07:51.661Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.74'
       hash: e3d9fcc6199cd257180fb6b00e5f25ad7e25e518
       body: ''
