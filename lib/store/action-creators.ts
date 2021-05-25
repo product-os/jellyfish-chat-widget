@@ -106,13 +106,8 @@ export const initiateThread = (ctx) => {
 		});
 
 		const messageSymbolRE = /^\s*%\s*/;
-		const {
-			mentionsUser,
-			alertsUser,
-			mentionsGroup,
-			alertsGroup,
-			tags,
-		} = helpers.getMessageMetaData(text);
+		const { mentionsUser, alertsUser, mentionsGroup, alertsGroup, tags } =
+			helpers.getMessageMetaData(text);
 
 		const newMessage: any = {
 			target: thread,
