@@ -105,6 +105,37 @@ export const initiateThread = (ctx) => {
 			},
 		});
 
+		// Subscribe to the thread
+		await ctx.sdk.card.create({
+			type: 'subscription',
+			data: {
+				operations: ['insert'],
+				query: {
+					type: 'object',
+					required: ['type'],
+					properties: {
+						type: {
+							const: 'message@1.0.0',
+						},
+					},
+					$$links: {
+						'is attached to': {
+							type: 'object',
+							required: ['type', 'id'],
+							properties: {
+								type: {
+									const: 'support-thread@1.0.0',
+								},
+								id: {
+									const: thread.id,
+								},
+							},
+						},
+					},
+				},
+			},
+		});
+
 		const messageSymbolRE = /^\s*%\s*/;
 		const { mentionsUser, alertsUser, mentionsGroup, alertsGroup, tags } =
 			helpers.getMessageMetaData(text);
