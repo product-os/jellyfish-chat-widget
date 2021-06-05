@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump sinon deps
+      hash: 5a1585dc632545606d9c7de3bea7920a9e016400
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.91
+  date: 2021-06-05T04:32:22.058Z
+- commits:
     - subject: Improve lint-staged config
       hash: 0645292de8397464e4653153ed27ec27f4769969
       body: ''
