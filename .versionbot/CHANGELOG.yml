@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jest deps
+      hash: 6c4d5682cfda692f77db06b87a4ffe02a38cafb1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.94
+  date: 2021-06-05T05:42:04.316Z
+- commits:
     - subject: 'patch: Update dependency eslint to ^7.28.0'
       hash: 5cd2e4e9cc793e0dda6bdf7ac8b04e25e0bea8f1
       body: ''
