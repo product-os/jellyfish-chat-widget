@@ -105,6 +105,8 @@ export const initiateThread = (ctx) => {
 			},
 		});
 
+		await ctx.sdk.card.link(currentUser, thread, 'starred');
+
 		const messageSymbolRE = /^\s*%\s*/;
 		const { mentionsUser, alertsUser, mentionsGroup, alertsGroup, tags } =
 			helpers.getMessageMetaData(text);
