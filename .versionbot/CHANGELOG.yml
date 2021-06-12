@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-ui-components depedency
+      hash: daff4f73396dd2f05a613494e4dfcda4791b8dd4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 8.0.107
+  date: 2021-06-12T05:08:54.751Z
+- commits:
     - subject: 'patch: Update dependency rendition to ^20.17.1'
       hash: 7050ceef2dbffeb3afa7ad0a0369c31ec5d5e306
       body: ''
