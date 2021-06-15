@@ -45,6 +45,11 @@ export const ChatRoute = () => {
 		$$links: {
 			'has attached element': {
 				type: 'object',
+				properties: {
+					type: {
+						const: 'message@1.0.0',
+					},
+				},
 			},
 		},
 		required: ['id'],
