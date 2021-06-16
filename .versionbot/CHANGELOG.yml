@@ -1,4 +1,21 @@
 - commits:
+    - subject: Only load message contracts when querying timeline
+      hash: 4ae18d0317688772975a39e863fcdbfefd53dbd1
+      body: |
+        When using the chat widget, the only timeline contracts that are useful
+        are messages. We can simplify code by only querying for these contracts
+        instead of having to filter other types (create/update) at a later
+        point.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 8.0.109
+  date: 2021-06-15T15:27:42.800Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.31'
       hash: b2af39d180af31c17aba4f538cb79fc137609d5a
       body: ''
