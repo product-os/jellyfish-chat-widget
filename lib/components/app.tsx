@@ -29,6 +29,11 @@ export const App = React.memo<any>(
 					'has attached element': {
 						type: 'object',
 						additionalProperties: true,
+						properties: {
+							type: {
+								const: 'message@1.0.0',
+							},
+						},
 					},
 				},
 				properties: {
