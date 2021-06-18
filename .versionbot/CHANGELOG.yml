@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-ui-components dependency
+      hash: ba9d8fde426366880532ed3decd59ea5dcdcdbfc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 8.0.110
+  date: 2021-06-18T01:54:25.545Z
+- commits:
     - subject: Only load message contracts when querying timeline
       hash: 4ae18d0317688772975a39e863fcdbfefd53dbd1
       body: |
