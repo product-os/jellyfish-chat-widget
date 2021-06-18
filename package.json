@@ -44,7 +44,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-ui-components": "^9.2.31",
+    "@balena/jellyfish-ui-components": "9.3.0-chat-using-rooms-15e5f1c76bd0b13de287679c338a7640e02b51ce",
     "immutability-helper": "^3.1.1",
     "lodash": "^4.17.21",
     "react": "^16.14.0",
