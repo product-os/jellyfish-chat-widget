@@ -1,4 +1,19 @@
 - commits:
+    - subject: Make the ui-components module a peer dependency
+      hash: 06019e6430df41b3ba346525db4fb18fcbe663bd
+      body: >
+        This change simplifies dependency trees and helps avoid hard to trace
+        bugs
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 9.0.0
+  date: 2021-06-19T08:25:34.746Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.34'
       hash: b3fb81913f13571105941d75e68fe0a8ab5d84e9
       body: ''
