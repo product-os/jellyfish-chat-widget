@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: 6f18a1761e6b326f9a8d15df5ba6b0d74cdd14b1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.110
+  date: 2021-06-19T00:48:25.467Z
+- commits:
     - subject: Only load message contracts when querying timeline
       hash: 4ae18d0317688772975a39e863fcdbfefd53dbd1
       body: |
