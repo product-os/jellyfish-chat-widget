@@ -1,4 +1,28 @@
 - commits:
+    - subject: Support fetching an empty thread
+      hash: fb7c2382438e385232be3ce13be8fc01f2da2d83
+      body: >
+        A recent change
+        (https://github.com/product-os/jellyfish-chat-widget/pull/567) added a
+        restriction that we should only fetch attached messages (with the
+        intention of excluding whispers). But this inadvertently also excluded
+        create cards - which the app relies on so that it can fetch a thread
+        that doesn't yet have a message in it (i.e. before the user has typed a
+        message).
+
+
+        This commit just ensures we fetch threads even if they just have a
+        single create card (and no messages) attached to them.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 9.0.1
+  date: 2021-06-21T05:37:02.357Z
+- commits:
     - subject: Make the ui-components module a peer dependency
       hash: 06019e6430df41b3ba346525db4fb18fcbe663bd
       body: >
