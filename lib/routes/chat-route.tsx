@@ -47,7 +47,7 @@ export const ChatRoute = () => {
 				type: 'object',
 				properties: {
 					type: {
-						const: 'message@1.0.0',
+						enum: ['message@1.0.0', 'create@1.0.0'],
 					},
 				},
 			},
