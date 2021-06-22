@@ -1,4 +1,20 @@
 - commits:
+    - subject: Bump UI dependencies
+      hash: 515fa82455cd6c5509dccb2bac49113efd27b844
+      body: >
+        Note - jellyfish-client-sdk needs to be explicitly added as a dev
+        dependency as jellyfish-ui-components only references it as a peer
+        dependency. Ugh.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 9.0.2
+  date: 2021-06-22T01:28:52.293Z
+- commits:
     - subject: Support fetching an empty thread
       hash: fb7c2382438e385232be3ce13be8fc01f2da2d83
       body: >
