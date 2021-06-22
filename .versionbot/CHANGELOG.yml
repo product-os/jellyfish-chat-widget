@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-ui-components dependency
+      hash: 7a1c2d3fea9e55a66a9d37f617eb45c8020ffe09
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 9.0.3
+  date: 2021-06-22T02:41:31.755Z
+- commits:
     - subject: Bump UI dependencies
       hash: 515fa82455cd6c5509dccb2bac49113efd27b844
       body: >
