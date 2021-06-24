@@ -74,6 +74,54 @@ export const ChatRoute = () => {
 		};
 	}, [thread]);
 
+	const handleCardVisible = React.useCallback(
+		async (card) => {
+			const notifications = await sdk.query({
+				type: 'object',
+				required: ['type'],
+				properties: {
+					type: {
+						const: 'notification@1.0.0',
+					},
+				},
+				$$links: {
+					'is attached to': {
+						type: 'object',
+						required: ['id'],
+						properties: {
+							id: {
+								const: card.id,
+							},
+						},
+					},
+				},
+				not: {
+					$$links: {
+						'is read by': {
+							type: 'object',
+							required: ['type', 'id'],
+							properties: {
+								type: {
+									const: 'user@1.0.0',
+								},
+								id: {
+									const: currentUser.id,
+								},
+							},
+						},
+					},
+				},
+			});
+
+			await Promise.all(
+				notifications.map(async (notification) => {
+					await sdk.card.link(currentUser, notification, 'read');
+				}),
+			);
+		},
+		[sdk, currentUser],
+	);
+
 	return (
 		<Box
 			flex={1}
@@ -107,6 +155,7 @@ export const ChatRoute = () => {
 					eventMenuOptions={false}
 					headerOptions={timelineHeaderOptions}
 					loadMoreChannelData={actions.loadMoreThreadData}
+					onCardVisible={handleCardVisible}
 				/>
 			</Box>
 		</Box>
