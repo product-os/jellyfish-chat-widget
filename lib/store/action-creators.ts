@@ -105,6 +105,20 @@ export const initiateThread = (ctx) => {
 			},
 		});
 
+		/*
+		 * Auto subscribe to the thread only if the widget is used inside jellyfish.
+		 * TODO: Remove this when testing is complete.
+		 */
+		if (state.product === 'jellyfish') {
+			const subscription = await ctx.sdk.card.create({
+				type: 'subscription@1.0.0',
+				slug: `subscription-${uuid()}`,
+				data: {},
+			});
+
+			await ctx.sdk.card.link(thread, subscription, 'has attached');
+		}
+
 		const messageSymbolRE = /^\s*%\s*/;
 		const { mentionsUser, alertsUser, mentionsGroup, alertsGroup, tags } =
 			helpers.getMessageMetaData(text);
