@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.2.2'
+      hash: 9ac980c56677427cbad04a090cb593a03547befc
+      body: |
+        Update @balena/jellyfish-client-sdk from 5.1.1 to 5.2.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 10.1.1
+  date: 2021-06-29T13:39:42.512Z
+- commits:
     - subject: Highlight unread notifications
       hash: 5962b8201eca77e683ff23eb5b1608cecf916549
       body: ''
