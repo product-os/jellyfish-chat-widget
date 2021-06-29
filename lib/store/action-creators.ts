@@ -191,6 +191,8 @@ export const setCurrentUser = (ctx) => {
 			type: SET_CURRENT_USER,
 			payload: currentUser,
 		});
+
+		return currentUser;
 	};
 };
 

@@ -16,6 +16,7 @@ import {
 	selectMessages,
 	selectCardById,
 	selectGroups,
+	selectNotificationsByThread,
 } from '../store/selectors';
 import { FETCH_MORE_MESSAGES_LIMIT } from '../constants';
 
@@ -29,11 +30,10 @@ export const ChatRoute = () => {
 	const currentUser = useSelector(selectCurrentUser());
 	const groups = useSelector(selectGroups());
 	const loadThreadDataTask = useTask(actions.loadThreadData);
-
 	const messages = useSelector(selectMessages(router.match.params.thread));
-
 	const threadId = router.match.params.thread;
 	const thread = useSelector(selectCardById(threadId));
+	const notifications = useSelector(selectNotificationsByThread(threadId));
 
 	const query = {
 		type: 'object',
@@ -74,54 +74,6 @@ export const ChatRoute = () => {
 		};
 	}, [thread]);
 
-	const handleCardVisible = React.useCallback(
-		async (card) => {
-			const notifications = await sdk.query({
-				type: 'object',
-				required: ['type'],
-				properties: {
-					type: {
-						const: 'notification@1.0.0',
-					},
-				},
-				$$links: {
-					'is attached to': {
-						type: 'object',
-						required: ['id'],
-						properties: {
-							id: {
-								const: card.id,
-							},
-						},
-					},
-				},
-				not: {
-					$$links: {
-						'is read by': {
-							type: 'object',
-							required: ['type', 'id'],
-							properties: {
-								type: {
-									const: 'user@1.0.0',
-								},
-								id: {
-									const: currentUser.id,
-								},
-							},
-						},
-					},
-				},
-			});
-
-			await Promise.all(
-				notifications.map(async (notification) => {
-					await sdk.card.link(currentUser, notification, 'read');
-				}),
-			);
-		},
-		[sdk, currentUser],
-	);
-
 	return (
 		<Box
 			flex={1}
@@ -155,7 +107,7 @@ export const ChatRoute = () => {
 					eventMenuOptions={false}
 					headerOptions={timelineHeaderOptions}
 					loadMoreChannelData={actions.loadMoreThreadData}
-					onCardVisible={handleCardVisible}
+					notifications={notifications}
 				/>
 			</Box>
 		</Box>
