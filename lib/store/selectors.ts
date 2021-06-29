@@ -6,6 +6,7 @@
 
 import filter from 'lodash/filter';
 import orderBy from 'lodash/orderBy';
+import get from 'lodash/get';
 
 export const selectCardsByType = (type) => {
 	return (state) => {
@@ -57,5 +58,23 @@ export const selectMessages = (threadId) => {
 			'data.timestamp',
 			'asc',
 		);
+	};
+};
+
+export const selectNotificationsByThread = (threadId: string) => {
+	return (state) => {
+		return selectCardsByType('notification')(state).filter((notification) => {
+			return (
+				get(notification, [
+					'links',
+					'is attached to',
+					0,
+					'links',
+					'is attached to',
+					0,
+					'id',
+				]) === threadId
+			);
+		});
 	};
 };

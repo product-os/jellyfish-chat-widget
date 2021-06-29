@@ -6,7 +6,13 @@
 
 import update from 'immutability-helper';
 import merge from 'lodash/merge';
-import { SET_CARDS, SET_CURRENT_USER, SET_GROUPS } from './action-types';
+import { core } from '@balena/jellyfish-types';
+import {
+	SET_CARDS,
+	SET_CURRENT_USER,
+	SET_GROUPS,
+	DELETE_CARD,
+} from './action-types';
 
 const mergeCards = (state, cards) => {
 	return cards.reduce((newCards, card) => {
@@ -29,7 +35,7 @@ export const createReducer = ({ product, productTitle, inbox, query }) => {
 		product,
 		productTitle,
 		inbox,
-		cards: {},
+		cards: {} as { [key: string]: core.Contract[] },
 		currentUser: null,
 		query,
 	};
@@ -43,6 +49,14 @@ export const createReducer = ({ product, productTitle, inbox, query }) => {
 						$set: mergeCards(state, threads),
 					},
 				});
+			}
+			case DELETE_CARD: {
+				const { [action.payload]: target, ...cards } = state.cards;
+
+				return {
+					...state,
+					cards,
+				};
 			}
 			case SET_CURRENT_USER:
 				return update(state, {

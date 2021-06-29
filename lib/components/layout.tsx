@@ -9,7 +9,12 @@ import { Flex, useTheme } from 'rendition';
 import styled from 'styled-components';
 import { helpers } from '@balena/jellyfish-ui-components';
 import { Task } from './task';
-import { useActions, useCombineTasks, useTask } from '../hooks';
+import {
+	useActions,
+	useCombineTasks,
+	useTask,
+	useNotificationWatcher,
+} from '../hooks';
 import { INITIAL_FETCH_CONVERSATIONS_LIMIT } from '../constants';
 import { Header } from './header';
 
@@ -30,16 +35,24 @@ export const Layout = ({ onClose, children, ...rest }) => {
 	const fetchThreads = useTask(actions.fetchThreads);
 	const setCurrentUser = useTask(actions.setCurrentUser);
 	const setGroups = useTask(actions.setGroups);
-	const combinedTask = useCombineTasks(fetchThreads, setCurrentUser);
+	const watchNotifications = useNotificationWatcher();
+	const combinedTask = useCombineTasks(
+		fetchThreads,
+		setCurrentUser,
+		watchNotifications,
+	);
 	const theme = useTheme();
 
 	React.useEffect(() => {
-		fetchThreads.exec({
-			limit: INITIAL_FETCH_CONVERSATIONS_LIMIT,
-		});
+		(async () => {
+			fetchThreads.exec({
+				limit: INITIAL_FETCH_CONVERSATIONS_LIMIT,
+			});
 
-		setCurrentUser.exec();
-		setGroups.exec();
+			setGroups.exec();
+			const { result } = await setCurrentUser.exec();
+			watchNotifications.exec(result);
+		})();
 	}, []);
 
 	return (

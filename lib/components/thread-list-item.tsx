@@ -8,11 +8,15 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { CardChatSummary } from '@balena/jellyfish-ui-components';
 import { useActions } from '../hooks';
-import { selectMessages } from '../store/selectors';
+import {
+	selectMessages,
+	selectNotificationsByThread,
+} from '../store/selectors';
 
 export const ThreadListItem = ({ thread, ...rest }) => {
 	const actions = useActions();
 	const timeline = useSelector(selectMessages(thread.id));
+	const notifications = useSelector(selectNotificationsByThread(thread.id));
 
 	return (
 		<CardChatSummary
@@ -22,7 +26,7 @@ export const ThreadListItem = ({ thread, ...rest }) => {
 			card={thread}
 			timeline={timeline}
 			to={`/chat/${thread.id}`}
-			active={false}
+			active={notifications.length}
 		/>
 	);
 };
