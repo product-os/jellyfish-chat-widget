@@ -1,4 +1,27 @@
 - commits:
+    - subject: Bump node engines specification
+      hash: 693c279b4549ff321c34384e96bdf94dd4fc3a2e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Remove package-lock.json
+      hash: 276e76c02db742815c7d714b619e78c11e9f00ff
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io.
+        signed-off-by: Josh Bowling <josh@balena.io.
+      author: Josh Bowling
+      nested: []
+  version: 10.0.10
+  date: 2021-06-29T07:52:53.058Z
+- commits:
     - subject: 'patch: Update dependency simple-git-hooks to ^2.5.1'
       hash: 5b3bc574cec8ca60d52d499de8ef6af2b1409d96
       body: ''
