@@ -1,4 +1,15 @@
 - commits:
+    - subject: Highlight unread notifications
+      hash: 5962b8201eca77e683ff23eb5b1608cecf916549
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Kakhaber
+      nested: []
+  version: 10.1.0
+  date: 2021-06-29T13:29:41.945Z
+- commits:
     - subject: Bump node engines specification
       hash: 693c279b4549ff321c34384e96bdf94dd4fc3a2e
       body: ''
