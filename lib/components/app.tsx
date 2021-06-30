@@ -20,7 +20,7 @@ import { StreamProviderTask } from './stream-provider-task';
 import { CardLoaderContextProvider } from './card-loader-context-provider';
 
 export const App = React.memo<any>(
-	({ productTitle, product, inbox, onClose }) => {
+	({ productTitle, product, inbox, onClose, onNotificationsChange }) => {
 		const { environment } = useSetup()!;
 
 		const query = React.useMemo(() => {
@@ -81,7 +81,11 @@ export const App = React.memo<any>(
 						{() => {
 							return (
 								<Router>
-									<Layout flex={1} onClose={onClose}>
+									<Layout
+										flex={1}
+										onClose={onClose}
+										onNotificationsChange={onNotificationsChange}
+									>
 										<Route path="/" exact component={IndexRoute} />
 										<Route
 											path="/full_thread_list"

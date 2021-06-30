@@ -7,6 +7,13 @@
 import filter from 'lodash/filter';
 import orderBy from 'lodash/orderBy';
 import get from 'lodash/get';
+import { core } from '@balena/jellyfish-types';
+
+export const selectProduct = () => {
+	return (state) => {
+		return state.product;
+	};
+};
 
 export const selectCardsByType = (type) => {
 	return (state) => {
@@ -61,9 +68,13 @@ export const selectMessages = (threadId) => {
 	};
 };
 
+export const selectNotifications = () => {
+	return selectCardsByType('notification');
+};
+
 export const selectNotificationsByThread = (threadId: string) => {
 	return (state) => {
-		return selectCardsByType('notification')(state).filter((notification) => {
+		return selectNotifications()(state).filter((notification) => {
 			return (
 				get(notification, [
 					'links',
@@ -77,4 +88,21 @@ export const selectNotificationsByThread = (threadId: string) => {
 			);
 		});
 	};
+};
+
+export const areEqualArrayOfContracts = (
+	leftContracts: core.Contract[],
+	rightContracts: core.Contract[],
+) => {
+	if (leftContracts.length !== rightContracts.length) {
+		return false;
+	}
+
+	for (let i = 0; i < leftContracts.length; i++) {
+		if (leftContracts[i].id !== rightContracts[i].id) {
+			return false;
+		}
+	}
+
+	return true;
 };

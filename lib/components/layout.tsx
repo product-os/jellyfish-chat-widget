@@ -30,18 +30,27 @@ const ChatWrapper = styled(Flex)`
 	}
 `;
 
-export const Layout = ({ onClose, children, ...rest }) => {
+export const Layout = ({
+	onClose,
+	onNotificationsChange,
+	children,
+	...rest
+}) => {
+	const theme = useTheme();
 	const actions = useActions();
 	const fetchThreads = useTask(actions.fetchThreads);
 	const setCurrentUser = useTask(actions.setCurrentUser);
 	const setGroups = useTask(actions.setGroups);
-	const watchNotifications = useNotificationWatcher();
+
+	const watchNotifications = useNotificationWatcher({
+		onNotificationsChange,
+	});
+
 	const combinedTask = useCombineTasks(
 		fetchThreads,
 		setCurrentUser,
 		watchNotifications,
 	);
-	const theme = useTheme();
 
 	React.useEffect(() => {
 		(async () => {
