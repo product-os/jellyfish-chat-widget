@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add onNotificationsChange property
+      hash: a6aa3419e8339a3524072ffcf3bf50612c51cf72
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Kakhaber
+      nested: []
+  version: 10.2.0
+  date: 2021-07-01T08:15:46.482Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.0'
       hash: 55bc37b67a7175253bf44bfa77c9d5353b1ea0fd
       body: |
