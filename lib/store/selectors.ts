@@ -7,6 +7,7 @@
 import filter from 'lodash/filter';
 import orderBy from 'lodash/orderBy';
 import get from 'lodash/get';
+import isEqualWith from 'lodash/isEqualWith';
 import { core } from '@balena/jellyfish-types';
 
 export const selectProduct = () => {
@@ -94,15 +95,7 @@ export const areEqualArrayOfContracts = (
 	leftContracts: core.Contract[],
 	rightContracts: core.Contract[],
 ) => {
-	if (leftContracts.length !== rightContracts.length) {
-		return false;
-	}
-
-	for (let i = 0; i < leftContracts.length; i++) {
-		if (leftContracts[i].id !== rightContracts[i].id) {
-			return false;
-		}
-	}
-
-	return true;
+	return isEqualWith(leftContracts, rightContracts, (left, right) => {
+		return left.id === right.id;
+	});
 };
