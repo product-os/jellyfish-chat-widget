@@ -1,14 +1,24 @@
 import * as React from 'react';
-import { useStore } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuid } from 'uuid';
 import { JSONSchema } from '@balena/jellyfish-types';
 import { useSetup } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, DELETE_CARD } from '../store/action-types';
+import {
+	areEqualArrayOfContracts,
+	selectNotifications,
+	selectProduct,
+} from '../store/selectors';
 import { useTask } from './use-task';
 
-export const useNotificationWatcher = () => {
+export const useNotificationWatcher = ({ onNotificationsChange }) => {
 	const { sdk } = useSetup()!;
-	const store = useStore();
+	const dispatch = useDispatch();
+	const product = useSelector(selectProduct());
+	const notifications = useSelector(
+		selectNotifications(),
+		areEqualArrayOfContracts,
+	);
 	const streamRef = React.useRef<any>(null);
 	const unmountedRef = React.useRef(false);
 
@@ -42,7 +52,7 @@ export const useNotificationWatcher = () => {
 									required: ['product'],
 									properties: {
 										product: {
-											const: 'jellyfish',
+											const: product,
 										},
 									},
 								},
@@ -84,7 +94,7 @@ export const useNotificationWatcher = () => {
 		});
 
 		streamRef.current.on('dataset', ({ data: { cards } }) => {
-			store.dispatch({
+			dispatch({
 				type: SET_CARDS,
 				payload: cards,
 			});
@@ -97,12 +107,12 @@ export const useNotificationWatcher = () => {
 			}
 
 			if (data.after) {
-				store.dispatch({
+				dispatch({
 					type: SET_CARDS,
 					payload: [data.after],
 				});
 			} else {
-				store.dispatch({
+				dispatch({
 					type: DELETE_CARD,
 					payload: data.id,
 				});
@@ -119,6 +129,12 @@ export const useNotificationWatcher = () => {
 			}
 		};
 	}, []);
+
+	React.useEffect(() => {
+		if (onNotificationsChange) {
+			onNotificationsChange(notifications);
+		}
+	}, [notifications]);
 
 	return task;
 };
