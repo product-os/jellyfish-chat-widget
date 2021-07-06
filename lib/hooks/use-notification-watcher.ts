@@ -82,7 +82,9 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 		streamRef.current = await sdk.stream(query);
 
 		if (unmountedRef.current) {
-			streamRef.current?.close();
+			if (streamRef.current) {
+				streamRef.current.close();
+			}
 			return;
 		}
 
