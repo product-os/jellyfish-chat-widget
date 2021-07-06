@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump rendition dependency
+      hash: fee72e973346f8c397083a50533174c301c3d930
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 10.2.15
+  date: 2021-07-06T03:48:11.967Z
+- commits:
     - subject: Use jellyfish-config
       hash: 4e38039649f2ce0491416071242fd46397784d64
       body: ''
