@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove optional chaining
+      hash: 3e5061bcbeb7d5618b503886b485ed31fd5d3e98
+      body: |
+        Not yet supported in webpack for jellyfish
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 10.2.17
+  date: 2021-07-06T07:35:56.856Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.3'
       hash: 1f21ccaa19122159e32e8632f2d03d1713b2a6d7
       body: |
