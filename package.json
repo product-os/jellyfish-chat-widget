@@ -32,7 +32,7 @@
   },
   "scripts": {
     "clean": "rimraf build",
-    "build": "npm run clean && tsc && copyup lib/assets/**/* build",
+    "build": "npm run clean && tsc -p tsconfig.build.json && copyup lib/assets/**/* build",
     "lint": "balena-lint lib && npm run check && deplint && depcheck",
     "lint-fix": "balena-lint --fix lib",
     "unit": "jest",
@@ -65,6 +65,7 @@
     "@balena/jellyfish-types": "^0.8.5",
     "@balena/jellyfish-ui-components": "^9.4.11",
     "@balena/lint": "^6.1.1",
+    "@balena/jellyfish-config": "^1.0.7",
     "@types/bluebird": "^3.5.35",
     "@types/jest": "^26.0.23",
     "@types/sinon": "^10.0.2",

@@ -1,29 +1,9 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "outDir": "build",
-        "rootDir": "./lib",
-        "esModuleInterop": true,
-        "noUnusedParameters": true,
-        "noUnusedLocals": true,
-        "removeComments": true,
-        "resolveJsonModule": true,
-        "sourceMap": true,
-        "strict": true,
-        "target": "es2016",
-        "declaration": true,
-        "skipLibCheck": true,
-        "jsx": "react",
-        "noImplicitAny": false
-    },
-    "typedocOptions": {
-        "excludePrivate": true,
-        "excludeProtected": true,
-        "excludeExternals": true,
-        "gitRevision": "master",
-        "out": "docs"
-    },
-    "files": [
-        "./lib/index.tsx"
-    ]
+  "extends": "@balena/jellyfish-config/config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "files": [
+    "./lib/index.tsx"
+  ]
 }
