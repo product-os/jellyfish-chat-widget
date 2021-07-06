@@ -65,7 +65,7 @@
     "@balena/jellyfish-types": "^0.8.5",
     "@balena/jellyfish-ui-components": "^9.4.12",
     "@balena/lint": "^6.1.1",
-    "@balena/jellyfish-config": "^1.0.7",
+    "@balena/jellyfish-config": "^1.4.3",
     "@types/bluebird": "^3.5.35",
     "@types/jest": "^26.0.23",
     "@types/sinon": "^10.0.2",
