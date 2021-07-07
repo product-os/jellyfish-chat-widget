@@ -44,7 +44,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "@balena/jellyfish-ui-components": "^9.4.12"
+    "@balena/jellyfish-ui-components": "^9.4.13"
   },
   "dependencies": {
     "immutability-helper": "^3.1.1",
@@ -63,7 +63,7 @@
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-client-sdk": "^5.3.0",
     "@balena/jellyfish-types": "^0.8.5",
-    "@balena/jellyfish-ui-components": "^9.4.12",
+    "@balena/jellyfish-ui-components": "^9.4.13",
     "@balena/lint": "^6.1.1",
     "@balena/jellyfish-config": "^1.4.3",
     "@types/bluebird": "^3.5.35",
