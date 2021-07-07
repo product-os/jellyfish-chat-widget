@@ -95,7 +95,10 @@ export const areEqualArrayOfContracts = (
 	leftContracts: core.Contract[],
 	rightContracts: core.Contract[],
 ) => {
-	return isEqualWith(leftContracts, rightContracts, (left, right) => {
-		return left.id === right.id;
-	});
+	return (
+		leftContracts.length === rightContracts.length &&
+		isEqualWith(leftContracts, rightContracts, (left, right) => {
+			return left.id === right.id;
+		})
+	);
 };
