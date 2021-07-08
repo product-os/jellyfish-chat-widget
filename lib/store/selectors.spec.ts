@@ -3,61 +3,99 @@
  * Unauthorized copying of this file, via any medium is strictly prohibited.
  * Proprietary and confidential.
  */
+import { core } from '@balena/jellyfish-types';
 import { v4 as uuidv4 } from 'uuid';
 import { createReducer } from './reducer';
-import { selectMessages } from './selectors';
+import { selectMessages, areEqualArrayOfContracts } from './selectors';
 
-const context: any = {};
+describe('areEqualArrayOfContracts', () => {
+	const contractA = { id: 'a' } as core.Contract;
+	const contractB = { id: 'b' } as core.Contract;
+	const contractC = { id: 'c' } as core.Contract;
 
-beforeEach(() => {
-	context.reducer = createReducer({
-		product: 'jelly-chat-test',
-		productTitle: 'Jelly Chat Test',
-		inbox: 'paid',
-		query: null,
+	it('returns false if arrays are of different lengths', () => {
+		const res = areEqualArrayOfContracts([contractA], [contractA, contractB]);
+		expect(res).toBe(false);
+	});
+
+	it('returns true if arrays are identical in same order', () => {
+		const res = areEqualArrayOfContracts(
+			[contractA, contractB],
+			[contractA, contractB],
+		);
+		expect(res).toBe(true);
+	});
+
+	it('returns false if arrays are identical in different order', () => {
+		const res = areEqualArrayOfContracts(
+			[contractB, contractA],
+			[contractA, contractB],
+		);
+		expect(res).toBe(false);
+	});
+
+	it('returns false if any ids are different', () => {
+		const res = areEqualArrayOfContracts(
+			[contractA, contractB],
+			[contractA, contractC],
+		);
+		expect(res).toBe(false);
 	});
 });
 
-test('selectMessages should sort messages by data.timestamp asc', () => {
-	const timestamp = Date.now();
-	const target = uuidv4();
+describe('selectMessages', () => {
+	const context: any = {};
 
-	const card1 = {
-		id: uuidv4(),
-		type: 'message@1.0.0',
-		data: {
-			timestamp: timestamp + 1,
-			target,
-		},
-	};
-
-	const card2 = {
-		id: uuidv4(),
-		type: 'message@1.0.0',
-		data: {
-			timestamp,
-			target,
-		},
-	};
-
-	const card3 = {
-		id: uuidv4(),
-		type: 'message@1.0.0',
-		data: {
-			timestamp: timestamp + 2,
-			target,
-		},
-	};
-
-	const state = context.reducer({
-		cards: {
-			[card1.id]: card1,
-			[card2.id]: card2,
-			[card3.id]: card3,
-		},
+	beforeEach(() => {
+		context.reducer = createReducer({
+			product: 'jelly-chat-test',
+			productTitle: 'Jelly Chat Test',
+			inbox: 'paid',
+			query: null,
+		});
 	});
 
-	const messages = selectMessages(target)(state);
+	it('should sort messages by data.timestamp asc', () => {
+		const timestamp = Date.now();
+		const target = uuidv4();
 
-	expect(messages).toEqual([card2, card1, card3]);
+		const card1 = {
+			id: uuidv4(),
+			type: 'message@1.0.0',
+			data: {
+				timestamp: timestamp + 1,
+				target,
+			},
+		};
+
+		const card2 = {
+			id: uuidv4(),
+			type: 'message@1.0.0',
+			data: {
+				timestamp,
+				target,
+			},
+		};
+
+		const card3 = {
+			id: uuidv4(),
+			type: 'message@1.0.0',
+			data: {
+				timestamp: timestamp + 2,
+				target,
+			},
+		};
+
+		const state = context.reducer({
+			cards: {
+				[card1.id]: card1,
+				[card2.id]: card2,
+				[card3.id]: card3,
+			},
+		});
+
+		const messages = selectMessages(target)(state);
+
+		expect(messages).toEqual([card2, card1, card3]);
+	});
 });
