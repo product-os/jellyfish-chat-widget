@@ -1,4 +1,19 @@
 - commits:
+    - subject: Small fix to tsconfig settings
+      hash: 1d5236cfff70517f8c0434d964700454ada99942
+      body: >
+        Webpack <5 does not support >ES2018 TypeScript so we restrict it here
+        until we update to webpack 5!
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 11.0.2
+  date: 2021-07-09T10:29:42.166Z
+- commits:
     - subject: Fix array equality check
       hash: 515cf2506ccc41a992684ea773ba743a42d521c4
       body: >
