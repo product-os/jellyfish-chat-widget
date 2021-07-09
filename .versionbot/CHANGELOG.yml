@@ -1,4 +1,19 @@
 - commits:
+    - subject: Fix array equality check
+      hash: 515cf2506ccc41a992684ea773ba743a42d521c4
+      body: >
+        Previous implementation with _.isEqualWith was incorrect ('left' and
+        'right' were arrays, rather than each individual array item).
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 11.0.1
+  date: 2021-07-09T08:25:25.674Z
+- commits:
     - subject: Use jellyfish-ui-components v10
       hash: e3de5e7dd0a04ba4a913163e8d01149dce84470f
       body: ''
