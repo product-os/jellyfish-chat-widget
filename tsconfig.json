@@ -1,9 +1,7 @@
 {
   "extends": "@balena/jellyfish-config/config/tsconfig.json",
   "compilerOptions": {
+    "target": "es2018",
     "jsx": "react"
-  },
-  "files": [
-    "./lib/index.tsx"
-  ]
+  }
 }
