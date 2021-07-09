@@ -20,7 +20,14 @@ import { StreamProviderTask } from './stream-provider-task';
 import { CardLoaderContextProvider } from './card-loader-context-provider';
 
 export const App = React.memo<any>(
-	({ productTitle, product, inbox, onClose, onNotificationsChange }) => {
+	({
+		productTitle,
+		product,
+		inbox,
+		initialUrl,
+		onClose,
+		onNotificationsChange,
+	}) => {
 		const { environment } = useSetup()!;
 
 		const query = React.useMemo(() => {
@@ -83,6 +90,7 @@ export const App = React.memo<any>(
 								<Router>
 									<Layout
 										flex={1}
+										initialUrl={initialUrl}
 										onClose={onClose}
 										onNotificationsChange={onNotificationsChange}
 									>

@@ -7,6 +7,7 @@
 import React from 'react';
 import { Flex, useTheme } from 'rendition';
 import styled from 'styled-components';
+import { useHistory } from 'react-router-dom';
 import { helpers } from '@balena/jellyfish-ui-components';
 import { Task } from './task';
 import {
@@ -31,6 +32,7 @@ const ChatWrapper = styled(Flex)`
 `;
 
 export const Layout = ({
+	initialUrl,
 	onClose,
 	onNotificationsChange,
 	children,
@@ -41,6 +43,7 @@ export const Layout = ({
 	const fetchThreads = useTask(actions.fetchThreads);
 	const setCurrentUser = useTask(actions.setCurrentUser);
 	const setGroups = useTask(actions.setGroups);
+	const history = useHistory();
 
 	const watchNotifications = useNotificationWatcher({
 		onNotificationsChange,
@@ -63,6 +66,12 @@ export const Layout = ({
 			watchNotifications.exec(result);
 		})();
 	}, []);
+
+	React.useEffect(() => {
+		if (initialUrl) {
+			history.push(initialUrl);
+		}
+	}, [initialUrl]);
 
 	return (
 		<ChatWrapper

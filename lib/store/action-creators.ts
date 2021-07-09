@@ -312,12 +312,35 @@ export const getCard = (ctx) => {
 
 // TODO make stream setup part of use-stream hook
 export const loadThreadData = (ctx) => {
-	return async (thread, query, limit) => {
-		const streamHash = hashCode(thread);
+	return async (threadId, limit) => {
+		const query = {
+			type: 'object',
+			properties: {
+				id: {
+					const: threadId,
+				},
+			},
+			$$links: {
+				'has attached element': {
+					type: 'object',
+					properties: {
+						type: {
+							enum: ['message@1.0.0', 'create@1.0.0'],
+						},
+					},
+				},
+			},
+			required: ['id'],
+		};
+
+		const streamHash = hashCode(threadId);
 		const stream = await getStream(ctx)(streamHash, query);
 
-		stream.on('dataset', ({ data: { cards } }) => {
-			setCards(cards);
+		const resultPromise = new Promise((resolve) => {
+			stream.on('dataset', ({ data: { cards } }) => {
+				setCards(cards);
+				resolve();
+			});
 		});
 
 		stream.on('update', ({ data: { type, after: card } }) => {
@@ -341,13 +364,15 @@ export const loadThreadData = (ctx) => {
 				},
 			},
 		});
+
+		return resultPromise;
 	};
 };
 
 // TODO cleanup once we have pagination built into our streams
 export const loadMoreThreadData = () => {
-	return async ({ target, query, queryOptions }) => {
-		const streamHash = hashCode(target);
+	return async ({ query, queryOptions }) => {
+		const streamHash = hashCode(query.properties.id.const);
 		const stream = streams[streamHash];
 		if (!stream) {
 			throw new Error(
