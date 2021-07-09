@@ -44,7 +44,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "@balena/jellyfish-ui-components": "^9.4.16"
+    "@balena/jellyfish-ui-components": "^10.0.0"
   },
   "dependencies": {
     "immutability-helper": "^3.1.1",
@@ -55,7 +55,7 @@
     "react-router-dom": "^5.2.0",
     "redux": "^4.1.0",
     "redux-thunk": "^2.3.0",
-    "rendition": "^20.20.0",
+    "rendition": "^20.20.3",
     "styled-components": "^5.3.0",
     "uuid": "^8.3.2"
   },
@@ -63,7 +63,7 @@
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-client-sdk": "^5.3.1",
     "@balena/jellyfish-types": "^0.8.6",
-    "@balena/jellyfish-ui-components": "^9.4.16",
+    "@balena/jellyfish-ui-components": "^10.0.0",
     "@balena/lint": "^6.1.1",
     "@balena/jellyfish-config": "^1.4.4",
     "@types/bluebird": "^3.5.35",
