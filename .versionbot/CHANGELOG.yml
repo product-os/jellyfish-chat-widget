@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: f4dd5ccd2758752477c7102bb95d59479bee2f3d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 10.2.21
+  date: 2021-07-09T01:59:26.534Z
+- commits:
     - subject: Fix areEqualArrayOfContracts behaviour
       hash: d48178f4c76928da47d62f731e58a578075440c7
       body: ''
