@@ -7,7 +7,10 @@
 const base = require('@balena/jellyfish-config/config/jest.config')
 
 module.exports = {
-	preset: base.preset,
+	...base,
+	roots: [
+		'lib'
+	],
 	testEnvironment: 'jsdom',
 	transformIgnorePatterns: [],
 	transform: {
