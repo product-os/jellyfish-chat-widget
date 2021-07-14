@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 01329c09c4d567131d19a4450cb18395ef555f3c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 11.0.10
+  date: 2021-07-14T08:01:03.031Z
+- commits:
     - subject: Fix jest config
       hash: ebed5d88ad670637585b79da9d4b3068c3ef5876
       body: ''
