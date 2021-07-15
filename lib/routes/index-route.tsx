@@ -19,7 +19,7 @@ export const IndexRoute = () => {
 	const threads = useSelector(selectThreads());
 	const isInCreateThreadMode = React.useMemo(() => {
 		return !threads.length;
-	}, []);
+	}, [threads.length]);
 
 	const handleCreateThreadSuccess = React.useCallback(({ thread }) => {
 		router.history.push(`/chat/${thread.id}`);
