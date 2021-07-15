@@ -56,43 +56,44 @@ export const ChatRoute = () => {
 	}, [thread]);
 
 	return (
-		<Task
-			task={loadThreadDataTask}
-			flex={1}
-			style={{
-				position: 'relative',
-			}}
-			data-test="chat-page"
-			data-test-id={threadId}
-		>
+		<Task task={loadThreadDataTask}>
 			{() => {
 				return (
 					<Box
+						flex={1}
 						style={{
-							position: 'absolute',
-							width: '100%',
-							height: '100%',
+							position: 'relative',
 						}}
+						data-test="chat-page"
+						data-test-id={thread.id}
 					>
-						<Timeline
-							enableAutocomplete={!environment.isTest()}
-							sdk={sdk}
-							types={types}
-							groups={groups}
-							wide={false}
-							allowWhispers={false}
-							card={thread}
-							tail={messages}
-							usersTyping={usersTyping}
-							user={currentUser}
-							getActor={actions.getActor}
-							signalTyping={noop}
-							setTimelineMessage={noop}
-							eventMenuOptions={false}
-							headerOptions={timelineHeaderOptions}
-							loadMoreChannelData={actions.loadMoreThreadData}
-							notifications={notifications}
-						/>
+						<Box
+							style={{
+								position: 'absolute',
+								width: '100%',
+								height: '100%',
+							}}
+						>
+							<Timeline
+								enableAutocomplete={!environment.isTest()}
+								sdk={sdk}
+								types={types}
+								groups={groups}
+								wide={false}
+								allowWhispers={false}
+								card={thread}
+								tail={messages}
+								usersTyping={usersTyping}
+								user={currentUser}
+								getActor={actions.getActor}
+								signalTyping={noop}
+								setTimelineMessage={noop}
+								eventMenuOptions={false}
+								headerOptions={timelineHeaderOptions}
+								loadMoreChannelData={actions.loadMoreThreadData}
+								notifications={notifications}
+							/>
+						</Box>
 					</Box>
 				);
 			}}
