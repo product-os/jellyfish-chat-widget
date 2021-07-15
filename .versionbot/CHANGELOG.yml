@@ -1,4 +1,15 @@
 - commits:
+    - subject: Fix hiding header
+      hash: 88d41844ff5766624c77e67ec2dd26d4f0b8bc34
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kakhaber
+      nested: []
+  version: 12.0.2
+  date: 2021-07-15T20:29:32.197Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.3.4'
       hash: 59d92091836cd0dfa7394fc09ef7ed90c8e97b8c
       body: ''
