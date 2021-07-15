@@ -1,4 +1,15 @@
 - commits:
+    - subject: Fix data-test attribute
+      hash: b885218975f6be7aa77555e5cd467102c6b1913a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kakhaber
+      nested: []
+  version: 12.0.3
+  date: 2021-07-15T23:42:28.691Z
+- commits:
     - subject: Fix hiding header
       hash: 88d41844ff5766624c77e67ec2dd26d4f0b8bc34
       body: ''
