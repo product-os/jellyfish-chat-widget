@@ -89,6 +89,7 @@ export const Layout = ({
 				flexDirection="column"
 				style={{
 					overflow: 'hidden',
+					position: 'relative',
 				}}
 			>
 				<Task task={combinedTask}>
