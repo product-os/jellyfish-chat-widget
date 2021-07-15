@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.3.4'
+      hash: 59d92091836cd0dfa7394fc09ef7ed90c8e97b8c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.0.1
+  date: 2021-07-15T16:22:33.913Z
+- commits:
     - subject: Allow navigating to chat page
       hash: 68dc981f1f25394e40389f2c74c789faa76ca0a9
       body: ''
