@@ -336,7 +336,7 @@ export const loadThreadData = (ctx) => {
 		const streamHash = hashCode(threadId);
 		const stream = await getStream(ctx)(streamHash, query);
 
-		const resultPromise = new Promise((resolve) => {
+		const resultPromise = new Promise<void>((resolve) => {
 			stream.on('dataset', ({ data: { cards } }) => {
 				setCards(cards);
 				resolve();
