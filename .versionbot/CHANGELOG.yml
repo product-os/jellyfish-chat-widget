@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove whitesource config
+      hash: 07bbaef63931b2a19ff303ef856d32f8695381b4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.0.7
+  date: 2021-07-16T23:39:43.853Z
+- commits:
     - subject: Wait for thread load
       hash: f673eb61630ac2a66acce4d6b719e8ed22710d92
       body: ''
