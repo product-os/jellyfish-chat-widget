@@ -58,6 +58,10 @@ export const ChatRoute = () => {
 	return (
 		<Task task={loadThreadDataTask}>
 			{() => {
+				if (!thread) {
+					return null;
+				}
+
 				return (
 					<Box
 						flex={1}
@@ -65,7 +69,7 @@ export const ChatRoute = () => {
 							position: 'relative',
 						}}
 						data-test="chat-page"
-						data-test-id={threadId}
+						data-test-id={thread.id}
 					>
 						<Box
 							style={{
