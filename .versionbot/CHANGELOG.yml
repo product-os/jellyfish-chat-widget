@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'Thread may be null, use threadId'
+      hash: 324aab53564c305c3d5de0695143f5f0a6920abd
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kakhaber
+      nested: []
+  version: 12.0.5
+  date: 2021-07-16T04:50:41.530Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.0.12'
       hash: a20763cbfbd59bb61a399bbb9153f18f099fb502
       body: ''
