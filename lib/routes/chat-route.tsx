@@ -65,7 +65,7 @@ export const ChatRoute = () => {
 							position: 'relative',
 						}}
 						data-test="chat-page"
-						data-test-id={thread.id}
+						data-test-id={threadId}
 					>
 						<Box
 							style={{
