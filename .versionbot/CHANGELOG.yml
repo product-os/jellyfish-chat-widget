@@ -1,4 +1,15 @@
 - commits:
+    - subject: Wait for thread load
+      hash: f673eb61630ac2a66acce4d6b719e8ed22710d92
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kakhaber
+      nested: []
+  version: 12.0.6
+  date: 2021-07-16T14:49:41.953Z
+- commits:
     - subject: 'Thread may be null, use threadId'
       hash: 324aab53564c305c3d5de0695143f5f0a6920abd
       body: ''
