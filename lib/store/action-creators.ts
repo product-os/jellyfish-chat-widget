@@ -14,6 +14,17 @@ import { helpers, FILE_PROXY_MESSAGE } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, SET_CURRENT_USER, SET_GROUPS } from './action-types';
 import { selectCardById, selectCurrentUser, selectThreads } from './selectors';
 
+/**
+ * @summary Get the (versioned slug) loop associated with the specified product
+ * @param {String} product - the product
+ * @returns {String} the versioned slug loop
+ */
+const getLoop = (product: string): string => {
+	return product === 'jellyfish'
+		? 'loop-product-os@1.0.0'
+		: 'loop-balena-io@1.0.0';
+};
+
 const allGroupsWithUsersQuery = {
 	type: 'object',
 	description: 'Get all groups with member user slugs',
@@ -93,11 +104,13 @@ export const initiateThread = (ctx) => {
 		const state = ctx.store.getState();
 		const currentUser = selectCurrentUser()(state);
 		const markers = [`${currentUser.slug}+org-balena`];
+		const loop = getLoop(state.product);
 
 		const thread = await ctx.sdk.card.create({
 			type: 'support-thread',
 			name: subject,
 			markers,
+			loop,
 			data: {
 				inbox: state.inbox,
 				product: state.product,
