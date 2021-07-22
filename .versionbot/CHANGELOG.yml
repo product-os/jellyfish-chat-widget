@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.4.1'
+      hash: 6fefe7d8b6827aa7c4e13827c3b31b495670c51c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.0.15
+  date: 2021-07-22T14:36:28.173Z
+- commits:
     - subject: Set the thread loop field when creating a new thread
       hash: 38cb180e485faa774f242f13727c75ea1cf1d3a1
       body: ''
