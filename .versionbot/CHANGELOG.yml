@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use v4 of socket.io client
+      hash: 826b0c31b50e63e266bf3890190cbaeeedefbf46
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.0.28
+  date: 2021-08-04T00:54:42.920Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.8'
       hash: a8edb20ef84b596f97ff10ab2568abd68b1e676b
       body: ''
