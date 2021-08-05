@@ -1,4 +1,15 @@
 - commits:
+    - subject: Auto-subscribe to created threads
+      hash: e9ee6c3124e9c48d8d02e17b062e0d93af9c262f
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Kakhaber
+      nested: []
+  version: 12.1.0
+  date: 2021-08-05T11:27:54.432Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.5.0'
       hash: bf78b86bc57091810f765864fc6ba0c622d63246
       body: |
