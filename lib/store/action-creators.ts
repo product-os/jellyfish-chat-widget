@@ -106,31 +106,26 @@ export const initiateThread = (ctx) => {
 		const markers = [`${currentUser.slug}+org-balena`];
 		const loop = getLoop(state.product);
 
-		const thread = await ctx.sdk.card.create({
-			type: 'support-thread',
-			name: subject,
-			markers,
-			loop,
-			data: {
-				inbox: state.inbox,
-				product: state.product,
-				status: 'open',
-			},
-		});
-
-		/*
-		 * Auto subscribe to the thread only if the widget is used inside jellyfish.
-		 * TODO: Remove this when testing is complete.
-		 */
-		if (state.product === 'jellyfish') {
-			const subscription = await ctx.sdk.card.create({
+		const [thread, subscription] = await Promise.all([
+			ctx.sdk.card.create({
+				type: 'support-thread',
+				name: subject,
+				markers,
+				loop,
+				data: {
+					inbox: state.inbox,
+					product: state.product,
+					status: 'open',
+				},
+			}),
+			ctx.sdk.card.create({
 				type: 'subscription@1.0.0',
 				slug: `subscription-${uuid()}`,
 				data: {},
-			});
+			}),
+		]);
 
-			await ctx.sdk.card.link(thread, subscription, 'has attached');
-		}
+		await ctx.sdk.card.link(thread, subscription, 'has attached');
 
 		const messageSymbolRE = /^\s*%\s*/;
 		const { mentionsUser, alertsUser, mentionsGroup, alertsGroup, tags } =
