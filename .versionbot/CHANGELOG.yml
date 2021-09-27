@@ -1,4 +1,28 @@
 - commits:
+    - subject: Make rendition a peer dependency
+      hash: cb2db8abad4f521c908ee262d193d43ccf76da89
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+    - subject: Upgrade to latest rendition version
+      hash: cc4c09875ddb357615233e7f01be78d0be61b237
+      body: |
+        This update turns markdown headings into anchor links
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 12.2.0
+  date: 2021-09-27T12:49:47.231Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.18'
       hash: 7f915ec9ce5bae6f7a4ac4f3f048a655082733dc
       body: ''
