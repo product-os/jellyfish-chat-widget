@@ -1,4 +1,17 @@
 - commits:
+    - subject: fixup
+      hash: 677221d2b9b1dce8f5cb434b1edcbdf369fe6ef0
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 12.1.24
+  date: 2021-09-28T15:34:12.285Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.18'
       hash: 7f915ec9ce5bae6f7a4ac4f3f048a655082733dc
       body: ''
