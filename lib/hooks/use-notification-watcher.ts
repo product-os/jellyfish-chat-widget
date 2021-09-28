@@ -103,6 +103,7 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 		});
 
 		streamRef.current.on('update', ({ data, error }) => {
+			console.log('GOT STREAM UPDATE', { data, error });
 			if (error) {
 				console.error(error);
 				return;
@@ -133,6 +134,7 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 	}, []);
 
 	React.useEffect(() => {
+		console.log('notifications effect');
 		if (onNotificationsChange) {
 			onNotificationsChange(notifications);
 		}
