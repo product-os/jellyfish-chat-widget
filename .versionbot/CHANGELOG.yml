@@ -1,4 +1,20 @@
 - commits:
+    - subject: Clone state inside reducer to ensure hooks update correctly
+      hash: 447f81b66d1652d32f6ef06a80f01956482739a5
+      body: |
+        The current implementation of the reducer will mutate the existing state
+        object in some situations, resulting in the chat widget not updating
+        automatically, and only changing after a re-render happens.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 12.1.24
+  date: 2021-09-29T08:48:41.348Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.18'
       hash: 7f915ec9ce5bae6f7a4ac4f3f048a655082733dc
       body: ''
