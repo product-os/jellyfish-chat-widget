@@ -1,4 +1,53 @@
 - commits:
+    - subject: Clone state inside reducer to ensure hooks update correctly
+      hash: 4ba09fb5510aa8788e75c0989d07262d8a50f42c
+      body: |
+        The current implementation of the reducer will mutate the existing state
+        object in some situations, resulting in the chat widget not updating
+        automatically, and only changing after a re-render happens.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo lucian.buzzo@gmail.com
+        signed-off-by: Lucian Buzzo lucian.buzzo@gmail.com
+      author: Lucian Buzzo
+      nested: []
+    - subject: Refactor timeline pagination
+      hash: dd2664cffe45f1bddb747ed51a2b130c29d816eb
+      body: >
+        Upgrade to latest version of components that refactors timeline
+        pagination.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+    - subject: Make rendition a peer dependency
+      hash: 8a77d3b2464ebe3b1f7c022afea8369780135887
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+    - subject: Upgrade to latest rendition version
+      hash: cc4c09875ddb357615233e7f01be78d0be61b237
+      body: |
+        This update turns markdown headings into anchor links
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 12.2.0
+  date: 2021-09-29T09:01:46.318Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.18'
       hash: 7f915ec9ce5bae6f7a4ac4f3f048a655082733dc
       body: ''
