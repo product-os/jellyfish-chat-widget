@@ -15,10 +15,13 @@ import {
 } from './action-types';
 
 const mergeCards = (state, cards) => {
-	return cards.reduce((newCards, card) => {
-		newCards[card.id] = merge({}, newCards[card.id], card);
-		return newCards;
-	}, state.cards);
+	return Object.assign(
+		{},
+		cards.reduce((newCards, card) => {
+			newCards[card.id] = merge({}, newCards[card.id], card);
+			return newCards;
+		}, state.cards),
+	);
 };
 
 const extractLinksFromCards = (threads) => {
