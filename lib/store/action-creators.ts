@@ -378,15 +378,47 @@ export const loadThreadData = (ctx) => {
 };
 
 // TODO cleanup once we have pagination built into our streams
-export const loadMoreThreadData = () => {
-	return async ({ query, queryOptions }) => {
-		const streamHash = hashCode(query.properties.id.const);
+export const loadMoreThreadData = (target: string) => {
+	return async () => {
+		const streamHash = hashCode(target);
 		const stream = streams[streamHash];
 		if (!stream) {
 			throw new Error(
 				'Stream not found: Did you forget to call loadChannelData?',
 			);
 		}
+		if (!stream.page) {
+			stream.page = 1;
+		}
+
+		stream.page++;
+
+		const pageSize = 20;
+
+		const query = {
+			type: 'object',
+			properties: {
+				id: {
+					const: target,
+				},
+			},
+			$$links: {
+				'has attached element': {
+					type: 'object',
+				},
+			},
+		};
+
+		const queryOptions = {
+			links: {
+				'has attached element': {
+					sortBy: 'created_at',
+					sortDir: 'desc',
+					limit: stream.page * pageSize,
+					skip: (stream.page - 1) * pageSize,
+				},
+			},
+		};
 		const queryId = uuid();
 		stream.emit('queryDataset', {
 			data: {
@@ -398,7 +430,12 @@ export const loadMoreThreadData = () => {
 		return new Promise((resolve) => {
 			const handler = ({ data }) => {
 				if (data.id === queryId) {
-					resolve(data.cards);
+					const results = get(
+						data.cards[0],
+						['links', 'has attached element'],
+						[],
+					);
+					resolve(results);
 					stream.off('dataset', handler);
 				}
 			};

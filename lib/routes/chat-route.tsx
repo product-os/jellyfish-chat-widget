@@ -25,7 +25,7 @@ export const ChatRoute = () => {
 	// Using an empty types array will effectively disable the autocomplete
 	// trigger that uses the types
 	const types = [];
-	const { sdk, environment } = useSetup()!;
+	const { environment } = useSetup()!;
 	const router = useRouter();
 	const actions = useActions();
 	const currentUser = useSelector(selectCurrentUser());
@@ -80,7 +80,6 @@ export const ChatRoute = () => {
 						>
 							<Timeline
 								enableAutocomplete={!environment.isTest()}
-								sdk={sdk}
 								types={types}
 								groups={groups}
 								wide={false}
@@ -94,7 +93,7 @@ export const ChatRoute = () => {
 								setTimelineMessage={noop}
 								eventMenuOptions={false}
 								headerOptions={timelineHeaderOptions}
-								loadMoreChannelData={actions.loadMoreThreadData}
+								next={() => actions.loadMoreThreadData(thread.id)}
 								notifications={notifications}
 							/>
 						</Box>
