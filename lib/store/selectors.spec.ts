@@ -43,6 +43,68 @@ describe('areEqualArrayOfContracts', () => {
 	});
 });
 
+describe('selectThreads', () => {
+	const context: any = {};
+
+	beforeEach(() => {
+		context.reducer = createReducer({
+			product: 'jelly-chat-test',
+			productTitle: 'Jelly Chat Test',
+			inbox: 'paid',
+			query: null,
+		});
+	});
+
+	it('should sort threads by data.timestamp and linked notifications desc', () => {
+		const timestamp = Date.now();
+		const target = uuidv4();
+
+		const card1 = {
+			id: uuidv4(),
+			type: 'support-thread@1.0.0',
+			data: {
+				timestamp: timestamp + 1,
+				target,
+			},
+		};
+
+		const card2 = {
+			id: uuidv4(),
+			type: 'support-thread@1.0.0',
+			data: {
+				timestamp,
+				target,
+			},
+		};
+
+		const card3 = {
+			id: uuidv4(),
+			type: 'support-thread@1.0.0',
+			data: {
+				timestamp: timestamp + 2,
+				target,
+			},
+		};
+
+		const notif1 = {
+			id: uuidv4(),
+			type: 'notification@1.0.0',
+		};
+
+		const state = context.reducer({
+			cards: {
+				[card1.id]: card1,
+				[card2.id]: card2,
+				[card3.id]: card3,
+			},
+		});
+
+		const messages = selectMessages(target)(state);
+
+		expect(messages).toEqual([card2, card1, card3]);
+	});
+});
+
 describe('selectMessages', () => {
 	const context: any = {};
 

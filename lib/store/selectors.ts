@@ -43,11 +43,19 @@ export const selectThreads = () => {
 		const threads = selectCardsByType('support-thread')(state);
 		return orderBy(
 			threads,
-			(thread) => {
-				const messages = selectMessages(thread.id)(state);
-				return messages.length ? messages[0].data.timestamp : thread.created_at;
-			},
-			'desc',
+			[
+				(thread) => {
+					const messages = selectMessages(thread.id)(state);
+					return messages.length
+						? messages[0].data.timestamp
+						: thread.created_at;
+				},
+				(thread) => {
+					const notifications = selectNotificationsByThread(thread.id)(state);
+					return notifications ? 1 : 0;
+				},
+			],
+			['desc', 'desc'],
 		);
 	};
 };
@@ -97,8 +105,10 @@ export const areEqualArrayOfContracts = (
 ) => {
 	return (
 		leftContracts.length === rightContracts.length &&
-		every(leftContracts, (left, index) => {
-			return left.id === rightContracts[index].id;
+		every(leftContracts, (left) => {
+			return rightContracts.some((right) => {
+				return left.id === right.id;
+			});
 		})
 	);
 };
