@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.4'
+      hash: ff091f19c8e0d6e11ab35be4472789c053359cd1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.3.1
+  date: 2021-10-04T09:58:31.293Z
+- commits:
     - subject: Change welcome text for summit
       hash: b9385723b4c59bf96ee679f4f0a03c01f1a5b749
       body: ''
