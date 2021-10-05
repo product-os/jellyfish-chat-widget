@@ -33,7 +33,7 @@
   "scripts": {
     "clean": "rimraf build",
     "build": "npm run clean && tsc -p tsconfig.build.json && copyup lib/assets/**/* build",
-    "lint": "balena-lint lib && npm run check && deplint && depcheck --ignores=typedoc",
+    "lint": "balena-lint lib && npm run check && deplint && depcheck --ignores=@types/jest,typedoc",
     "lint:fix": "balena-lint --fix lib",
     "test": "npm run lint && npm run test:unit",
     "test:unit": "jest",
