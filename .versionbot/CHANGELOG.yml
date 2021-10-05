@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump @types/jest to v27
+      hash: 04801f542397a6cc2889b4d162c0c54bc8985276
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.3.5
+  date: 2021-10-05T04:06:30.477Z
+- commits:
     - subject: Add jest types to depcheck ignore list
       hash: 8bdad2d39dca5ddd262ebbfe7b50b5179affea83
       body: ''
