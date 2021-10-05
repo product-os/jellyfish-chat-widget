@@ -1,4 +1,35 @@
 - commits:
+    - subject: Add jest types to depcheck ignore list
+      hash: 8bdad2d39dca5ddd262ebbfe7b50b5179affea83
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Add typedoc to depcheck ignore list
+      hash: 0f199c57d32a4376c5dd5cc1a7971cac9755a085
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update external-non-major'
+      hash: be98673a8c0c3c624f2f64afde9ee4690d1d0666
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.3.4
+  date: 2021-10-05T03:52:21.210Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
       hash: 7ffb649bb0a45b0810668c1d24368766dab8aeff
       body: ''
