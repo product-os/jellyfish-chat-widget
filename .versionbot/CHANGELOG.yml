@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: 7ffb649bb0a45b0810668c1d24368766dab8aeff
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 12.3.3
+  date: 2021-10-05T00:42:01.265Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to v12'
       hash: 513543ea1595edddc741db3524153010846d3c68
       body: |
