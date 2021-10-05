@@ -67,7 +67,7 @@
     "@balena/lint": "^6.1.1",
     "@balena/jellyfish-config": "^1.5.4",
     "@types/bluebird": "^3.5.36",
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.2",
     "@types/sinon": "^10.0.4",
     "bluebird": "^3.7.2",
     "copyfiles": "^2.4.1",
