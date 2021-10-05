@@ -108,6 +108,8 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 				return;
 			}
 
+			console.log('got stream update', { data })
+
 			if (data.after) {
 				dispatch({
 					type: SET_CARDS,
@@ -133,7 +135,9 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 	}, []);
 
 	React.useEffect(() => {
+		console.log('checking onNotificationChange')
 		if (onNotificationsChange) {
+			console.log('calling onNotificationChange')
 			onNotificationsChange(notifications);
 		}
 	}, [notifications]);
