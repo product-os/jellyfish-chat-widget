@@ -45,14 +45,14 @@ export const selectThreads = () => {
 			threads,
 			[
 				(thread) => {
+					const notifications = selectNotificationsByThread(thread.id)(state);
+					return notifications.length ? 1 : 0;
+				},
+				(thread) => {
 					const messages = selectMessages(thread.id)(state);
 					return messages.length
 						? messages[0].data.timestamp
 						: thread.created_at;
-				},
-				(thread) => {
-					const notifications = selectNotificationsByThread(thread.id)(state);
-					return notifications ? 1 : 0;
 				},
 			],
 			['desc', 'desc'],
