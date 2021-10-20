@@ -37,7 +37,7 @@ export const IndexRoute = () => {
 				<Box>
 					<Heading
 						primaryText="Welcome"
-						secondaryText="Our 2021 annual summit is taking place between October 4th and October 8th. We will respond to messages as quickly as possible, but please note we may be a little slower than usual."
+						secondaryText="Our team will reply to your questions & solve your problems in realtime as soon as possible."
 					/>
 				</Box>
 				<Box alignSelf="stretch">
@@ -61,7 +61,7 @@ export const IndexRoute = () => {
 			<Box>
 				<Heading
 					primaryText="Welcome"
-					secondaryText="Our 2021 annual summit is taking place between October 4th and October 8th. We will respond to messages as quickly as possible, but please note we may be a little slower than usual."
+					secondaryText="Our team will reply to your questions & solve your problems in realtime as soon as possible."
 				/>
 			</Box>
 			<Box mb={30}>
