@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 653363090adcf9e76891580965c30f7e4447c189
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.4.1
+  date: 2021-10-23T01:25:02.957Z
+- commits:
     - subject: Remove summit text
       hash: 1a619d8a306822746dab41c3c7f19480bebbd413
       body: ''
