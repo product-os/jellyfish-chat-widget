@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @types/sinon to ^10.0.5'
+      hash: dcbab74384e007172536c171e715e2338001ad2f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.4.8
+  date: 2021-10-24T00:14:20.747Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.17'
       hash: 283d3678984b6ef4de6859602984899574820428
       body: ''
