@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 4209efc486491ae566a91cb5a45f0bfd6b8477a9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.4.10
+  date: 2021-10-28T03:05:38.952Z
+- commits:
     - subject: Bump eslint to v8
       hash: 3f6d13fdcbd4287af393a245fe1ae475f67c2c34
       body: ''
