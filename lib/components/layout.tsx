@@ -62,8 +62,7 @@ export const Layout = ({
 			});
 
 			setGroups.exec();
-			const { result } = await setCurrentUser.exec();
-			watchNotifications.exec(result);
+			setCurrentUser.exec();
 		})();
 	}, []);
 

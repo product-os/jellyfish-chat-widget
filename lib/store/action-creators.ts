@@ -9,10 +9,18 @@ import every from 'lodash/every';
 import get from 'lodash/get';
 import isArray from 'lodash/isArray';
 import orderBy from 'lodash/orderBy';
+import type { Store } from 'redux';
 import { v4 as uuid } from 'uuid';
 import { helpers, FILE_PROXY_MESSAGE } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, SET_CURRENT_USER, SET_GROUPS } from './action-types';
 import { selectCardById, selectCurrentUser, selectThreads } from './selectors';
+import type { core, JSONSchema } from '@balena/jellyfish-types';
+import type { JellyfishSDK } from '@balena/jellyfish-client-sdk';
+
+export interface ActionCreatorContext {
+	sdk: JellyfishSDK;
+	store: Store;
+}
 
 /**
  * @summary Get the (versioned slug) loop associated with the specified product
@@ -25,7 +33,7 @@ const getLoop = (product: string): string => {
 		: 'loop-balena-io@1.0.0';
 };
 
-const allGroupsWithUsersQuery = {
+const allGroupsWithUsersQuery: JSONSchema = {
 	type: 'object',
 	description: 'Get all groups with member user slugs',
 	required: ['type', 'name'],
@@ -77,7 +85,7 @@ const hashCode = (input) => {
 };
 
 // TODO cleanup once we have pagination built into our streams
-const getStream = (ctx) => {
+const getStream = (ctx: ActionCreatorContext) => {
 	return async (streamId, query) => {
 		if (streams[streamId]) {
 			streams[streamId].close();
@@ -90,7 +98,7 @@ const getStream = (ctx) => {
 	};
 };
 
-export const setCards = (ctx) => {
+export const setCards = (ctx: ActionCreatorContext) => {
 	return (cards) => {
 		ctx.store.dispatch({
 			type: SET_CARDS,
@@ -99,10 +107,10 @@ export const setCards = (ctx) => {
 	};
 };
 
-export const initiateThread = (ctx) => {
+export const initiateThread = (ctx: ActionCreatorContext) => {
 	return async ({ subject, text, files }) => {
 		const state = ctx.store.getState();
-		const currentUser = selectCurrentUser()(state);
+		const currentUser = selectCurrentUser()(state)!;
 		const markers = [`${currentUser.slug}+org-balena`];
 		const loop = getLoop(state.product);
 
@@ -161,37 +169,27 @@ export const initiateThread = (ctx) => {
 	};
 };
 
-export const fetchThreads = (ctx) => {
+export const fetchThreads = (ctx: ActionCreatorContext) => {
 	return async ({ limit }) => {
 		const state = ctx.store.getState();
 
-		ctx.stream.emit('queryDataset', {
-			data: {
-				schema: state.query,
-				options: {
-					skip: selectThreads()(state).length,
-					limit,
-					sortBy: ['created_at'],
-					sortDir: 'desc',
-					links: {
-						limit,
-						sortBy: ['created_at'],
-						sortDir: 'desc',
-					},
-				},
+		const cards = ctx.sdk.query(state.query, {
+			skip: selectThreads()(state).length,
+			limit,
+			sortBy: ['created_at'],
+			sortDir: 'desc',
+			links: {
+				limit,
+				sortBy: ['created_at'],
+				sortDir: 'desc',
 			},
 		});
 
-		return new Promise<void>((resolve) => {
-			ctx.stream.once('dataset', ({ data: { cards } }) => {
-				setCards(ctx)(cards);
-				resolve();
-			});
-		});
+		setCards(ctx)(cards);
 	};
 };
 
-export const setCurrentUser = (ctx) => {
+export const setCurrentUser = (ctx: ActionCreatorContext) => {
 	return async () => {
 		const currentUser = await ctx.sdk.auth.whoami();
 
@@ -204,7 +202,7 @@ export const setCurrentUser = (ctx) => {
 	};
 };
 
-export const setGroups = (ctx) => {
+export const setGroups = (ctx: ActionCreatorContext) => {
 	return async () => {
 		const groups = await ctx.sdk.query(allGroupsWithUsersQuery);
 		ctx.store.dispatch({
@@ -214,9 +212,11 @@ export const setGroups = (ctx) => {
 	};
 };
 
-export const getActor = (ctx) => {
+export const getActor = (ctx: ActionCreatorContext) => {
 	return async (id) => {
-		const actor = await getCard(ctx)(id, 'user', ['is member of']);
+		const actor = (await getCard(ctx)(id, 'user', [
+			'is member of',
+		])) as core.UserContract;
 		const state = ctx.store.getState();
 
 		if (!actor) {
@@ -254,7 +254,7 @@ export const getActor = (ctx) => {
 	};
 };
 
-export const getCard = (ctx) => {
+export const getCard = (ctx: ActionCreatorContext) => {
 	// Type argument is included to keep this method signature
 	// the same as the corresponding Jellyfish action
 	return async (id, _type, linkVerbs: any[] = []) => {
@@ -319,7 +319,7 @@ export const getCard = (ctx) => {
 };
 
 // TODO make stream setup part of use-stream hook
-export const loadThreadData = (ctx) => {
+export const loadThreadData = (ctx: ActionCreatorContext) => {
 	return async (threadId, limit) => {
 		const query = {
 			type: 'object',

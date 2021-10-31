@@ -28,7 +28,7 @@ export const ChatRoute = () => {
 	const { environment } = useSetup()!;
 	const router = useRouter();
 	const actions = useActions();
-	const currentUser = useSelector(selectCurrentUser());
+	const currentUser = useSelector(selectCurrentUser())!;
 	const groups = useSelector(selectGroups());
 	const loadThreadDataTask = useTask(actions.loadThreadData);
 	const threadId = router.match.params.thread;

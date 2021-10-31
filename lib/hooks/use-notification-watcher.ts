@@ -6,23 +6,26 @@ import { useSetup } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, DELETE_CARD } from '../store/action-types';
 import {
 	areEqualArrayOfContracts,
+	selectCurrentUser,
 	selectNotifications,
 	selectProduct,
 } from '../store/selectors';
-import { useTask } from './use-task';
 
 export const useNotificationWatcher = ({ onNotificationsChange }) => {
 	const { sdk } = useSetup()!;
 	const dispatch = useDispatch();
 	const product = useSelector(selectProduct());
+	const currentUser = useSelector(selectCurrentUser());
 	const notifications = useSelector(
 		selectNotifications(),
 		areEqualArrayOfContracts,
 	);
-	const streamRef = React.useRef<any>(null);
-	const unmountedRef = React.useRef(false);
 
-	const task = useTask(async (currentUser) => {
+	React.useEffect(() => {
+		if (!currentUser) {
+			return;
+		}
+
 		const query: JSONSchema = {
 			type: 'object',
 			required: ['type'],
@@ -79,30 +82,23 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 			},
 		};
 
-		streamRef.current = await sdk.stream(query);
+		const stream = sdk.stream(query);
 
-		if (unmountedRef.current) {
-			if (streamRef.current) {
-				streamRef.current.close();
-			}
-			return;
-		}
-
-		streamRef.current.emit('queryDataset', {
+		stream.emit('queryDataset', {
 			data: {
 				id: uuid(),
 				schema: query,
 			},
 		});
 
-		streamRef.current.on('dataset', ({ data: { cards } }) => {
+		stream.on('dataset', ({ data: { cards } }) => {
 			dispatch({
 				type: SET_CARDS,
 				payload: cards,
 			});
 		});
 
-		streamRef.current.on('update', ({ data, error }) => {
+		stream.on('update', ({ data, error }) => {
 			if (error) {
 				console.error(error);
 				return;
@@ -120,23 +116,15 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 				});
 			}
 		});
-	});
 
-	React.useEffect(() => {
 		return () => {
-			unmountedRef.current = true;
-
-			if (streamRef.current) {
-				streamRef.current.close();
-			}
+			stream.close();
 		};
-	}, []);
+	}, [sdk, currentUser?.id, product]);
 
 	React.useEffect(() => {
 		if (onNotificationsChange) {
 			onNotificationsChange(notifications);
 		}
 	}, [notifications]);
-
-	return task;
 };
