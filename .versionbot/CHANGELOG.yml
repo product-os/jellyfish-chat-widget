@@ -1,4 +1,15 @@
 - commits:
+    - subject: Adapt to sync stream creation
+      hash: 665cf7e62b1de1661ce2bb891a9475e72d20967d
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: karaxuna
+      nested: []
+  version: 12.5.0
+  date: 2021-11-01T14:02:49.026Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to v7'
       hash: ac70165a8b0310248eff9b7197cbf076d77c7da2
       body: |
