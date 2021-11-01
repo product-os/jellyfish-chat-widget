@@ -45,15 +45,11 @@ export const Layout = ({
 	const setGroups = useTask(actions.setGroups);
 	const history = useHistory();
 
-	const watchNotifications = useNotificationWatcher({
+	useNotificationWatcher({
 		onNotificationsChange,
 	});
 
-	const combinedTask = useCombineTasks(
-		fetchThreads,
-		setCurrentUser,
-		watchNotifications,
-	);
+	const combinedTask = useCombineTasks(fetchThreads, setCurrentUser);
 
 	React.useEffect(() => {
 		(async () => {
