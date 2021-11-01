@@ -1,4 +1,15 @@
 - commits:
+    - subject: Fix fetching threads
+      hash: 965315e6b7d09102278f5aed402971ffb06b3bc5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: karaxuna
+      nested: []
+  version: 12.5.1
+  date: 2021-11-01T19:52:59.553Z
+- commits:
     - subject: Adapt to sync stream creation
       hash: 665cf7e62b1de1661ce2bb891a9475e72d20967d
       body: ''
