@@ -24,8 +24,8 @@ export const selectCardsByType = (type) => {
 	};
 };
 
-export const selectCardById = (id) => {
-	return (state) => {
+export const selectCardById = <TContract extends core.Contract>(id: string) => {
+	return (state): TContract | null => {
 		return state.cards[id] || null;
 	};
 };
@@ -53,8 +53,8 @@ export const selectThreads = () => {
 };
 
 export const selectCurrentUser = () => {
-	return (state) => {
-		return selectCardById(state.currentUser)(state);
+	return (state): core.UserContract | null => {
+		return selectCardById<core.UserContract>(state.currentUser)(state);
 	};
 };
 

@@ -35,7 +35,7 @@ export const CreateThread: React.FunctionComponent<any> = ({
 	// trigger that uses the types
 	const types = [];
 	const { sdk, environment } = useSetup()!;
-	const currentUser = useSelector(selectCurrentUser());
+	const currentUser = useSelector(selectCurrentUser())!;
 	const [subject, setSubject] = React.useState('');
 	const [text, setText] = React.useState('');
 	const [files, setFiles] = React.useState<any>([]);
