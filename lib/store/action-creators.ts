@@ -173,7 +173,7 @@ export const fetchThreads = (ctx: ActionCreatorContext) => {
 	return async ({ limit }) => {
 		const state = ctx.store.getState();
 
-		const cards = ctx.sdk.query(state.query, {
+		const cards = await ctx.sdk.query(state.query, {
 			skip: selectThreads()(state).length,
 			limit,
 			sortBy: ['created_at'],
