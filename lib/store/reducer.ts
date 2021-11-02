@@ -33,14 +33,13 @@ const extractLinksFromCards = (threads) => {
 	}, []);
 };
 
-export const createReducer = ({ product, productTitle, inbox, query }) => {
+export const createReducer = ({ product, productTitle, inbox }) => {
 	const initialState = {
 		product,
 		productTitle,
 		inbox,
 		cards: {} as { [key: string]: core.Contract[] },
 		currentUser: null,
-		query,
 	};
 
 	return (state = initialState, action: any = {}) => {

@@ -8,7 +8,8 @@ import React from 'react';
 import { Flex, useTheme } from 'rendition';
 import styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
-import { helpers } from '@balena/jellyfish-ui-components';
+import { useStore } from 'react-redux';
+import { helpers, useSetup } from '@balena/jellyfish-ui-components';
 import { Task } from './task';
 import {
 	useActions,
@@ -18,6 +19,8 @@ import {
 } from '../hooks';
 import { INITIAL_FETCH_CONVERSATIONS_LIMIT } from '../constants';
 import { Header } from './header';
+import { selectCardById, selectThreadListQuery } from '../store/selectors';
+import { SET_CARDS } from '../store/action-types';
 
 const ChatWrapper = styled(Flex)`
 	p {
@@ -40,6 +43,8 @@ export const Layout = ({
 }) => {
 	const theme = useTheme();
 	const actions = useActions();
+	const store = useStore();
+	const { sdk } = useSetup()!;
 	const fetchThreads = useTask(actions.fetchThreads);
 	const setCurrentUser = useTask(actions.setCurrentUser);
 	const setGroups = useTask(actions.setGroups);
@@ -52,14 +57,41 @@ export const Layout = ({
 	const combinedTask = useCombineTasks(fetchThreads, setCurrentUser);
 
 	React.useEffect(() => {
-		(async () => {
-			fetchThreads.exec({
-				limit: INITIAL_FETCH_CONVERSATIONS_LIMIT,
-			});
+		setGroups.exec();
+		setCurrentUser.exec();
 
-			setGroups.exec();
-			setCurrentUser.exec();
-		})();
+		fetchThreads.exec({
+			limit: INITIAL_FETCH_CONVERSATIONS_LIMIT,
+		});
+
+		const threadListQuery = selectThreadListQuery()(store.getState());
+		const threadListStream = sdk.stream(threadListQuery);
+
+		threadListStream.on('update', ({ data, error }) => {
+			if (error) {
+				console.error(error);
+				return;
+			}
+
+			if (data.type === 'insert') {
+				store.dispatch({
+					type: SET_CARDS,
+					payload: [data.after],
+				});
+			} else if (data.type === 'update') {
+				const existing = selectCardById(data.after.id)(store.getState());
+				if (existing) {
+					store.dispatch({
+						type: SET_CARDS,
+						payload: [data.after],
+					});
+				}
+			}
+		});
+
+		return () => {
+			threadListStream.close();
+		};
 	}, []);
 
 	React.useEffect(() => {
