@@ -1,4 +1,15 @@
 - commits:
+    - subject: Improve stream event handling
+      hash: 60359d8f522f904f7438ee359064c0d0b1359fdb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: karaxuna
+      nested: []
+  version: 12.5.3
+  date: 2021-11-03T12:16:49.755Z
+- commits:
     - subject: Stream thread updates
       hash: 35417f4f60b8ceaf56977ed29239caf9c6107912
       body: ''
