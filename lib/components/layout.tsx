@@ -19,7 +19,11 @@ import {
 } from '../hooks';
 import { INITIAL_FETCH_CONVERSATIONS_LIMIT } from '../constants';
 import { Header } from './header';
-import { selectCardById, selectThreadListQuery } from '../store/selectors';
+import {
+	selectCardById,
+	selectThreadListQuery,
+	selectThreads,
+} from '../store/selectors';
 import { SET_CARDS } from '../store/action-types';
 
 const ChatWrapper = styled(Flex)`
@@ -73,14 +77,31 @@ export const Layout = ({
 				return;
 			}
 
-			if (data.type === 'insert') {
-				store.dispatch({
-					type: SET_CARDS,
-					payload: [data.after],
-				});
-			} else if (data.type === 'update') {
-				const existing = selectCardById(data.after.id)(store.getState());
-				if (existing) {
+			/*
+			 * Apply changes only if:
+			 * 1. Thread already exists in cache;
+			 * 2. Thread that did not exist has the highest timestamp;
+			 */
+			if (data.type === 'insert' || data.type === 'update') {
+				const currentState = store.getState();
+
+				if (selectCardById(data.after.id)(currentState)) {
+					return store.dispatch({
+						type: SET_CARDS,
+						payload: [data.after],
+					});
+				}
+
+				const nextState = {
+					...currentState,
+					cards: {
+						[data.after.id]: data.after,
+					},
+				};
+
+				const sortedThreads = selectThreads()(nextState);
+
+				if (sortedThreads[0]?.id === data.after.id) {
 					store.dispatch({
 						type: SET_CARDS,
 						payload: [data.after],
