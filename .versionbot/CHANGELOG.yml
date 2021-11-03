@@ -1,4 +1,15 @@
 - commits:
+    - subject: Stream thread updates
+      hash: 35417f4f60b8ceaf56977ed29239caf9c6107912
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: karaxuna
+      nested: []
+  version: 12.5.2
+  date: 2021-11-03T09:55:08.890Z
+- commits:
     - subject: Fix fetching threads
       hash: 965315e6b7d09102278f5aed402971ffb06b3bc5
       body: ''
