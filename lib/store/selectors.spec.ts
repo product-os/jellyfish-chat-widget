@@ -51,7 +51,6 @@ describe('selectMessages', () => {
 			product: 'jelly-chat-test',
 			productTitle: 'Jelly Chat Test',
 			inbox: 'paid',
-			query: null,
 		});
 	});
 
