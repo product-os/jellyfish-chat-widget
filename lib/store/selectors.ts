@@ -8,7 +8,46 @@ import filter from 'lodash/filter';
 import orderBy from 'lodash/orderBy';
 import get from 'lodash/get';
 import every from 'lodash/every';
-import { core } from '@balena/jellyfish-types';
+import { core, JSONSchema } from '@balena/jellyfish-types';
+
+export const selectThreadListQuery = () => {
+	return (state): JSONSchema => {
+		return {
+			$$links: {
+				'has attached element': {
+					type: 'object',
+					additionalProperties: true,
+					properties: {
+						type: {
+							enum: ['message@1.0.0', 'create@1.0.0'],
+						},
+					},
+				},
+			},
+			properties: {
+				links: {
+					type: 'object',
+					additionalProperties: true,
+				},
+				type: {
+					const: 'support-thread@1.0.0',
+				},
+				active: {
+					const: true,
+				},
+				data: {
+					properties: {
+						product: {
+							const: state.product,
+						},
+					},
+					required: ['product'],
+				},
+			},
+			additionalProperties: true,
+		};
+	};
+};
 
 export const selectProduct = () => {
 	return (state) => {

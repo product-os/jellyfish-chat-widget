@@ -13,7 +13,12 @@ import type { Store } from 'redux';
 import { v4 as uuid } from 'uuid';
 import { helpers, FILE_PROXY_MESSAGE } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, SET_CURRENT_USER, SET_GROUPS } from './action-types';
-import { selectCardById, selectCurrentUser, selectThreads } from './selectors';
+import {
+	selectCardById,
+	selectCurrentUser,
+	selectThreadListQuery,
+	selectThreads,
+} from './selectors';
 import type { core, JSONSchema } from '@balena/jellyfish-types';
 import type { JellyfishSDK } from '@balena/jellyfish-client-sdk';
 
@@ -172,8 +177,9 @@ export const initiateThread = (ctx: ActionCreatorContext) => {
 export const fetchThreads = (ctx: ActionCreatorContext) => {
 	return async ({ limit }) => {
 		const state = ctx.store.getState();
+		const query = selectThreadListQuery()(state);
 
-		const cards = await ctx.sdk.query(state.query, {
+		const cards = await ctx.sdk.query(query, {
 			skip: selectThreads()(state).length,
 			limit,
 			sortBy: ['created_at'],

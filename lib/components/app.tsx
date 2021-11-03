@@ -29,56 +29,18 @@ export const App = React.memo<any>(
 	}) => {
 		const { environment } = useSetup()!;
 
-		const query = React.useMemo(() => {
-			return {
-				$$links: {
-					'has attached element': {
-						type: 'object',
-						additionalProperties: true,
-						properties: {
-							type: {
-								enum: ['message@1.0.0', 'create@1.0.0'],
-							},
-						},
-					},
-				},
-				properties: {
-					links: {
-						type: 'object',
-						additionalProperties: true,
-					},
-					type: {
-						const: 'support-thread@1.0.0',
-					},
-					active: {
-						const: true,
-					},
-					data: {
-						properties: {
-							product: {
-								const: product,
-							},
-						},
-						required: ['product'],
-					},
-				},
-				additionalProperties: true,
-			};
-		}, [product]);
-
 		const store = React.useMemo(() => {
 			return createStore(
 				{
 					product,
 					productTitle,
 					inbox,
-					query,
 				},
 				{
 					environment,
 				},
 			);
-		}, [product, productTitle, inbox, query, environment]);
+		}, [product, productTitle, inbox, environment]);
 
 		return (
 			<StoreProvider store={store}>
