@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.8'
+      hash: 6af2d315531c51a1b72d60ee4093e4a1335e96b8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.10
+  date: 2021-11-09T00:25:59.515Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.22.8'
       hash: 7634986f521480b9c745ed0e22b18adfca486ac4
       body: ''
