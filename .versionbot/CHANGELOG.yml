@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump sinon to v12
+      hash: b1c4f371eb4dc5604597759828429199e93463a5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.5.12
+  date: 2021-11-10T00:42:19.113Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 91fb6c3c50e54370c2760d7f78bf3a97d3a0be1f
       body: ''
