@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 9442b4f1027c26ae68bdd70f00e79c42c01f1d07
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.15
+  date: 2021-11-13T02:24:50.990Z
+- commits:
     - subject: 'patch: Update dependency rendition to ^21.12.7'
       hash: 3a21017e794ea0bc41f0a245b2ed3000a1a3f86c
       body: ''
