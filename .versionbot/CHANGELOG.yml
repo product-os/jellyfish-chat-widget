@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump lint-staged to v12
+      hash: a7b359d1bb283a803806eccbfe20ba24234ac215
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.5.23
+  date: 2021-11-15T23:15:01.792Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 6ab60357530a63789004f6109a5eb949befabbb2
       body: ''
