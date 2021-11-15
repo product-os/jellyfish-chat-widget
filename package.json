@@ -42,7 +42,7 @@
     "check": "jellycheck"
   },
   "author": "Balena.io. <hello@balena.io>",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "peerDependencies": {
     "@balena/jellyfish-ui-components": "^13.0.9",
     "rendition": "^21.12.7",
