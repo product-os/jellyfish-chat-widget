@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 3fa46fc81d3ffec349a01c408fa8fe6754ca0849
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.24
+  date: 2021-11-16T02:08:17.987Z
+- commits:
     - subject: Bump lint-staged to v12
       hash: a7b359d1bb283a803806eccbfe20ba24234ac215
       body: ''
