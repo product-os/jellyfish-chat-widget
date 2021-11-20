@@ -1,9 +1,3 @@
-/*
- * Copyright (C) Balena.io - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- */
-
 import sinon from 'sinon';
 import Bluebird from 'bluebird';
 import { SET_CARDS } from './action-types';
