@@ -1,9 +1,3 @@
-/*
- * Copyright (C) Balena.io - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- */
-
 import React from 'react';
 import { useStore } from 'react-redux';
 import { useSetup } from '@balena/jellyfish-ui-components';
