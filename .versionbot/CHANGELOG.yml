@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency lint-staged to ^12.1.2'
+      hash: e73e159e6f783ec81af05d6773653ff38daab92a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.39
+  date: 2021-11-23T03:20:49.438Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 1ac2ce785797a486095f6b74f730cba913e76016
       body: ''
