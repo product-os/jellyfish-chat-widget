@@ -1,4 +1,23 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 1ac2ce785797a486095f6b74f730cba913e76016
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.11'
+      hash: 13668717cafaf033705fc1163d61cea63eadd0f3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.38
+  date: 2021-11-23T03:11:58.158Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.21'
       hash: 5032ba5f98c59cf3f160c98bdd9cd737e8939532
       body: ''
