@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: fbc7aa578f480ca135420fd68c1ea6c9d8a50ec2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 12.5.43
+  date: 2021-11-25T00:31:12.357Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 14ba21ddc51efcc2f574d2bebcc403920a8ebe9e
       body: ''
