@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 73128d6883711f78208fa856144867403e0c7739
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.46
+  date: 2021-11-25T10:02:57.713Z
+- commits:
     - subject: Remove jellycheck
       hash: 0046ae43973b00b64792c8bc7b9f8642f4eb51ce
       body: ''
