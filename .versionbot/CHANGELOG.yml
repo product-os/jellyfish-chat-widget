@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency typescript to ^4.5.2'
+      hash: f9b5b2cef90b2876e60ef20f2b9396d849b2a1a1
+      body: |
+        Update typescript from 4.4.4 to 4.5.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.44
+  date: 2021-11-25T00:41:16.935Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
       hash: fbc7aa578f480ca135420fd68c1ea6c9d8a50ec2
       body: ''
