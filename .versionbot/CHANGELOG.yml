@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove jellycheck
+      hash: 0046ae43973b00b64792c8bc7b9f8642f4eb51ce
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.5.45
+  date: 2021-11-25T02:06:40.370Z
+- commits:
     - subject: 'patch: Update dependency typescript to ^4.5.2'
       hash: f9b5b2cef90b2876e60ef20f2b9396d849b2a1a1
       body: |
