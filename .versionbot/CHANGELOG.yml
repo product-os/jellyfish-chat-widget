@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 0fc01979ef8a391ea25cf625a69ed66c388befff
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.48
+  date: 2021-11-26T10:40:49.435Z
+- commits:
     - subject: Use product-os/renovate-config
       hash: c01574ccfc2ebeb67b42c9fed6525dbda09fe579
       body: ''
