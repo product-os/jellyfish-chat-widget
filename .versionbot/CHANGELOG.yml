@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.2'
+      hash: aafd8129de81ef2cdf7c8a1870636080667c3831
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.69
+  date: 2021-12-08T17:37:41.989Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.1'
       hash: 311faba8d41c955ee9060d355fd0278a3ee508a7
       body: ''
