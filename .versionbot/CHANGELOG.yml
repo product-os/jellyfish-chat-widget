@@ -1,4 +1,24 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.3'
+      hash: 7e53d4b32acf921acefd5303ec721a6f22fdf3d5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update dependency typescript to ^4.5.3'
+      hash: 334ff9a1a9a856e1c1a2c0a1e84371a013614683
+      body: |
+        Update typescript from 4.5.2 to 4.5.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.70
+  date: 2021-12-10T04:37:45.316Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.2'
       hash: aafd8129de81ef2cdf7c8a1870636080667c3831
       body: ''
