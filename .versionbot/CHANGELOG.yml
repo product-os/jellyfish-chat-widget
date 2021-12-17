@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Bluebird
+      hash: 80cbf1a426e1d18b4d7e8fd57a91f7d09eef7c64
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.5.80
+  date: 2021-12-17T02:17:42.545Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.8'
       hash: a0f04561c44872152a39c09fe880e810e48e21fe
       body: ''
