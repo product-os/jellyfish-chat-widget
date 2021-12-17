@@ -1,5 +1,4 @@
 import sinon from 'sinon';
-import Bluebird from 'bluebird';
 import { SET_CARDS } from './action-types';
 import noop from 'lodash/noop';
 import omit from 'lodash/omit';
@@ -154,11 +153,11 @@ test('getCard debounces calls to fetch the same card ID', async () => {
 	q1Resolver([card]);
 
 	// Wait for both actions to return
-	const cards = await Bluebird.all([cardPromise1, cardPromise2]);
+	const [card1, card2] = await Promise.all([cardPromise1, cardPromise2]);
 
 	// Verify expected card was returned each time
-	expect(cards[0]).toEqual(card);
-	expect(cards[1]).toEqual(card);
+	expect(card1).toEqual(card);
+	expect(card2).toEqual(card);
 
 	// And that the SDK query method was only called once
 	// Both calls ended up awaiting the same response
