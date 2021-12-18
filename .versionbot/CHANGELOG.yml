@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: de818d0a9e05b3858313bfb4cbd8762f6e8f79e1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 12.5.81
+  date: 2021-12-18T01:55:39.581Z
+- commits:
     - subject: Remove Bluebird
       hash: 80cbf1a426e1d18b4d7e8fd57a91f7d09eef7c64
       body: ''
