@@ -1,4 +1,21 @@
 - commits:
+    - subject: Update to latest version of rendition
+      hash: cd11e1f2ad4d44e420d7dae7f868f3266ecc9c00
+      body: |
+        This upgrade also means upgrading to the latest version of ui-components
+        that depends on v25.x of rendition.
+        The major changes in rendition do not affect this module, but since the
+        peer dependency has changed, this is a breaking change.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 13.0.0
+  date: 2022-01-14T14:17:05.497Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: a72b99eea2fd4c6d337fb102c0fa55ed3d9c65da
       body: ''
