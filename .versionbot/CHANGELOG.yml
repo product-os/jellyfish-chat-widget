@@ -1,4 +1,24 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.39'
+      hash: a582b1eadc1ba4e9f5fe1134b098019ede90b6a3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update dependency typedoc to ^0.22.11'
+      hash: 60adcccf0bfc3a0fccd9df6221f6f95f8176d20f
+      body: |
+        Update typedoc from 0.22.10 to 0.22.11
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 13.0.7
+  date: 2022-01-19T12:04:47.882Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.5'
       hash: 83598684dd64ee59acee16f25f3bb1e7721399c3
       body: ''
