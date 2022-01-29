@@ -1,7 +1,19 @@
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: Update external-non-major
+      hash: 0ebd342a295a0fdedeedb904fa6f11cda7a33a1c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 13.0.14
+  title: Update external-non-major
+  date: 2022-01-29T00:11:18.287Z
+- commits:
+    - subject: "patch: Update external-non-major"
       hash: e017a25c77cdb623f6e46db70de7d167dc80cce5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -10,9 +22,9 @@
   version: 13.0.13
   date: 2022-01-25T13:56:20.771Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^14.0.8"
       hash: 470e5cf0bd5afe06cafdcc20e91669b72c884e62
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -21,9 +33,9 @@
   version: 13.0.12
   date: 2022-01-24T10:33:26.553Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^14.0.7"
       hash: 04400499f72740dfbf4cd5ad6fd779000393a937
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -32,9 +44,9 @@
   version: 13.0.11
   date: 2022-01-23T13:21:38.858Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.3.0'
+    - subject: "patch: Update dependency lint-staged to ^12.3.0"
       hash: 4f739a0b4fb654009ee61d979ab9f902dc426743
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -43,9 +55,9 @@
   version: 13.0.10
   date: 2022-01-23T11:48:06.785Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 8da269660fd013dce3f04e302600d87713e24e45
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -54,9 +66,9 @@
   version: 13.0.9
   date: 2022-01-22T02:36:04.524Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^14.0.6"
       hash: 0f2f6bcb3ac47ada20bfbf3b5e9640739824bbcb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -65,15 +77,15 @@
   version: 13.0.8
   date: 2022-01-22T02:26:12.621Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.39'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.39"
       hash: a582b1eadc1ba4e9f5fe1134b098019ede90b6a3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency typedoc to ^0.22.11'
+    - subject: "patch: Update dependency typedoc to ^0.22.11"
       hash: 60adcccf0bfc3a0fccd9df6221f6f95f8176d20f
       body: |
         Update typedoc from 0.22.10 to 0.22.11
@@ -85,9 +97,9 @@
   version: 13.0.7
   date: 2022-01-19T12:04:47.882Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^14.0.5"
       hash: 83598684dd64ee59acee16f25f3bb1e7721399c3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -96,9 +108,9 @@
   version: 13.0.6
   date: 2022-01-17T04:53:18.032Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.2'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^14.0.2"
       hash: 650d87cfa790280677eccd55c1235b6e0e8d3e98
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -107,9 +119,9 @@
   version: 13.0.5
   date: 2022-01-16T13:57:48.739Z
 - commits:
-    - subject: 'patch: Update dependency eslint to ^8.7.0'
+    - subject: "patch: Update dependency eslint to ^8.7.0"
       hash: cc020e67fe165031618440fb7b96d6a4f97f4759
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -118,9 +130,9 @@
   version: 13.0.4
   date: 2022-01-16T03:26:17.744Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^14.0.1'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^14.0.1"
       hash: e5f51488f301875922b77e2099ac917a60821408
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -129,9 +141,9 @@
   version: 13.0.3
   date: 2022-01-15T08:05:07.596Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.37'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.37"
       hash: 2ac844ec690348f4fae38384991caafcf602a887
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -140,9 +152,9 @@
   version: 13.0.2
   date: 2022-01-15T02:03:07.824Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.1.3'
+    - subject: "patch: Update dependency ts-jest to ^27.1.3"
       hash: ff281408903ae8af27318010115cc072d7569c1e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -168,9 +180,9 @@
   version: 13.0.0
   date: 2022-01-14T14:17:05.497Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: a72b99eea2fd4c6d337fb102c0fa55ed3d9c65da
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -179,9 +191,9 @@
   version: 12.5.104
   date: 2022-01-13T17:38:09.104Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6493ec87470f22a541f552d244e78f32aa671596
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -190,9 +202,9 @@
   version: 12.5.103
   date: 2022-01-12T12:01:18.436Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.19'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.19"
       hash: 68661c4373b256a2601d32aa7b5655249f6089a2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -201,9 +213,9 @@
   version: 12.5.102
   date: 2022-01-10T18:59:33.461Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.34'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.34"
       hash: 034e8b9e9118b28be9eb6bef295eb6cf78744973
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -212,9 +224,9 @@
   version: 12.5.101
   date: 2022-01-10T16:41:38.557Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: d1a5ed0e02b8329d0a07a22be4430b46ada4fe34
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -223,9 +235,9 @@
   version: 12.5.100
   date: 2022-01-08T00:45:47.451Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.18'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.18"
       hash: 1e2969d2d55046a1746b2231fb612d1177fa86c5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -234,9 +246,9 @@
   version: 12.5.99
   date: 2022-01-08T00:34:16.617Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.17'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.17"
       hash: 5dc03381fd7b091fdced7d08bdaeaf1bf9ac6321
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -245,9 +257,9 @@
   version: 12.5.98
   date: 2022-01-03T12:23:58.276Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.5'
+    - subject: "patch: Update dependency lint-staged to ^12.1.5"
       hash: c78d9c6aff18c5e8580a9960aae05ec41faa779a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -256,9 +268,9 @@
   version: 12.5.97
   date: 2022-01-03T02:00:09.468Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.32'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.32"
       hash: 2eb1105801ebc6a6b4c7ca5ba3bd29e68c739d3a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -267,9 +279,9 @@
   version: 12.5.96
   date: 2022-01-02T22:45:42.420Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.16'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.16"
       hash: 31589c7ca5ce00aac9e1f2ecd176b3ff62f63842
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -278,9 +290,9 @@
   version: 12.5.95
   date: 2022-01-01T05:05:19.423Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c04c06d67b7392df12c598bf62f81294a687b5ff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -289,9 +301,9 @@
   version: 12.5.94
   date: 2022-01-01T02:55:45.998Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: d82ed080ebd5481ad21e0339ff457bdcf1629a04
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -300,9 +312,9 @@
   version: 12.5.93
   date: 2022-01-01T00:54:11.910Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.14'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.14"
       hash: f57d1bd4526aa23d84883df3e6814078493806e6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -311,9 +323,9 @@
   version: 12.5.92
   date: 2021-12-28T17:06:07.267Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.13'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.13"
       hash: 36066fcb5e9373402059508344eb3a921a033120
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -322,9 +334,9 @@
   version: 12.5.91
   date: 2021-12-25T03:33:17.364Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.4'
+    - subject: "patch: Update dependency lint-staged to ^12.1.4"
       hash: bafb33c5c68cbaa83cc9a673ead4b4dd3443697c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -333,9 +345,9 @@
   version: 12.5.90
   date: 2021-12-25T01:55:33.936Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.30'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.30"
       hash: c8dddb9d291c54f654ab396453a98423442c1824
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -344,9 +356,9 @@
   version: 12.5.89
   date: 2021-12-25T01:41:53.920Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.12'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.12"
       hash: 13edf20601b07c330d180324af51d71968195f54
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -355,9 +367,9 @@
   version: 12.5.88
   date: 2021-12-24T19:13:59.089Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.29'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.29"
       hash: 12197eec96c1baf430f724a368edac85df2ff0da
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -366,9 +378,9 @@
   version: 12.5.87
   date: 2021-12-24T16:46:02.098Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.11'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.11"
       hash: 9bd4610511d829d950cdabcd99b55c1464caadcb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -377,9 +389,9 @@
   version: 12.5.86
   date: 2021-12-19T04:36:29.325Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ffeb1201e3324c001f35fc95b22ab2078bc3f8ba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -388,9 +400,9 @@
   version: 12.5.85
   date: 2021-12-19T02:53:05.183Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.10'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.10"
       hash: b79ad386977e1c9c086dce780ba31ef1e7a219fd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -399,9 +411,9 @@
   version: 12.5.84
   date: 2021-12-18T19:45:01.261Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.3'
+    - subject: "patch: Update dependency lint-staged to ^12.1.3"
       hash: 32ea9b100b200f71c29f7e94e89b083eac2abd61
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -410,9 +422,9 @@
   version: 12.5.83
   date: 2021-12-18T11:12:20.281Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 80c84848035b21617b5090a08d4ff18215ceb244
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -421,9 +433,9 @@
   version: 12.5.82
   date: 2021-12-18T02:06:11.225Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: de818d0a9e05b3858313bfb4cbd8762f6e8f79e1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -434,7 +446,7 @@
 - commits:
     - subject: Remove Bluebird
       hash: 80cbf1a426e1d18b4d7e8fd57a91f7d09eef7c64
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -445,9 +457,9 @@
   version: 12.5.80
   date: 2021-12-17T02:17:42.545Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.8"
       hash: a0f04561c44872152a39c09fe880e810e48e21fe
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -456,9 +468,9 @@
   version: 12.5.79
   date: 2021-12-14T11:57:59.943Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: cffdbef4ff550c4a52777973c818c592d165476b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -467,9 +479,9 @@
   version: 12.5.78
   date: 2021-12-14T08:56:52.356Z
 - commits:
-    - subject: 'Drop depcheck, bump typescript'
+    - subject: Drop depcheck, bump typescript
       hash: 703584ebbb9b290ae14ec80460173297854d12f6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -480,9 +492,9 @@
   version: 12.5.77
   date: 2021-12-14T02:31:28.964Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.6'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.6"
       hash: 317b046c81e612b33137164e0419168f9144d1cc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -491,9 +503,9 @@
   version: 12.5.76
   date: 2021-12-12T23:12:30.855Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.5"
       hash: bf8bdb54b2a2c1c0df037eee6cdd58d680c126bc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -502,9 +514,9 @@
   version: 12.5.75
   date: 2021-12-12T16:01:56.218Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.25'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.25"
       hash: 30a87f851d82770b907acc451a6ef856690f8664
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -513,9 +525,9 @@
   version: 12.5.74
   date: 2021-12-11T11:34:18.098Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.24'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.24"
       hash: c61a20d62ac3f2f8631902f5ca8c4cf3d072f721
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -524,9 +536,9 @@
   version: 12.5.73
   date: 2021-12-11T09:15:38.673Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.39'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.39"
       hash: 3e30246d5ffa31d3944fcbc841df20965d30f9e1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -535,9 +547,9 @@
   version: 12.5.72
   date: 2021-12-11T01:54:14.514Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: b3393b874b30fcce08cae4375789cfc93a667407
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -546,15 +558,15 @@
   version: 12.5.71
   date: 2021-12-11T01:43:07.086Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.3'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.3"
       hash: 7e53d4b32acf921acefd5303ec721a6f22fdf3d5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency typescript to ^4.5.3'
+    - subject: "patch: Update dependency typescript to ^4.5.3"
       hash: 334ff9a1a9a856e1c1a2c0a1e84371a013614683
       body: |
         Update typescript from 4.5.2 to 4.5.3
@@ -566,9 +578,9 @@
   version: 12.5.70
   date: 2021-12-10T04:37:45.316Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.2'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.2"
       hash: aafd8129de81ef2cdf7c8a1870636080667c3831
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -577,9 +589,9 @@
   version: 12.5.69
   date: 2021-12-08T17:37:41.989Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.1'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.1"
       hash: 311faba8d41c955ee9060d355fd0278a3ee508a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -588,7 +600,7 @@
   version: 12.5.68
   date: 2021-12-06T18:50:43.514Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.1.0"
       hash: 33c56d6a0596fcf18ae2c7f73bfcc753b60fcbdc
       body: |
         Update @balena/jellyfish-ui-components from 13.0.40 to 13.1.0
@@ -600,9 +612,9 @@
   version: 12.5.67
   date: 2021-12-06T14:04:58.325Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.40'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.40"
       hash: 57dcddbec463dce6ae431f2be517b6d861f3b795
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -611,9 +623,9 @@
   version: 12.5.66
   date: 2021-12-05T11:55:04.950Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.23'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.23"
       hash: 56c1df3f06890a9a76052d62fbdfbe9ef6ff22a9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -622,9 +634,9 @@
   version: 12.5.65
   date: 2021-12-05T10:55:02.535Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.1.0'
+    - subject: "patch: Update dependency ts-jest to ^27.1.0"
       hash: 68d249949151589a65cbb863e02babd915076545
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -633,9 +645,9 @@
   version: 12.5.64
   date: 2021-12-05T10:42:06.179Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.38'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.38"
       hash: e44824fd283ff161d75871b7e105949963440fd1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -644,9 +656,9 @@
   version: 12.5.63
   date: 2021-12-05T10:27:46.986Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.39'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.39"
       hash: 5d14a5b0ac63d0621ca26521baf0dcb99fc6393a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -655,9 +667,9 @@
   version: 12.5.62
   date: 2021-12-04T22:37:04.225Z
 - commits:
-    - subject: 'patch: Update dependency eslint to ^8.4.0'
+    - subject: "patch: Update dependency eslint to ^8.4.0"
       hash: 0aee99ce0213c8796696f64e7c29e1d48f37b5e0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -666,9 +678,9 @@
   version: 12.5.61
   date: 2021-12-04T20:55:41.050Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 0431a9e61ef644d8a8b7a9c6e9b7d5396d7ade2d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -677,9 +689,9 @@
   version: 12.5.60
   date: 2021-12-04T20:45:54.545Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 28be1f38754287414dc4c650607927ccc812acde
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -688,9 +700,9 @@
   version: 12.5.59
   date: 2021-12-04T01:57:29.358Z
 - commits:
-    - subject: 'patch: Update dependency jest to ^27.4.3'
+    - subject: "patch: Update dependency jest to ^27.4.3"
       hash: 7f8727f0b58fe3e29f3bde12054cd406a6b3f4a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -699,9 +711,9 @@
   version: 12.5.58
   date: 2021-12-04T00:26:22.634Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.35'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.35"
       hash: 097e9a6013267a466c545871796d6c280ec07986
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -710,15 +722,15 @@
   version: 12.5.57
   date: 2021-11-29T07:33:32.452Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e52568babb4f93aa94e28cf95a8de12be43b1187
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-config to v2'
+    - subject: "patch: Update dependency @balena/jellyfish-config to v2"
       hash: 53de078cc40b33a0f1087cf86e3f706ef5819bf5
       body: |
         Update @balena/jellyfish-config from 1.5.17 to 2.0.1
@@ -730,9 +742,9 @@
   version: 12.5.56
   date: 2021-11-29T07:23:42.724Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.32'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.32"
       hash: e9b0ab0a29fc918f17676e9cbc0f7d47336f1545
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -741,9 +753,9 @@
   version: 12.5.55
   date: 2021-11-27T09:07:24.102Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 3c88871c33f469f6aafcce1e3a75e1e52df30d40
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -752,9 +764,9 @@
   version: 12.5.54
   date: 2021-11-27T04:07:04.630Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.35'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.35"
       hash: c9dc895e72d5a7eee3da257af03b5f3c760fdc85
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -763,9 +775,9 @@
   version: 12.5.53
   date: 2021-11-27T03:56:13.846Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e298482f91fa3f34bc6bf30073157b4eb96f5e85
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -774,7 +786,7 @@
   version: 12.5.52
   date: 2021-11-26T20:25:38.613Z
 - commits:
-    - subject: 'patch: Update dependency @balena/lint to ^6.2.0'
+    - subject: "patch: Update dependency @balena/lint to ^6.2.0"
       hash: 24527e50248f4be48d8566688cb6715489dff964
       body: |
         Update @balena/lint from 6.1.1 to 6.2.0
@@ -786,9 +798,9 @@
   version: 12.5.51
   date: 2021-11-26T17:29:21.623Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.34'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.34"
       hash: 67ae1cdc533656e0519fdff3084c7a862fba9c6f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -797,9 +809,9 @@
   version: 12.5.50
   date: 2021-11-26T17:20:06.933Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.28'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.28"
       hash: 68cc2d7c8397f7c1920f2678b85d6633ee97bae0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -808,9 +820,9 @@
   version: 12.5.49
   date: 2021-11-26T12:32:29.152Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 0fc01979ef8a391ea25cf625a69ed66c388befff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -821,7 +833,7 @@
 - commits:
     - subject: Use product-os/renovate-config
       hash: c01574ccfc2ebeb67b42c9fed6525dbda09fe579
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -832,9 +844,9 @@
   version: 12.5.47
   date: 2021-11-26T04:22:34.383Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 73128d6883711f78208fa856144867403e0c7739
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -845,7 +857,7 @@
 - commits:
     - subject: Remove jellycheck
       hash: 0046ae43973b00b64792c8bc7b9f8642f4eb51ce
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -856,7 +868,7 @@
   version: 12.5.45
   date: 2021-11-25T02:06:40.370Z
 - commits:
-    - subject: 'patch: Update dependency typescript to ^4.5.2'
+    - subject: "patch: Update dependency typescript to ^4.5.2"
       hash: f9b5b2cef90b2876e60ef20f2b9396d849b2a1a1
       body: |
         Update typescript from 4.4.4 to 4.5.2
@@ -868,9 +880,9 @@
   version: 12.5.44
   date: 2021-11-25T00:41:16.935Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: fbc7aa578f480ca135420fd68c1ea6c9d8a50ec2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -879,9 +891,9 @@
   version: 12.5.43
   date: 2021-11-25T00:31:12.357Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 14ba21ddc51efcc2f574d2bebcc403920a8ebe9e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -890,9 +902,9 @@
   version: 12.5.42
   date: 2021-11-24T13:43:06.238Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.23'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.23"
       hash: e20fca87b565f7e0573a185983ef1c0906254571
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -901,9 +913,9 @@
   version: 12.5.41
   date: 2021-11-24T10:33:53.579Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 0f0f76c5de88d0f8e79c6f2bbb1e4e5a8d272b09
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -912,9 +924,9 @@
   version: 12.5.40
   date: 2021-11-24T08:51:16.167Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.2'
+    - subject: "patch: Update dependency lint-staged to ^12.1.2"
       hash: e73e159e6f783ec81af05d6773653ff38daab92a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -923,17 +935,17 @@
   version: 12.5.39
   date: 2021-11-23T03:20:49.438Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 1ac2ce785797a486095f6b74f730cba913e76016
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.11'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.11"
       hash: 13668717cafaf033705fc1163d61cea63eadd0f3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -942,9 +954,9 @@
   version: 12.5.38
   date: 2021-11-23T03:11:58.158Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.21'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.21"
       hash: 5032ba5f98c59cf3f160c98bdd9cd737e8939532
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -953,9 +965,9 @@
   version: 12.5.37
   date: 2021-11-22T04:40:40.091Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 25a589cceb4f60da9ca4f8b1caf5c84bc46b4776
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -964,9 +976,9 @@
   version: 12.5.36
   date: 2021-11-22T04:26:30.747Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f7ef747f4cff93c83497cac054bc90001c219119
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -977,7 +989,7 @@
 - commits:
     - subject: Bump external deps
       hash: c42c0726565ff9e49dd62443b2623e0237058992
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -988,9 +1000,9 @@
   version: 12.5.34
   date: 2021-11-22T03:51:07.128Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2dc145ca5f5a190fa89b049b7b8b9ab3e34207d1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -999,9 +1011,9 @@
   version: 12.5.33
   date: 2021-11-22T01:26:12.061Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ce4d57c413b3930fd3b9f4430137b822a575f589
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1010,9 +1022,9 @@
   version: 12.5.32
   date: 2021-11-21T18:17:59.931Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: dcdf4cb37a174e9a5f4eab9da2f0a8c9d6327c21
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1021,9 +1033,9 @@
   version: 12.5.31
   date: 2021-11-21T15:23:24.044Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7ef3c95d4ba8b424d5b4d1c2838ee3a59a465c53
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1034,7 +1046,7 @@
 - commits:
     - subject: Remove license headers
       hash: 3dd373d5db8924aef7669e24380f9e17875e4187
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1045,15 +1057,15 @@
   version: 12.5.29
   date: 2021-11-20T10:19:51.173Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.5'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^7.0.5"
       hash: 7dc4617427f48b9645ddbb205ee50821eb6f978b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellycheck to v1'
+    - subject: "patch: Update dependency @balena/jellycheck to v1"
       hash: 8b7406bbf1e33bfdb62a8cca9d9288138e8636ae
       body: |
         Update @balena/jellycheck from 0.1.8 to 1.0.0
@@ -1065,9 +1077,9 @@
   version: 12.5.28
   date: 2021-11-20T08:58:57.268Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.13'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.13"
       hash: a32377da39476ce03f7ad0029a294e6d80f33f16
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1076,9 +1088,9 @@
   version: 12.5.27
   date: 2021-11-16T08:46:44.784Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: a40d8b194f09233c5c8bb8182487fac88123087b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1087,9 +1099,9 @@
   version: 12.5.26
   date: 2021-11-16T04:11:31.038Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: d4e5992d6519cc75d8606a6247569eaf641a944a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1098,9 +1110,9 @@
   version: 12.5.25
   date: 2021-11-16T03:57:11.819Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 3fa46fc81d3ffec349a01c408fa8fe6754ca0849
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1111,7 +1123,7 @@
 - commits:
     - subject: Bump lint-staged to v12
       hash: a7b359d1bb283a803806eccbfe20ba24234ac215
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1122,9 +1134,9 @@
   version: 12.5.23
   date: 2021-11-15T23:15:01.792Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6ab60357530a63789004f6109a5eb949befabbb2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1133,9 +1145,9 @@
   version: 12.5.22
   date: 2021-11-15T09:43:24.672Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d16274dd05d9bab6b7b54553de4cc5a176a8c5a3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1144,9 +1156,9 @@
   version: 12.5.21
   date: 2021-11-15T04:20:27.105Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 835242ae33cbbd5c8d8d0ab69a18d4e8410a7600
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1157,7 +1169,7 @@
 - commits:
     - subject: Set license
       hash: 0707d75f0b8cb844aabfe966fd0b12f290aeb9d8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1168,9 +1180,9 @@
   version: 12.5.19
   date: 2021-11-15T03:46:38.445Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.9'
+    - subject: "patch: Update dependency typedoc to ^0.22.9"
       hash: 95ae41c6db4bc6ee929c071ab7c01acea91e21ce
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1179,9 +1191,9 @@
   version: 12.5.18
   date: 2021-11-14T22:52:53.258Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.9'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.9"
       hash: b1f97f6f6b2911183c3449e553d4150b0222e60c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1190,9 +1202,9 @@
   version: 12.5.17
   date: 2021-11-14T09:02:29.835Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.8"
       hash: 5904beb5936f3da2f64ad709e1ba63cfafc6e3db
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1201,9 +1213,9 @@
   version: 12.5.16
   date: 2021-11-13T04:23:40.697Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 9442b4f1027c26ae68bdd70f00e79c42c01f1d07
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1212,9 +1224,9 @@
   version: 12.5.15
   date: 2021-11-13T02:24:50.990Z
 - commits:
-    - subject: 'patch: Update dependency rendition to ^21.12.7'
+    - subject: "patch: Update dependency rendition to ^21.12.7"
       hash: 3a21017e794ea0bc41f0a245b2ed3000a1a3f86c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1223,9 +1235,9 @@
   version: 12.5.14
   date: 2021-11-13T00:23:07.902Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^13.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^13.0.6"
       hash: 3b37b9248629cd8dad7c56ef6c0f67787486f299
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1236,7 +1248,7 @@
 - commits:
     - subject: Bump sinon to v12
       hash: b1c4f371eb4dc5604597759828429199e93463a5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1247,9 +1259,9 @@
   version: 12.5.12
   date: 2021-11-10T00:42:19.113Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 91fb6c3c50e54370c2760d7f78bf3a97d3a0be1f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1258,9 +1270,9 @@
   version: 12.5.11
   date: 2021-11-10T00:20:48.365Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.8'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.8"
       hash: 6af2d315531c51a1b72d60ee4093e4a1335e96b8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1269,9 +1281,9 @@
   version: 12.5.10
   date: 2021-11-09T00:25:59.515Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.8'
+    - subject: "patch: Update dependency typedoc to ^0.22.8"
       hash: 7634986f521480b9c745ed0e22b18adfca486ac4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1280,9 +1292,9 @@
   version: 12.5.9
   date: 2021-11-07T02:51:55.608Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 403421ac6bb7a8063867b87f9d32364cc59067cc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1291,9 +1303,9 @@
   version: 12.5.8
   date: 2021-11-07T02:39:41.616Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: eda201c0817ff41668d93aa1e0766424b9470e5f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1302,9 +1314,9 @@
   version: 12.5.7
   date: 2021-11-06T11:41:08.377Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: ec515960efa5becc3964c3c3be08a4d28e36deb8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1313,9 +1325,9 @@
   version: 12.5.6
   date: 2021-11-06T09:08:34.264Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 27bd37d9325fd1517225cdeb39465d145059db99
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1324,7 +1336,7 @@
   version: 12.5.5
   date: 2021-11-05T23:48:25.783Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to v13'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to v13"
       hash: 7f417265ebf2db17026c7f5380a5f0481c3fff23
       body: |
         Update @balena/jellyfish-ui-components from 12.0.25 to 13.0.0
@@ -1338,7 +1350,7 @@
 - commits:
     - subject: Improve stream event handling
       hash: 60359d8f522f904f7438ee359064c0d0b1359fdb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1349,7 +1361,7 @@
 - commits:
     - subject: Stream thread updates
       hash: 35417f4f60b8ceaf56977ed29239caf9c6107912
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1360,7 +1372,7 @@
 - commits:
     - subject: Fix fetching threads
       hash: 965315e6b7d09102278f5aed402971ffb06b3bc5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1371,7 +1383,7 @@
 - commits:
     - subject: Adapt to sync stream creation
       hash: 665cf7e62b1de1661ce2bb891a9475e72d20967d
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -1380,7 +1392,7 @@
   version: 12.5.0
   date: 2021-11-01T14:02:49.026Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to v7'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to v7"
       hash: ac70165a8b0310248eff9b7197cbf076d77c7da2
       body: |
         Update @balena/jellyfish-client-sdk from 6.0.3 to 7.0.0
@@ -1392,9 +1404,9 @@
   version: 12.4.20
   date: 2021-10-31T19:04:49.479Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.25'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.25"
       hash: c1a1e0ab83fd972b4643de3bfdd1e844cbd4913e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1403,9 +1415,9 @@
   version: 12.4.19
   date: 2021-10-31T18:52:45.788Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.24'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.24"
       hash: 228918d9963a89290eecc1e8893459007531c530
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1414,9 +1426,9 @@
   version: 12.4.18
   date: 2021-10-30T13:28:11.020Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.23'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.23"
       hash: a591c852196c8ea252dc703cb14f81c4d95fa999
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1425,9 +1437,9 @@
   version: 12.4.17
   date: 2021-10-30T03:35:38.676Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.10'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.10"
       hash: 49ddd46863aff253ba0a6964c776e7dde23b7ef7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1436,9 +1448,9 @@
   version: 12.4.16
   date: 2021-10-30T01:16:59.188Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 6066ace43c58a26165638693021d1afdfda0d25b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1447,9 +1459,9 @@
   version: 12.4.15
   date: 2021-10-30T01:01:50.532Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.22'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.22"
       hash: 88500c6cad0e7be5141ee32ab378b5d724c0eee6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1458,9 +1470,9 @@
   version: 12.4.14
   date: 2021-10-29T18:17:59.136Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^6.0.3'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^6.0.3"
       hash: 562b1bfba340252d8172dabe04ef431f3a4a9514
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1469,9 +1481,9 @@
   version: 12.4.13
   date: 2021-10-29T15:32:39.491Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b86033cd187d675f820640c4c2258f704fab9999
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1480,9 +1492,9 @@
   version: 12.4.12
   date: 2021-10-28T12:15:10.088Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c486d38646b72201e1e38f41f9d9e7889ff38f32
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1491,9 +1503,9 @@
   version: 12.4.11
   date: 2021-10-28T09:58:40.065Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4209efc486491ae566a91cb5a45f0bfd6b8477a9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1504,7 +1516,7 @@
 - commits:
     - subject: Bump eslint to v8
       hash: 3f6d13fdcbd4287af393a245fe1ae475f67c2c34
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1515,9 +1527,9 @@
   version: 12.4.9
   date: 2021-10-24T00:29:29.362Z
 - commits:
-    - subject: 'patch: Update dependency @types/sinon to ^10.0.5'
+    - subject: "patch: Update dependency @types/sinon to ^10.0.5"
       hash: dcbab74384e007172536c171e715e2338001ad2f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1526,9 +1538,9 @@
   version: 12.4.8
   date: 2021-10-24T00:14:20.747Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.17'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.17"
       hash: 283d3678984b6ef4de6859602984899574820428
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1537,9 +1549,9 @@
   version: 12.4.7
   date: 2021-10-23T23:29:17.165Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: bbd5be94cfb94da89e2cf252c9909600cef589d7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1548,9 +1560,9 @@
   version: 12.4.6
   date: 2021-10-23T21:06:36.105Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.2.4'
+    - subject: "patch: Update dependency lint-staged to ^11.2.4"
       hash: 90330cd47fcbd271de156155f545f2df1b7eb43f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1559,9 +1571,9 @@
   version: 12.4.5
   date: 2021-10-23T18:39:59.769Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.15'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.15"
       hash: 5b6ccc613ceb86ebbfac0f330f75a41e2cfd4dc8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1570,9 +1582,9 @@
   version: 12.4.4
   date: 2021-10-23T10:22:09.003Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: ca9b16096889452497cf15bb17c9c41ac02c4195
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1581,9 +1593,9 @@
   version: 12.4.3
   date: 2021-10-23T01:54:09.823Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.6'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.6"
       hash: 7db6722586bffc87ead4ef834fb8cfe4edea3daa
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1592,9 +1604,9 @@
   version: 12.4.2
   date: 2021-10-23T01:38:39.281Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 653363090adcf9e76891580965c30f7e4447c189
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1605,7 +1617,7 @@
 - commits:
     - subject: Remove summit text
       hash: 1a619d8a306822746dab41c3c7f19480bebbd413
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -1614,9 +1626,9 @@
   version: 12.4.0
   date: 2021-10-20T22:20:59.604Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.13'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.13"
       hash: edeab1a894ed3c89b860b2d9e2f01811db9cc503
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1625,9 +1637,9 @@
   version: 12.3.21
   date: 2021-10-20T10:16:15.889Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.4'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.4"
       hash: 8355f2022f7ece48ec04b5f7375433d3913efbc4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1636,9 +1648,9 @@
   version: 12.3.20
   date: 2021-10-19T00:22:59.120Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.12'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.12"
       hash: 7787a901ece7051ea86962bce324ea51f801039c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1647,9 +1659,9 @@
   version: 12.3.19
   date: 2021-10-16T02:40:49.427Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 2f69ba2b7f9f54beb6ffff9e986db1a36267ed39
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1658,9 +1670,9 @@
   version: 12.3.18
   date: 2021-10-16T00:09:58.442Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.11'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.11"
       hash: 09a51345839c7469422b50aa21f3a2c1380b825b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1669,9 +1681,9 @@
   version: 12.3.17
   date: 2021-10-13T13:28:10.510Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.10'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.10"
       hash: 0803adae6280028212e56b7f3eefc857cabfd25e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1680,9 +1692,9 @@
   version: 12.3.16
   date: 2021-10-13T01:50:58.756Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.2.3'
+    - subject: "patch: Update dependency lint-staged to ^11.2.3"
       hash: 20855248ffcb469d91da10fd97c26889b25e2143
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1691,9 +1703,9 @@
   version: 12.3.15
   date: 2021-10-10T19:37:48.676Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.9'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.9"
       hash: 71f1adfea1b7df0cc1ef5d33704a073e8850085a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1702,9 +1714,9 @@
   version: 12.3.14
   date: 2021-10-10T19:26:19.657Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.8"
       hash: 5f32363c3d2f6f8df0a715bdb3f0898ec99a3e2c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1713,9 +1725,9 @@
   version: 12.3.13
   date: 2021-10-09T20:04:59.502Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.2.2'
+    - subject: "patch: Update dependency lint-staged to ^11.2.2"
       hash: 92b07eecfa34d4924b68d343a633d95ef983fa30
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1724,9 +1736,9 @@
   version: 12.3.12
   date: 2021-10-09T19:53:08.984Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.7"
       hash: fae086fa31c4841782495361e41a9c35e65a7ec5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1735,9 +1747,9 @@
   version: 12.3.11
   date: 2021-10-09T07:59:58.923Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.2.1'
+    - subject: "patch: Update dependency lint-staged to ^11.2.1"
       hash: 974fe41407ef2f1e668563d50631fca2b07a7c6d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1746,9 +1758,9 @@
   version: 12.3.10
   date: 2021-10-09T04:08:29.026Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.6"
       hash: 14bb1152cc322f8ea5b7e4bc72810be476d8b914
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1757,9 +1769,9 @@
   version: 12.3.9
   date: 2021-10-09T02:19:05.084Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 83ac2415d3980d9abc46d4ebdecd744bb246fb2e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1768,9 +1780,9 @@
   version: 12.3.8
   date: 2021-10-09T00:05:28.862Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^12.0.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^12.0.5"
       hash: 68141110c21fb34fad718fe423f06ccfcbf857f5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1779,9 +1791,9 @@
   version: 12.3.7
   date: 2021-10-06T14:45:38.306Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 9dbcd6e844749eb17f09e84a89c3edfda988f63f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1792,7 +1804,7 @@
 - commits:
     - subject: Bump @types/jest to v27
       hash: 04801f542397a6cc2889b4d162c0c54bc8985276
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1805,7 +1817,7 @@
 - commits:
     - subject: Add jest types to depcheck ignore list
       hash: 8bdad2d39dca5ddd262ebbfe7b50b5179affea83
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1815,7 +1827,7 @@
       nested: []
     - subject: Add typedoc to depcheck ignore list
       hash: 0f199c57d32a4376c5dd5cc1a7971cac9755a085
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1823,9 +1835,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: be98673a8c0c3c624f2f64afde9ee4690d1d0666
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1834,9 +1846,9 @@
   version: 12.3.4
   date: 2021-10-05T03:52:21.210Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 7ffb649bb0a45b0810668c1d24368766dab8aeff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1845,7 +1857,7 @@
   version: 12.3.3
   date: 2021-10-05T00:42:01.265Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to v12'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to v12"
       hash: 513543ea1595edddc741db3524153010846d3c68
       body: |
         Update @balena/jellyfish-ui-components from 11.0.5 to 12.0.0
@@ -1857,9 +1869,9 @@
   version: 12.3.2
   date: 2021-10-04T12:28:08.125Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.4'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.4"
       hash: ff091f19c8e0d6e11ab35be4472789c053359cd1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1870,7 +1882,7 @@
 - commits:
     - subject: Change welcome text for summit
       hash: b9385723b4c59bf96ee679f4f0a03c01f1a5b749
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -1879,7 +1891,7 @@
   version: 12.3.0
   date: 2021-10-04T09:47:10.548Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.1'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.1"
       hash: 85aa2159b1546a6c6f74e634402ab0f4734a5380
       body: |
         Update @balena/jellyfish-config from 1.4.8 to 1.5.1
@@ -1891,9 +1903,9 @@
   version: 12.2.3
   date: 2021-10-03T10:34:21.969Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^11.0.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^11.0.5"
       hash: 31481eb4024c5ad8791c15899dd06a7ffa3ef6c0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1902,9 +1914,9 @@
   version: 12.2.2
   date: 2021-10-02T01:28:41.030Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.2"
       hash: 3a7af259e6697ed125e1fa092dae05081d617b31
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1940,7 +1952,7 @@
       nested: []
     - subject: Make rendition a peer dependency
       hash: 8a77d3b2464ebe3b1f7c022afea8369780135887
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -1962,9 +1974,9 @@
   version: 12.2.0
   date: 2021-09-29T09:01:46.318Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.18'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.18"
       hash: 7f915ec9ce5bae6f7a4ac4f3f048a655082733dc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1973,7 +1985,7 @@
   version: 12.1.23
   date: 2021-09-22T00:29:02.342Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.0"
       hash: 4f8c3cf3b98bdcb253f112314739fcf3bac08478
       body: |
         Update @balena/jellyfish-types from 1.1.2 to 1.2.0
@@ -1985,7 +1997,7 @@
   version: 12.1.22
   date: 2021-09-21T23:44:39.088Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to v1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to v1"
       hash: 68b0cc746cb7255f94863e4d1ac8d75cc6ab7afb
       body: |
         Update @balena/jellyfish-types from 0.9.9 to 1.1.2
@@ -1997,9 +2009,9 @@
   version: 12.1.21
   date: 2021-09-07T09:33:11.843Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.16'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.16"
       hash: c210ca9c206e4698fbfc942ef436dc9292947e53
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2008,9 +2020,9 @@
   version: 12.1.20
   date: 2021-09-04T22:18:00.435Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 814ba413ae36159de06de680aef23cfd42d265b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2019,9 +2031,9 @@
   version: 12.1.19
   date: 2021-09-04T20:27:21.689Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.15'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.15"
       hash: 8cbc0272debc1e909e2ae5c454c132da5ed592b4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2030,9 +2042,9 @@
   version: 12.1.18
   date: 2021-09-02T13:12:02.991Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.9'
+    - subject: "patch: Update dependency typedoc to ^0.21.9"
       hash: 2c61feb034dfe280b6ab05238856236c08274be4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2041,9 +2053,9 @@
   version: 12.1.17
   date: 2021-08-30T00:00:21.325Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.8'
+    - subject: "patch: Update dependency typedoc to ^0.21.8"
       hash: 5196ca9630776d655633fda699332dabd09399cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2052,9 +2064,9 @@
   version: 12.1.16
   date: 2021-08-29T16:00:16.475Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 087b2171135e6478d355f563817670f8e15305d3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2063,7 +2075,7 @@
   version: 12.1.15
   date: 2021-08-28T01:01:51.986Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to v6'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to v6"
       hash: cf99494d68cf32e723f15e6e05c9223a05928e0c
       body: |
         Update @balena/jellyfish-client-sdk from 5.5.2 to 6.0.0
@@ -2075,9 +2087,9 @@
   version: 12.1.14
   date: 2021-08-24T17:00:08.444Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.9'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.9"
       hash: f553aacd4af7d950a1c7ad8ec01257376a9b65d0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2086,9 +2098,9 @@
   version: 12.1.13
   date: 2021-08-21T04:01:08.398Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: e52e17fa48407e72835429806d649abdd0cdd493
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2097,9 +2109,9 @@
   version: 12.1.12
   date: 2021-08-21T01:20:35.946Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.8'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.8"
       hash: 6b8e5039a57cb7f459b328b9278fc525dda4b617
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2108,9 +2120,9 @@
   version: 12.1.11
   date: 2021-08-19T07:48:41.893Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.7'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.7"
       hash: ef7bd3074a7dfb5c9d630b064566994d666fc064
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2119,9 +2131,9 @@
   version: 12.1.10
   date: 2021-08-18T11:47:57.622Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.6'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.6"
       hash: 8923044b58487ec1b891a4c4037083dc4447fa31
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2130,9 +2142,9 @@
   version: 12.1.9
   date: 2021-08-18T08:42:11.945Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.5'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.5"
       hash: fb96465268eac5aa6f2df34207c6613638fbab90
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2141,9 +2153,9 @@
   version: 12.1.8
   date: 2021-08-17T13:18:15.062Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.5.2'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.5.2"
       hash: 9b1f06167aa9e7dce6724e7c91fde5e97a7ee08d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2152,9 +2164,9 @@
   version: 12.1.7
   date: 2021-08-16T15:04:52.614Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.4'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.4"
       hash: 7c11bf49bc2847dc58d464375b741ebd4d18f537
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2163,9 +2175,9 @@
   version: 12.1.6
   date: 2021-08-10T14:27:59.770Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.2"
       hash: 43fe89b7334ecd2f431f29f553091689d4d6cd21
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2174,7 +2186,7 @@
   version: 12.1.5
   date: 2021-08-10T11:27:52.553Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.0"
       hash: 96f481198719c0675d0df0df7796384e15c2fa1f
       body: |
         Update @balena/jellyfish-types from 0.8.15 to 0.9.0
@@ -2186,9 +2198,9 @@
   version: 12.1.4
   date: 2021-08-09T11:05:37.150Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.15'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.15"
       hash: b6b89995b01b1db3837d710ac2b770b04391dff5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2197,9 +2209,9 @@
   version: 12.1.3
   date: 2021-08-07T03:15:21.932Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: f4ceba34384c3cf6b66ae0e5168510295b9d611c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2208,9 +2220,9 @@
   version: 12.1.2
   date: 2021-08-07T01:18:21.605Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ad5a901d6ca95de8fd6edf73a824fe6e9bd614de
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2221,7 +2233,7 @@
 - commits:
     - subject: Auto-subscribe to created threads
       hash: e9ee6c3124e9c48d8d02e17b062e0d93af9c262f
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -2230,7 +2242,7 @@
   version: 12.1.0
   date: 2021-08-05T11:27:54.432Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.5.0'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.5.0"
       hash: bf78b86bc57091810f765864fc6ba0c622d63246
       body: |
         Update @balena/jellyfish-client-sdk from 5.4.3 to 5.5.0
@@ -2242,9 +2254,9 @@
   version: 12.0.31
   date: 2021-08-05T10:48:29.125Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e8c56e232116158f53a686f2a30f661970ea0f1e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2269,7 +2281,7 @@
 - commits:
     - subject: Use v4 of socket.io client
       hash: 826b0c31b50e63e266bf3890190cbaeeedefbf46
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2280,9 +2292,9 @@
   version: 12.0.28
   date: 2021-08-04T00:54:42.920Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.8"
       hash: a8edb20ef84b596f97ff10ab2568abd68b1e676b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2291,9 +2303,9 @@
   version: 12.0.27
   date: 2021-08-02T10:31:21.491Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.7"
       hash: 00437a5a3e4e89f4637191373aebcef56cee4b46
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2302,9 +2314,9 @@
   version: 12.0.26
   date: 2021-08-01T13:15:52.215Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.5'
+    - subject: "patch: Update dependency typedoc to ^0.21.5"
       hash: c278c9528e2cd0f12e4891cd16bdd26aebc5a589
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2313,9 +2325,9 @@
   version: 12.0.25
   date: 2021-07-31T17:52:32.794Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: eac5860181f5d91c5fda7b856d911e2c446c6115
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2324,9 +2336,9 @@
   version: 12.0.24
   date: 2021-07-31T02:18:52.709Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 6b1eba8c42a184bac8fc2b3f1f85c1bcc99c205f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2335,9 +2347,9 @@
   version: 12.0.23
   date: 2021-07-31T00:06:12.678Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.5"
       hash: 685220b94a524e6b4ba7f4d693bb97585cab0084
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2346,9 +2358,9 @@
   version: 12.0.22
   date: 2021-07-30T04:05:59.155Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.3'
+    - subject: "patch: Update dependency @balena/jellycheck to ^0.1.3"
       hash: f0f36ccbc3d321e703b23d43734971fd32657514
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2357,9 +2369,9 @@
   version: 12.0.21
   date: 2021-07-30T02:52:02.570Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.2'
+    - subject: "patch: Update dependency @balena/jellycheck to ^0.1.2"
       hash: ffaddeccf8bec8da7214c5a01dd2b38aed466d23
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2368,9 +2380,9 @@
   version: 12.0.20
   date: 2021-07-30T02:36:48.593Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d990275c66736850429f05c05a9a5db1405858b6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2379,7 +2391,7 @@
   version: 12.0.19
   date: 2021-07-29T02:07:43.461Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.1.0"
       hash: 74102af387bbd4727ebd32d563b61e0521a0f4ab
       body: |
         Update @balena/jellyfish-ui-components from 10.0.14 to 10.1.0
@@ -2391,9 +2403,9 @@
   version: 12.0.18
   date: 2021-07-26T22:38:47.904Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.1.1'
+    - subject: "patch: Update dependency lint-staged to ^11.1.1"
       hash: e4cd60404ffd0cdfe2f67df3c3f3bf6c1134d7cf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2402,9 +2414,9 @@
   version: 12.0.17
   date: 2021-07-25T03:21:31.975Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: fbcabdf560959d9458ebabbb08acfc449ae25d8c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2413,9 +2425,9 @@
   version: 12.0.16
   date: 2021-07-24T00:08:03.000Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.4.1'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.4.1"
       hash: 6fefe7d8b6827aa7c4e13827c3b31b495670c51c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2426,7 +2438,7 @@
 - commits:
     - subject: Set the thread loop field when creating a new thread
       hash: 38cb180e485faa774f242f13727c75ea1cf1d3a1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2437,9 +2449,9 @@
   version: 12.0.14
   date: 2021-07-22T09:21:20.262Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.6'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.6"
       hash: c09890bbe9281d53db0044b5dc168424a66cdf8c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2448,7 +2460,7 @@
   version: 12.0.13
   date: 2021-07-21T08:48:55.669Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.4.0'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.4.0"
       hash: 04aba93bf8fce5b50dcd96f02ba29eb89f9ec7f7
       body: |
         Update @balena/jellyfish-client-sdk from 5.3.5 to 5.4.0
@@ -2460,9 +2472,9 @@
   version: 12.0.12
   date: 2021-07-19T11:29:35.651Z
 - commits:
-    - subject: 'patch: Update dependency eslint to ^7.31.0'
+    - subject: "patch: Update dependency eslint to ^7.31.0"
       hash: b3b3eedb94adb3d3112d016f86f681b1abf8d57d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2471,9 +2483,9 @@
   version: 12.0.11
   date: 2021-07-17T23:07:22.008Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.0.14'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.0.14"
       hash: fcac8cc234503817618bcd9d39f1f432d5d2abf7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2482,9 +2494,9 @@
   version: 12.0.10
   date: 2021-07-17T02:14:03.561Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.0.1'
+    - subject: "patch: Update dependency lint-staged to ^11.0.1"
       hash: 724caed80fc2f548f08a232cf8f4a75e242ca6fe
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2493,9 +2505,9 @@
   version: 12.0.9
   date: 2021-07-17T01:11:45.449Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 65a6d148d3995892852825a633ba8ce4675e7873
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2506,7 +2518,7 @@
 - commits:
     - subject: Remove whitesource config
       hash: 07bbaef63931b2a19ff303ef856d32f8695381b4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2519,7 +2531,7 @@
 - commits:
     - subject: Wait for thread load
       hash: f673eb61630ac2a66acce4d6b719e8ed22710d92
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2528,9 +2540,9 @@
   version: 12.0.6
   date: 2021-07-16T14:49:41.953Z
 - commits:
-    - subject: 'Thread may be null, use threadId'
+    - subject: Thread may be null, use threadId
       hash: 324aab53564c305c3d5de0695143f5f0a6920abd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2539,9 +2551,9 @@
   version: 12.0.5
   date: 2021-07-16T04:50:41.530Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.0.12'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.0.12"
       hash: a20763cbfbd59bb61a399bbb9153f18f099fb502
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2552,7 +2564,7 @@
 - commits:
     - subject: Fix data-test attribute
       hash: b885218975f6be7aa77555e5cd467102c6b1913a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2563,7 +2575,7 @@
 - commits:
     - subject: Fix hiding header
       hash: 88d41844ff5766624c77e67ec2dd26d4f0b8bc34
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2572,9 +2584,9 @@
   version: 12.0.2
   date: 2021-07-15T20:29:32.197Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.3.4'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.3.4"
       hash: 59d92091836cd0dfa7394fc09ef7ed90c8e97b8c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2585,7 +2597,7 @@
 - commits:
     - subject: Allow navigating to chat page
       hash: 68dc981f1f25394e40389f2c74c789faa76ca0a9
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -2594,9 +2606,9 @@
   version: 12.0.0
   date: 2021-07-15T09:17:32.820Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.0.11'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.0.11"
       hash: 916f9ca388c48c4bd4086d0856ae38e2cf0136a6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2605,9 +2617,9 @@
   version: 11.0.11
   date: 2021-07-14T10:13:30.858Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 01329c09c4d567131d19a4450cb18395ef555f3c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2618,7 +2630,7 @@
 - commits:
     - subject: Fix jest config
       hash: ebed5d88ad670637585b79da9d4b3068c3ef5876
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2629,9 +2641,9 @@
   version: 11.0.9
   date: 2021-07-14T07:38:24.063Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 50e4c1f022e039a13ed5071c1341c3a458142217
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2640,9 +2652,9 @@
   version: 11.0.8
   date: 2021-07-14T07:17:42.437Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.5'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.5"
       hash: d996db8ba554bb01f9ec29009dae0efbb73fabbd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2651,9 +2663,9 @@
   version: 11.0.7
   date: 2021-07-14T04:03:12.277Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.0.8"
       hash: 8b37fb6194293e1748feed674b0c4d953abcc8ad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2662,9 +2674,9 @@
   version: 11.0.6
   date: 2021-07-13T08:33:52.400Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^10.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^10.0.7"
       hash: e647ebeae5495997a3c3934f642d7053751cf128
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2673,9 +2685,9 @@
   version: 11.0.5
   date: 2021-07-13T05:55:22.629Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 8b46554784124ec2e1de9463d860820b400c15a1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2684,9 +2696,9 @@
   version: 11.0.4
   date: 2021-07-12T16:41:21.924Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6bfe2c28b59ee027082822635841546edcc15053
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2727,7 +2739,7 @@
 - commits:
     - subject: Use jellyfish-ui-components v10
       hash: e3de5e7dd0a04ba4a913163e8d01149dce84470f
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -2738,9 +2750,9 @@
   version: 11.0.0
   date: 2021-07-09T04:55:13.291Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.16'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.16"
       hash: 260fa72061ec025858585d8d47433a87121167db
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2749,9 +2761,9 @@
   version: 10.2.23
   date: 2021-07-09T04:14:09.061Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4f001a8f75b3c9dc7e94b9fee9899fb1b49dac14
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2760,9 +2772,9 @@
   version: 10.2.22
   date: 2021-07-09T02:15:12.997Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f4dd5ccd2758752477c7102bb95d59479bee2f3d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2773,7 +2785,7 @@
 - commits:
     - subject: Fix areEqualArrayOfContracts behaviour
       hash: d48178f4c76928da47d62f731e58a578075440c7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2782,9 +2794,9 @@
   version: 10.2.20
   date: 2021-07-07T10:20:11.972Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.13'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.13"
       hash: b2761618b5339e3e0b4d8b88559e4b836021b9da
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2793,7 +2805,7 @@
   version: 10.2.19
   date: 2021-07-07T01:13:13.035Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.3.0'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.3.0"
       hash: 5341e5c63a5043e6efe9715a03e23fba1b94a40c
       body: |
         Update @balena/jellyfish-client-sdk from 5.2.10 to 5.3.0
@@ -2819,7 +2831,7 @@
   version: 10.2.17
   date: 2021-07-06T07:35:56.856Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.3'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.3"
       hash: 1f21ccaa19122159e32e8632f2d03d1713b2a6d7
       body: |
         Update @balena/jellyfish-config from 1.0.7 to 1.4.3
@@ -2833,7 +2845,7 @@
 - commits:
     - subject: Bump rendition dependency
       hash: fee72e973346f8c397083a50533174c301c3d930
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2846,7 +2858,7 @@
 - commits:
     - subject: Use jellyfish-config
       hash: 4e38039649f2ce0491416071242fd46397784d64
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2857,9 +2869,9 @@
   version: 10.2.14
   date: 2021-07-06T03:06:19.644Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.11'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.11"
       hash: 5ffc51cf080471b8133dd3643c30a222f537f58d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2868,9 +2880,9 @@
   version: 10.2.13
   date: 2021-07-06T02:56:10.806Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.10'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.10"
       hash: 0ae3b2c1c998c4df683a4f7755b4120855fc49c1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2879,9 +2891,9 @@
   version: 10.2.12
   date: 2021-07-05T23:03:41.969Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.9'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.9"
       hash: e81f2ea7353a84a4589edd3849e78d0c0eb3b068
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2890,9 +2902,9 @@
   version: 10.2.11
   date: 2021-07-05T09:19:51.590Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: cbb50f9c161b8e6d705d0a45bdcf96065e90318f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2901,9 +2913,9 @@
   version: 10.2.10
   date: 2021-07-05T03:56:01.303Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.5'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.5"
       hash: 9f446c154de349aedf92d389d6df15ebba705b37
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2912,9 +2924,9 @@
   version: 10.2.9
   date: 2021-07-05T02:12:01.690Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.7"
       hash: 509de9799d11e1c9d4c795cd1f35e9c264239414
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2923,9 +2935,9 @@
   version: 10.2.8
   date: 2021-07-04T21:52:59.897Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.2.9'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.2.9"
       hash: a742baa01f4b9a0812e587461ef17d39ec86fb36
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2934,9 +2946,9 @@
   version: 10.2.7
   date: 2021-07-04T20:48:02.916Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 139261f7a365482dcdf6baae4db5a84bf5110acb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2945,9 +2957,9 @@
   version: 10.2.6
   date: 2021-07-03T04:02:40.649Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 773bd83868c1d6220ab79811e9a589bda20253e2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2956,9 +2968,9 @@
   version: 10.2.5
   date: 2021-07-03T02:04:13.045Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.3'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.3"
       hash: e903ce60e890a1fe5b44005da98b7427bca1b353
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2967,9 +2979,9 @@
   version: 10.2.4
   date: 2021-07-03T00:35:55.516Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 109c937ea271b2552d9e27fb936bb08a96ba49f8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2978,9 +2990,9 @@
   version: 10.2.3
   date: 2021-07-03T00:18:03.722Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 76401bb21b57c3c54662cbcb4c4fbd7c4fd024d1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2989,7 +3001,7 @@
   version: 10.2.2
   date: 2021-07-03T00:06:12.532Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.1"
       hash: b6281732ace05827cef1d1f68061989f185f09bf
       body: |
         Update @balena/jellyfish-types from 0.7.3 to 0.8.1
@@ -3003,7 +3015,7 @@
 - commits:
     - subject: Add onNotificationsChange property
       hash: a6aa3419e8339a3524072ffcf3bf50612c51cf72
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -3012,7 +3024,7 @@
   version: 10.2.0
   date: 2021-07-01T08:15:46.482Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.4.0'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.4.0"
       hash: 55bc37b67a7175253bf44bfa77c9d5353b1ea0fd
       body: |
         Update @balena/jellyfish-ui-components from 9.3.10 to 9.4.0
@@ -3024,9 +3036,9 @@
   version: 10.1.7
   date: 2021-06-30T12:15:42.044Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.10'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.10"
       hash: c988c1f52921da5f2c98aa25f85fc1657b1b27ba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3035,9 +3047,9 @@
   version: 10.1.6
   date: 2021-06-30T06:48:52.354Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c12a7a8d10d4ab7d84cb219320e1b92c343558d1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3046,9 +3058,9 @@
   version: 10.1.5
   date: 2021-06-30T04:09:32.764Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 45cff7ad82c5509cac5c704e0ac7c04af9c8c1be
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3057,9 +3069,9 @@
   version: 10.1.4
   date: 2021-06-30T03:56:32.322Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.8"
       hash: 9e7c8bef6bfa63de5bb2fb507fe68a86c1943862
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3068,9 +3080,9 @@
   version: 10.1.3
   date: 2021-06-30T00:12:30.493Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.7"
       hash: 50a9b2414ea41a4bf1eb88e8fb837772ad8e5406
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3079,7 +3091,7 @@
   version: 10.1.2
   date: 2021-06-29T23:59:42.482Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.2.2'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.2.2"
       hash: 9ac980c56677427cbad04a090cb593a03547befc
       body: |
         Update @balena/jellyfish-client-sdk from 5.1.1 to 5.2.2
@@ -3093,7 +3105,7 @@
 - commits:
     - subject: Highlight unread notifications
       hash: 5962b8201eca77e683ff23eb5b1608cecf916549
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -3104,7 +3116,7 @@
 - commits:
     - subject: Bump node engines specification
       hash: 693c279b4549ff321c34384e96bdf94dd4fc3a2e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3114,7 +3126,7 @@
       nested: []
     - subject: Remove package-lock.json
       hash: 276e76c02db742815c7d714b619e78c11e9f00ff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3125,9 +3137,9 @@
   version: 10.0.10
   date: 2021-06-29T07:52:53.058Z
 - commits:
-    - subject: 'patch: Update dependency simple-git-hooks to ^2.5.1'
+    - subject: "patch: Update dependency simple-git-hooks to ^2.5.1"
       hash: 5b3bc574cec8ca60d52d499de8ef6af2b1409d96
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3136,9 +3148,9 @@
   version: 10.0.9
   date: 2021-06-27T20:40:12.243Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.2'
+    - subject: "patch: Update dependency typedoc to ^0.21.2"
       hash: ac45f5059196991c5d911b2d0126e1d04c82ece1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3147,9 +3159,9 @@
   version: 10.0.8
   date: 2021-06-27T03:09:08.628Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.4'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.4"
       hash: dc1008bf6a9cc30e3065fa6dc8ff6aed4da9797f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3158,9 +3170,9 @@
   version: 10.0.7
   date: 2021-06-26T01:33:53.161Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 76526b21a82463454baa0a34f2eb713f1ac07d71
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3169,9 +3181,9 @@
   version: 10.0.6
   date: 2021-06-26T00:04:47.727Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4e111533899aacb5eccc2f398a96e750b5949f3f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3180,9 +3192,9 @@
   version: 10.0.5
   date: 2021-06-25T23:47:13.279Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.2'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.2"
       hash: 7afb47818b9bf519868cb8d528acf9ca9ff53566
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3191,7 +3203,7 @@
   version: 10.0.4
   date: 2021-06-25T05:37:33.816Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.1.0"
       hash: 9ed8879e1d948f88a0c5c25005ff2cd16fb60495
       body: |
         Update @balena/jellyfish-client-sdk from 5.0.9 to 5.1.0
@@ -3203,9 +3215,9 @@
   version: 10.0.3
   date: 2021-06-25T04:50:48.831Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.1'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.1"
       hash: ce9617992221027d9cffb20a929b312bdf08591c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3214,7 +3226,7 @@
   version: 10.0.2
   date: 2021-06-24T23:36:24.156Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.3.0'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.3.0"
       hash: c17b023989e960404cb1be87aeac5892548a5aac
       body: |
         Update @balena/jellyfish-ui-components from 9.2.40 to 9.3.0
@@ -3226,9 +3238,9 @@
   version: 10.0.1
   date: 2021-06-24T19:01:56.525Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.9'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.9"
       hash: 29c509b75be200950a30f2e25f07e00bffa90b0f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3236,7 +3248,7 @@
       nested: []
     - subject: Add notifications support
       hash: 82d04273f481be5ae86ef3fbf38cec4485e05f35
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -3245,9 +3257,9 @@
   version: 10.0.0
   date: 2021-06-24T15:19:13.306Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.40'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.40"
       hash: e0178354323fe3aa21a294a0b81e41020f8afc97
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3256,9 +3268,9 @@
   version: 9.0.8
   date: 2021-06-24T00:27:01.768Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.8"
       hash: 98287056d5d0095d9d72442723916f231174e73f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3267,9 +3279,9 @@
   version: 9.0.7
   date: 2021-06-23T23:56:42.846Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.39'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.39"
       hash: 81a369b2a8990921e24143589b8ccea909524d6e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3278,9 +3290,9 @@
   version: 9.0.6
   date: 2021-06-23T01:52:13.637Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.7"
       hash: 3edbd9d0e27fbf9775e1c36fcc49c12243a9e342
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3289,9 +3301,9 @@
   version: 9.0.5
   date: 2021-06-22T23:47:23.127Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-client-sdk to ^5.0.6"
       hash: 64bb366fd81ba84f584184fb4cc699e1a3129694
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3302,7 +3314,7 @@
 - commits:
     - subject: Bump jellyfish-ui-components dependency
       hash: 7a1c2d3fea9e55a66a9d37f617eb45c8020ffe09
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3341,8 +3353,7 @@
         message).
 
 
-        This commit just ensures we fetch threads even if they just have a
-        single create card (and no messages) attached to them.
+        This commit just ensures we fetch threads even if they just have a single create card (and no messages) attached to them.
       footer:
         Change-type: patch
         change-type: patch
@@ -3368,9 +3379,9 @@
   version: 9.0.0
   date: 2021-06-19T08:25:34.746Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.34'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.34"
       hash: b3fb81913f13571105941d75e68fe0a8ab5d84e9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3379,9 +3390,9 @@
   version: 8.0.113
   date: 2021-06-19T03:27:36.144Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.33'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.33"
       hash: b3275d625a6d7b5c860441606d1c2b05e4cef317
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3390,9 +3401,9 @@
   version: 8.0.112
   date: 2021-06-19T03:13:57.417Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.32'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.32"
       hash: bd7fb3db9877824780daed41eab7b9574d75225a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3401,9 +3412,9 @@
   version: 8.0.111
   date: 2021-06-19T03:03:42.124Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 6f18a1761e6b326f9a8d15df5ba6b0d74cdd14b1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3429,9 +3440,9 @@
   version: 8.0.109
   date: 2021-06-15T15:27:42.800Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.31'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.31"
       hash: b2af39d180af31c17aba4f538cb79fc137609d5a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3442,7 +3453,7 @@
 - commits:
     - subject: Bump jellyfish-ui-components depedency
       hash: daff4f73396dd2f05a613494e4dfcda4791b8dd4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3453,9 +3464,9 @@
   version: 8.0.107
   date: 2021-06-12T05:08:54.751Z
 - commits:
-    - subject: 'patch: Update dependency rendition to ^20.17.1'
+    - subject: "patch: Update dependency rendition to ^20.17.1"
       hash: 7050ceef2dbffeb3afa7ad0a0369c31ec5d5e306
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3464,9 +3475,9 @@
   version: 8.0.106
   date: 2021-06-12T04:58:22.469Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.24'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.24"
       hash: 9eddef01f94295b61e9c947449a12727afe176ba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3475,9 +3486,9 @@
   version: 8.0.105
   date: 2021-06-10T23:44:18.119Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.23'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.23"
       hash: 7b7f6825f1379984ee7d2383e5e4582fc6cefb1b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3486,9 +3497,9 @@
   version: 8.0.104
   date: 2021-06-09T03:59:59.542Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.22'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.22"
       hash: 05e2b7db90110ae91b60fa42c2011afd687c0fc0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3497,9 +3508,9 @@
   version: 8.0.103
   date: 2021-06-08T09:13:53.001Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.20'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.20"
       hash: 9fcb51863168fb7b10731a77d6b6a6da39d661ae
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3508,9 +3519,9 @@
   version: 8.0.102
   date: 2021-06-07T03:40:32.280Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.0.3'
+    - subject: "patch: Update dependency ts-jest to ^27.0.3"
       hash: a98071e5633cab169327fa201c24aa5f624a070d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3519,9 +3530,9 @@
   version: 8.0.101
   date: 2021-06-06T17:37:03.943Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.18'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.18"
       hash: e7ce0d7e654c1441be38e597ca563fcf2416c513
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3530,9 +3541,9 @@
   version: 8.0.100
   date: 2021-06-06T09:19:22.714Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.17'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.17"
       hash: 11fb50bf6accc96b6a462bf45116b478aea21d2d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3541,9 +3552,9 @@
   version: 8.0.99
   date: 2021-06-06T02:28:04.410Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.16'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.16"
       hash: 2bba6c3905fd2b7a0ba5f6ee0e6eb3cfd975f113
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3552,9 +3563,9 @@
   version: 8.0.98
   date: 2021-06-05T16:00:43.584Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.15'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.15"
       hash: 18cd738da6be44f932254858dd40c0a45690be10
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3563,9 +3574,9 @@
   version: 8.0.97
   date: 2021-06-05T10:06:02.575Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.13'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.13"
       hash: 5b469e635f6d9f7fd6726b0a383905731a854a65
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3574,9 +3585,9 @@
   version: 8.0.96
   date: 2021-06-05T06:03:54.153Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.12'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.12"
       hash: 7058e5d1e72d58596e0a981eb084e4005f0ce3b7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3587,7 +3598,7 @@
 - commits:
     - subject: Bump jest deps
       hash: 6c4d5682cfda692f77db06b87a4ffe02a38cafb1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3598,9 +3609,9 @@
   version: 8.0.94
   date: 2021-06-05T05:42:04.316Z
 - commits:
-    - subject: 'patch: Update dependency eslint to ^7.28.0'
+    - subject: "patch: Update dependency eslint to ^7.28.0"
       hash: 5cd2e4e9cc793e0dda6bdf7ac8b04e25e0bea8f1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3609,9 +3620,9 @@
   version: 8.0.93
   date: 2021-06-05T04:55:51.600Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.11'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.11"
       hash: 65d4f6daf33f74bc6ca5ed068a586b6244302ca8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3622,7 +3633,7 @@
 - commits:
     - subject: Bump sinon deps
       hash: 5a1585dc632545606d9c7de3bea7920a9e016400
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3635,7 +3646,7 @@
 - commits:
     - subject: Improve lint-staged config
       hash: 0645292de8397464e4653153ed27ec27f4769969
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3648,7 +3659,7 @@
 - commits:
     - subject: Remove unnecessary catch-uncommitted
       hash: 0c9bf98f926958d284d5237d458aae033dbc066b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3659,9 +3670,9 @@
   version: 8.0.89
   date: 2021-06-02T07:45:29.235Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.7"
       hash: cdfe38be32a3e0a2a78feb4749a342350f93d21e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3670,9 +3681,9 @@
   version: 8.0.88
   date: 2021-05-31T11:59:28.620Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.6'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.6"
       hash: 23d88695af1085beff3dd64738381e37c0f74489
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3681,9 +3692,9 @@
   version: 8.0.87
   date: 2021-05-31T04:40:43.758Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.5"
       hash: 66f9d83b74b1341f4a897cad6b368d06b10b1320
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3692,9 +3703,9 @@
   version: 8.0.86
   date: 2021-05-29T23:16:59.232Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.4'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.4"
       hash: 3d1fb820da03081c91d21cecba691a6b578391a3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3703,9 +3714,9 @@
   version: 8.0.85
   date: 2021-05-29T11:17:01.958Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.3'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.3"
       hash: 3fd07a09517849a573f52fa45046a088d1d5479e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3714,7 +3725,7 @@
   version: 8.0.84
   date: 2021-05-29T08:07:40.367Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.2.2'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.2.2"
       hash: fc8f856bd09c4474562b018262aa55f08898b3a9
       body: |
         Update @balena/jellyfish-ui-components from 9.1.89 to 9.2.2
@@ -3726,9 +3737,9 @@
   version: 8.0.83
   date: 2021-05-29T05:04:06.877Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: a393754c6e4f067c00bfee17ecc8bbf389e3fa19
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3737,9 +3748,9 @@
   version: 8.0.82
   date: 2021-05-29T00:50:23.494Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.89'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.89"
       hash: 4824ccd1dd13e7a79016c632e0d35dc88808908d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3748,9 +3759,9 @@
   version: 8.0.81
   date: 2021-05-28T00:40:13.099Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.88'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.88"
       hash: 42b17a815829358f00e1a17a2c55bf98495e15cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3759,9 +3770,9 @@
   version: 8.0.80
   date: 2021-05-27T10:06:51.719Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 18dfb8475b5ceaf9e4fd3f75dd5d985c499703e5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3770,9 +3781,9 @@
   version: 8.0.79
   date: 2021-05-27T06:50:37.803Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.86'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.86"
       hash: 0d0fa5c816c7f4798c7e914ecf9ca6cd6b51cb8b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3781,9 +3792,9 @@
   version: 8.0.78
   date: 2021-05-27T04:28:53.490Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.85'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.85"
       hash: 14b039199c7a9c55298921a73f8d17ff5f09679b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3792,9 +3803,9 @@
   version: 8.0.77
   date: 2021-05-27T02:32:12.632Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.84'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.84"
       hash: 00ed07d8994580a8929be7a20f61fa2bfe130434
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3803,9 +3814,9 @@
   version: 8.0.76
   date: 2021-05-26T01:17:11.931Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.83'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.83"
       hash: 54ed94574d864511d0e82dcffe9512462f3a355c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3816,7 +3827,7 @@
 - commits:
     - subject: Update lint command and config
       hash: e57cb87fa3e5a0d7a907f72e9a4d096aa19bdc7c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3824,7 +3835,7 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update dependency @balena/lint to v6'
+    - subject: "patch: Update dependency @balena/lint to v6"
       hash: 8d6cc92dfa5b74586fca3586419ca75228c80482
       body: |
         Update @balena/lint from 5.4.2 to 6.1.1
@@ -3836,9 +3847,9 @@
   version: 8.0.74
   date: 2021-05-25T03:36:11.528Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.82'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.82"
       hash: 65e5a083f4c2237624a8bbb3ea3951c49d5b5226
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3847,9 +3858,9 @@
   version: 8.0.73
   date: 2021-05-24T09:59:43.845Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.81'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.81"
       hash: 9fd7716b2388f8f9afb2dd65c6d910f613f14113
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3858,9 +3869,9 @@
   version: 8.0.72
   date: 2021-05-24T05:27:15.683Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.80'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.80"
       hash: c559d4f9039ca7dc31b1f84fe0859ce4060d054e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3869,9 +3880,9 @@
   version: 8.0.71
   date: 2021-05-24T03:01:32.276Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: d9c8c3a3dec77bde1a6bbc98ce4694bcbf6f1140
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3880,9 +3891,9 @@
   version: 8.0.70
   date: 2021-05-22T03:39:21.988Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.79'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.79"
       hash: 96a0f83841d605a735f188b651cf9f23bf7b3765
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3891,9 +3902,9 @@
   version: 8.0.69
   date: 2021-05-22T03:28:02.520Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.77'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.77"
       hash: bdbabfa545741e43fb3accb8f94fd7250c7e850d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3902,9 +3913,9 @@
   version: 8.0.68
   date: 2021-05-20T10:07:12.189Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.76'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.76"
       hash: a1ad208d1b11f124ae7f6d2579afd88d654fe26a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3913,9 +3924,9 @@
   version: 8.0.67
   date: 2021-05-20T01:41:11.942Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.75'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.75"
       hash: f74c077ae6d47c28aa5ecedfe3066c8f8cd2a276
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3924,9 +3935,9 @@
   version: 8.0.66
   date: 2021-05-18T20:02:52.154Z
 - commits:
-    - subject: 'patch: Update dependency @types/bluebird to ^3.5.35'
+    - subject: "patch: Update dependency @types/bluebird to ^3.5.35"
       hash: 67baa6823b78c09371b72c670e6bfe771ab5e2b6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3935,9 +3946,9 @@
   version: 8.0.65
   date: 2021-05-18T18:07:51.661Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.74'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.74"
       hash: e3d9fcc6199cd257180fb6b00e5f25ad7e25e518
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3946,9 +3957,9 @@
   version: 8.0.64
   date: 2021-05-17T09:11:44.110Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.73'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.73"
       hash: 0138ce616a86062b9bbe7fc7c9d1428f8df12269
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3957,9 +3968,9 @@
   version: 8.0.63
   date: 2021-05-13T18:56:30.789Z
 - commits:
-    - subject: 'patch: Update dependency rendition to ^20.14.0'
+    - subject: "patch: Update dependency rendition to ^20.14.0"
       hash: 93c70b016b40e5a3494660a3f65ef6e51d260f0b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3968,9 +3979,9 @@
   version: 8.0.62
   date: 2021-05-13T17:27:11.633Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.72'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.72"
       hash: 61975cc09491a9ddd96672e3e1366c05e43e6a5f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3979,9 +3990,9 @@
   version: 8.0.61
   date: 2021-05-13T09:35:01.612Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.69'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.69"
       hash: fc29c30ee65ead2ef02b97159e83d3bfd8b9e14e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3990,9 +4001,9 @@
   version: 8.0.60
   date: 2021-05-12T07:43:52.454Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.68'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.68"
       hash: b09bb7fe6c746f72ca23484306a6533f7136bc86
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4001,9 +4012,9 @@
   version: 8.0.59
   date: 2021-05-12T02:14:43.031Z
 - commits:
-    - subject: 'patch: Update dependency rendition to ^20.13.0'
+    - subject: "patch: Update dependency rendition to ^20.13.0"
       hash: 046629a978e2c03f74c91a03d266629f84f09ac1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4012,9 +4023,9 @@
   version: 8.0.58
   date: 2021-05-11T11:46:12.145Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 392c981881e698c2e31de49f118aeb1595edc00f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4023,9 +4034,9 @@
   version: 8.0.57
   date: 2021-05-11T07:34:51.559Z
 - commits:
-    - subject: 'patch: Update dependency rendition to ^20.12.3'
+    - subject: "patch: Update dependency rendition to ^20.12.3"
       hash: e3b43ace83116a339c6e32520f71c9a23da93959
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4034,9 +4045,9 @@
   version: 8.0.56
   date: 2021-05-10T16:23:18.899Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.67'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.67"
       hash: 16f868fbf6e46e22094876f5804f1d6191c9f86f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4045,9 +4056,9 @@
   version: 8.0.55
   date: 2021-05-10T08:51:41.997Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.66'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.66"
       hash: 1425e332d51d3dd7f666031fc487b767e10eb8b9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4056,9 +4067,9 @@
   version: 8.0.54
   date: 2021-05-08T07:50:11.820Z
 - commits:
-    - subject: 'patch: Update dependency eslint to ^7.26.0'
+    - subject: "patch: Update dependency eslint to ^7.26.0"
       hash: 92d9c7e315867582fb49796d4a72656e0691627d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4067,9 +4078,9 @@
   version: 8.0.53
   date: 2021-05-08T04:09:57.451Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.64'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.64"
       hash: 9b36fa5f3ddd8c6ef12e6177231bef31d0fddf40
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4078,9 +4089,9 @@
   version: 8.0.52
   date: 2021-05-08T02:11:50.144Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to v11'
+    - subject: "patch: Update dependency lint-staged to v11"
       hash: 59f6e6a2dd7d79b66fbfa3272e31ce8b0f07375d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4089,9 +4100,9 @@
   version: 8.0.51
   date: 2021-05-07T17:12:52.098Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.62'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.62"
       hash: ef72c8d2d14f7bd509b2836265cc7cfbaed13718
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4100,9 +4111,9 @@
   version: 8.0.50
   date: 2021-05-07T02:30:52.380Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.61'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.61"
       hash: 6d435ea88f48e0eb9166b9283ece95cd7b6e9787
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4111,9 +4122,9 @@
   version: 8.0.49
   date: 2021-05-06T03:28:59.292Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.60'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.60"
       hash: ac2b2ef18b96321d8becbd59a90e8f15b4a54459
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4122,9 +4133,9 @@
   version: 8.0.48
   date: 2021-05-05T23:42:46.455Z
 - commits:
-    - subject: 'patch: Update dependency catch-uncommitted to v2'
+    - subject: "patch: Update dependency catch-uncommitted to v2"
       hash: e0d6c996d45549e7724f6df7288725e57ff5c626
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4133,9 +4144,9 @@
   version: 8.0.47
   date: 2021-05-05T20:29:02.008Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 0a5b41d65a03f4a7e48184e264ffb7e96fd4921a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4144,9 +4155,9 @@
   version: 8.0.46
   date: 2021-05-05T16:21:42.783Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.58'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.58"
       hash: c1c9c6eadc586ccb551b5537b73bead1ea6d0ad9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4155,9 +4166,9 @@
   version: 8.0.45
   date: 2021-05-05T10:21:11.864Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: f79ac15597ac62b08227345301bf8d38dcc4bde4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4166,9 +4177,9 @@
   version: 8.0.44
   date: 2021-05-05T04:20:02.810Z
 - commits:
-    - subject: 'patch: Update dependency @types/bluebird to ^3.5.34'
+    - subject: "patch: Update dependency @types/bluebird to ^3.5.34"
       hash: 453327cf7d2cc55b7b5cf6e9f749f91711a5dc1b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4177,9 +4188,9 @@
   version: 8.0.43
   date: 2021-05-04T23:32:49.522Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.55'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.55"
       hash: 7ead26f2d16e1138568142396006755c312d66fd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4188,9 +4199,9 @@
   version: 8.0.42
   date: 2021-05-04T21:20:22.525Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.53'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.53"
       hash: 1b723d2e99b26afb3ec2e39d3e5de164ef90dc16
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4199,9 +4210,9 @@
   version: 8.0.41
   date: 2021-05-04T19:12:32.871Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.51'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.51"
       hash: 4b37854cbe928326adc7a68c166f73e7ee193def
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4210,9 +4221,9 @@
   version: 8.0.40
   date: 2021-05-04T16:20:42.302Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.49'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.49"
       hash: 0b68d352aeb8144c376db100ebd617c2fdadea40
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4221,9 +4232,9 @@
   version: 8.0.39
   date: 2021-05-04T07:56:13.429Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.48'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.48"
       hash: b382b90042cd076f2047885350e4681e7bc7e4c1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4232,9 +4243,9 @@
   version: 8.0.38
   date: 2021-05-04T04:58:22.235Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.46'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.46"
       hash: 6e07c6b2fac3a7f68ea16467d1467edb96f713f0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4243,9 +4254,9 @@
   version: 8.0.37
   date: 2021-05-04T03:14:44.122Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.44'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.44"
       hash: 5af06413981db21584b05e70c75c9a88d25a7240
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4254,9 +4265,9 @@
   version: 8.0.36
   date: 2021-05-04T00:13:32.948Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.42'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.42"
       hash: 8f918a6001571c4653492e48b92989b733145307
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4265,9 +4276,9 @@
   version: 8.0.35
   date: 2021-05-03T22:02:24.050Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.40'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.40"
       hash: c4eebd7dd1272aaca47a25a7bbe01c7b5581d6cf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4276,9 +4287,9 @@
   version: 8.0.34
   date: 2021-05-03T20:18:49.500Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.39'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.39"
       hash: 158b4da5a216f8925f72d90dd86855e1d2b7eb89
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4287,9 +4298,9 @@
   version: 8.0.33
   date: 2021-05-03T17:26:20.035Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.38'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.38"
       hash: 7ee70bd03106535726db733c814e9e157bf1cb7e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4298,9 +4309,9 @@
   version: 8.0.32
   date: 2021-05-03T16:39:52.656Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.37'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.37"
       hash: 726043bb9cadec6c8b10ba26b5cdb077b1c9a037
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4309,9 +4320,9 @@
   version: 8.0.31
   date: 2021-05-03T13:35:11.919Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 37bc4611f0ec9b676901336de847b28ca561255c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4320,9 +4331,9 @@
   version: 8.0.30
   date: 2021-05-03T09:39:52.058Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.35'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.35"
       hash: 6fc3f8d49fde1dfe43e345cc32da9e139b88c99d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4331,9 +4342,9 @@
   version: 8.0.29
   date: 2021-05-03T08:05:34.081Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.34'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.34"
       hash: 94fd27967e324fdf8ee21a3a4e7809c0fcf79070
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4342,9 +4353,9 @@
   version: 8.0.28
   date: 2021-05-03T07:52:13.601Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.33'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.33"
       hash: 9c636c8480d050e86d1713ba5ce79662db84ed70
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4353,9 +4364,9 @@
   version: 8.0.27
   date: 2021-05-03T04:10:53.162Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.32'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.32"
       hash: e84df63d178826a4b01fce89bab72676fc00bbd7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4364,9 +4375,9 @@
   version: 8.0.26
   date: 2021-05-03T02:23:01.664Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.31'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.31"
       hash: 3d5cc929b8e9483da2d8a631fc7f593bb9a2bae7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4375,9 +4386,9 @@
   version: 8.0.25
   date: 2021-05-02T09:03:21.834Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.29'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.29"
       hash: b349a55ea1bc6927d70f99c0f695353634410194
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4386,9 +4397,9 @@
   version: 8.0.24
   date: 2021-05-02T02:47:32.308Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.27'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.27"
       hash: 487d866fbcf00168f9293cef2fd0e505289fba97
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4397,9 +4408,9 @@
   version: 8.0.23
   date: 2021-05-02T01:52:41.424Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.26'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.26"
       hash: dadcc1bc0769067a7dcc464b3ad07965a3172d36
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4408,9 +4419,9 @@
   version: 8.0.22
   date: 2021-05-01T17:41:32.355Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.25'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.25"
       hash: ab86f60a82b9dd5499bd8da22224892953d77f38
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4419,9 +4430,9 @@
   version: 8.0.21
   date: 2021-05-01T16:24:31.983Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.24'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.24"
       hash: 7bc1ab8184800b8d76fef11c868c0488711ffcc7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4430,9 +4441,9 @@
   version: 8.0.20
   date: 2021-05-01T15:15:24.079Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.23'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.23"
       hash: ddd20d944a9b352cbebe1f14cb79796ec0032749
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4441,9 +4452,9 @@
   version: 8.0.19
   date: 2021-05-01T12:02:21.928Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.22'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.22"
       hash: abff3b4d2b9de530de58fc36dd15310ed3402523
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4452,9 +4463,9 @@
   version: 8.0.18
   date: 2021-05-01T10:46:13.492Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.20'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.20"
       hash: 70de3fb8c9bb36bf48d85e78ac4b4880b5398bf9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4463,9 +4474,9 @@
   version: 8.0.17
   date: 2021-05-01T08:05:31.877Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.19'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.19"
       hash: 2874fd2d0fcbc0fcd0f356d6e495783cba1a78e2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4474,9 +4485,9 @@
   version: 8.0.16
   date: 2021-05-01T02:30:38.035Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.18'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.18"
       hash: 3939a33ccf220640cebaea2a49374d8644cfd10c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4485,9 +4496,9 @@
   version: 8.0.15
   date: 2021-04-30T15:52:10.346Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.17'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.17"
       hash: 0e3bdb8157bdf6efa66269c4c9de32e53f401b05
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4496,9 +4507,9 @@
   version: 8.0.14
   date: 2021-04-30T10:54:28.896Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.15'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.15"
       hash: bd944a69da9a2352fd863503a416048e52a473d2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4507,9 +4518,9 @@
   version: 8.0.13
   date: 2021-04-30T04:14:08.823Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.11'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.11"
       hash: cbf588adeb4730ff43b4e31003280c105f66ff23
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4518,9 +4529,9 @@
   version: 8.0.12
   date: 2021-04-29T19:32:50.824Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.10'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.10"
       hash: cf669f4f51a1296aba531b9e0cc1254defd6b075
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4529,9 +4540,9 @@
   version: 8.0.11
   date: 2021-04-29T11:50:55.408Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.9'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.9"
       hash: db3bbf9acbb8e6937468c54be27c9d1f4c3df0a0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4540,9 +4551,9 @@
   version: 8.0.10
   date: 2021-04-29T10:06:21.738Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.8'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.8"
       hash: 90713e4fc549069ae88113b524573f4161f6b4bf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4551,9 +4562,9 @@
   version: 8.0.9
   date: 2021-04-29T08:18:44.552Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.7'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.7"
       hash: 69241e857212de0f522217bf5f931c3e99ca098f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4562,9 +4573,9 @@
   version: 8.0.8
   date: 2021-04-29T04:59:26.478Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.5'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.5"
       hash: f087da242d346837e09ec97583badcee18236b8a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4573,9 +4584,9 @@
   version: 8.0.7
   date: 2021-04-29T03:09:59.151Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.4'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.4"
       hash: 6c19e83b325c63421998fd6384ced41d1162a074
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4584,9 +4595,9 @@
   version: 8.0.6
   date: 2021-04-29T01:47:57.937Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.3'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.3"
       hash: f77f523be708b85b60136dbe0021de45b3e19ba3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4595,9 +4606,9 @@
   version: 8.0.5
   date: 2021-04-28T11:26:02.925Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-ui-components to ^9.1.2'
+    - subject: "patch: Update dependency @balena/jellyfish-ui-components to ^9.1.2"
       hash: 08cfcea139afe2085c05ab15c6e204ed457a5c9d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4608,7 +4619,7 @@
 - commits:
     - subject: Remove lodash chain
       hash: b794a7506523a9a8e4f4e4cfeecd4df212ce75ec
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4619,7 +4630,7 @@
 - commits:
     - subject: Publish docs using GitHub action
       hash: 8a09821ec0fa21248c9360df4bf1b7f27a560d3a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4630,9 +4641,9 @@
   version: 8.0.2
   date: 2021-04-28T03:00:39.670Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 54c8f68630fa2d7e3f26b1a0f4f88150fbcd5b01
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4641,9 +4652,9 @@
   version: 8.0.1
   date: 2021-04-28T02:41:32.366Z
 - commits:
-    - subject: 'Add missing type deps, update lodash imports'
+    - subject: Add missing type deps, update lodash imports
       hash: 2b8b5db09fb269c907a7523edb2be64d346d19cc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4653,7 +4664,7 @@
       nested: []
     - subject: Convert to typescript
       hash: 8549acbae1e730fc19ab2d629f8ca62a8884089b
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -4664,7 +4675,7 @@
 - commits:
     - subject: Bump dependencies
       hash: f4f86b520004abdce281cb32cb84986738655d7e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4677,7 +4688,7 @@
 - commits:
     - subject: Bump xterm to v4.11.0
       hash: c9019e67b3d944d15d84ec7e741a289b8648dd35
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4690,7 +4701,7 @@
 - commits:
     - subject: Bump dependencies
       hash: 252d6e5e0070e75006f14a05c30eb44152bc5266
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4703,7 +4714,7 @@
 - commits:
     - subject: Bump dependencies
       hash: ec6cd24c7f43fa3baadd5c8ac1a19a59ec954802
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4716,7 +4727,7 @@
 - commits:
     - subject: Bump dependencies
       hash: 20d6be1553b32c0d1562f9c918667238c514a630
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4729,7 +4740,7 @@
 - commits:
     - subject: Bump dependencies
       hash: 4013238f436d7362f518357847ca26d7db63501a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4742,7 +4753,7 @@
 - commits:
     - subject: Bump dependencies
       hash: 531cac6e2104418e0501fe9de47aba0668a21163
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4755,7 +4766,7 @@
 - commits:
     - subject: Bump eslint-plugin-jsdoc
       hash: fa010aec9bff80a1d07b9ef9136801f50d1a9253
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4768,7 +4779,7 @@
 - commits:
     - subject: Bump dependencies
       hash: a47e1731bd47991bcdfbb799424f5add6fe64f4e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4779,9 +4790,9 @@
   version: 7.0.2
   date: 2021-04-21T08:39:22.101Z
 - commits:
-    - subject: 'patch: Update dependency eslint-plugin-promise to v5'
+    - subject: "patch: Update dependency eslint-plugin-promise to v5"
       hash: 44ab6be86014830fd76cd42c0c889d49910f4310
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4792,7 +4803,7 @@
 - commits:
     - subject: Bump ui-components to v9
       hash: 894c67157599775e275430b6afdd5e1ce06f244f
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major
@@ -4801,9 +4812,9 @@
   version: 7.0.0
   date: 2021-04-09T15:47:59.610Z
 - commits:
-    - subject: 'patch: Update dependency sinon to v10'
+    - subject: "patch: Update dependency sinon to v10"
       hash: 308b4f5310faf6a7a51a168663a7b6c30292582f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4814,7 +4825,7 @@
 - commits:
     - subject: Replace husky with simple-git-hooks
       hash: b26df0b2e1bf2540886ea862c9f35283a0238878
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4836,9 +4847,9 @@
         signed-off-by: Graham McCulloch <graham@balena.io>
       author: Graham McCulloch
       nested: []
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 4406dbb75ce353879c114b16b4e0d4e8491d5e1f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4849,7 +4860,7 @@
 - commits:
     - subject: Bump jellyfish-ui-components dependency
       hash: 3ffaff87bbf90a56c47d9c7d6d0bfb7d143d0e92
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4871,9 +4882,9 @@
         signed-off-by: Graham McCulloch <graham@balena.io>
       author: Graham McCulloch
       nested: []
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: ed920b89a866e17db18d20834f27f56e688b4e60
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4909,9 +4920,9 @@
         signed-off-by: Graham McCulloch <graham@balena.io>
       author: Graham McCulloch
       nested: []
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 7d42555915ce387abd8603eea06ab5b139f8776d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4920,9 +4931,9 @@
   version: 6.0.62
   date: 2021-03-02T04:08:21.981Z
 - commits:
-    - subject: 'patch: Update dependency jsdoc-to-markdown to v7'
+    - subject: "patch: Update dependency jsdoc-to-markdown to v7"
       hash: 5f3edbb5dfd7683d316d06ec40603af30d07babc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4933,7 +4944,7 @@
 - commits:
     - subject: Bump jellyfish-ui-components dependency
       hash: c70c5dbe412648b08afaa9216bf26024802f6310
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4946,7 +4957,7 @@
 - commits:
     - subject: Bump jellyfish-ui-components dependency
       hash: e9eb8f57f33359f2db1f60c14ccd9e4a15677aef
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4959,7 +4970,7 @@
 - commits:
     - subject: Add versionbot CHANGELOG.yml
       hash: e26a79f95738271a0f93c8b415040fe04042b272
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch

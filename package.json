@@ -1,6 +1,6 @@
 {
   "name": "@balena/jellyfish-chat-widget",
-  "version": "13.0.13",
+  "version": "13.0.14",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-chat-widget.git"
@@ -83,6 +83,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2022-01-25T13:56:20.911Z"
+    "publishedAt": "2022-01-29T00:11:18.640Z"
   }
 }
