@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { v4 as uuid } from 'uuid';
+import * as skhema from 'skhema';
+import getProperty from 'lodash/get';
 import { useSetup } from '@balena/jellyfish-ui-components';
 import { JSONSchema, core } from '@balena/jellyfish-types';
 import {
@@ -7,69 +9,159 @@ import {
 	SdkQueryOptions,
 } from '@balena/jellyfish-client-sdk/build/types';
 
-interface UseStreamQueryOptions extends SdkQueryOptions {
-	loadMoreLimit: number;
-}
+const applyUpdates = (items: any[], updates: any[]) => {
+	const results = [...items];
+
+	while (updates.length) {
+		const { type, after } = updates[0];
+
+		switch (type) {
+			case 'insert':
+			case 'update':
+				for (let i = 0; i < results.length; i++) {
+					if (results[i].id === after.id) {
+						results[i] = after;
+					}
+				}
+			case 'unmatch':
+				for (let i = 0; i < results.length; i++) {
+					if (results[i].id === after.id) {
+						results.splice(i, 1);
+					}
+				}
+		}
+
+		updates.splice(0, 1);
+	}
+
+	return results;
+};
 
 export const useStream = <TContract extends core.Contract>(
 	query: JSONSchema,
-	{ loadMoreLimit, ...queryOptions }: UseStreamQueryOptions,
+	queryOptions: Omit<SdkQueryOptions, 'limit'>,
 ) => {
 	const { sdk } = useSetup()!;
 	const [contracts, setContracts] = React.useState<TContract[]>([]);
 	const streamRef = React.useRef<ExtendedSocket>();
+	const sortBy = queryOptions.sortBy
+		? ([] as string[]).concat(queryOptions.sortBy, 'id')
+		: ['id'];
 
-	React.useEffect(() => {
-		const stream = (streamRef.current = sdk.stream(query));
-		const queryId = uuid();
+	const next = React.useCallback(
+		(count) => {
+			let stream = streamRef.current;
+			const updates: any[] = [];
+			let accumulate = true;
 
-		stream.on('dataset', ({ data }) => {
-			if (queryId === data.id) {
-				setContracts(data.contracts);
+			if (stream) {
+				stream.emit('setSchema', {
+					data: {
+						schema: query,
+					},
+				});
+			} else {
+				stream = streamRef.current = sdk.stream(query);
+
+				stream.on('update', (data) => {
+					if (accumulate) {
+						updates.push(data);
+					} else {
+						setContracts(applyUpdates(contracts, updates));
+					}
+				});
 			}
-		});
 
-		stream.on('update', ({ data: { type, after: card } }) => {
-			if (type === 'update' || type === 'insert') {
-				// ...
+			const queryId = uuid();
+			{
+				const lastContract = contracts[contracts.length - 1];
+
+				stream.emit('queryDataset', {
+					data: {
+						id: queryId,
+						schema: lastContract
+							? skhema.merge([
+									query as any,
+									{
+										anyOf: sortBy.map((_, index) => {
+											return {
+												allOf: [
+													...sortBy.slice(0, index).map((field) => {
+														return {
+															type: 'object',
+															properties: {
+																[field]: {
+																	const: getProperty(lastContract, field),
+																},
+															},
+														};
+													}),
+													...sortBy.slice(index, index + 1).map((field) => {
+														return {
+															type: 'object',
+															properties: {
+																[field]: {
+																	exclusiveMinimum: getProperty(
+																		lastContract,
+																		field,
+																	),
+																},
+															},
+														};
+													}),
+												],
+											};
+										}),
+									},
+							  ])
+							: query,
+						options: {
+							...queryOptions,
+							limit: count,
+							sortBy,
+						},
+					},
+				});
 			}
-		});
 
-		stream.emit('queryDataset', {
-			data: {
-				id: queryId,
-				schema: query,
-				options: queryOptions,
-			},
-		});
+			return new Promise<void>((resolve) => {
+				stream!.on('dataset', ({ data }) => {
+					if (queryId !== data.id) {
+						return;
+					}
 
-		return () => {
-			stream.close();
-		};
-	}, []);
+					const allContracts = contracts.concat(data.cards);
+					const lastContract = allContracts[allContracts.length - 1];
 
-	const loadMoreContracts = React.useCallback(() => {
-		const queryId = uuid();
-		const stream = streamRef.current!;
+					stream!.emit('setSchema', {
+						data: {
+							schema: lastContract
+								? skhema.merge([
+										query as any,
+										...sortBy.map((field) => {
+											return {
+												type: 'object',
+												required: [field],
+												properties: {
+													[field]: {
+														maximum: getProperty(lastContract, field),
+													},
+												},
+											};
+										}),
+								  ])
+								: query,
+						},
+					});
 
-		streamRef.current!.emit('queryDataset', {
-			data: {
-				id: queryId,
-				schema: query,
-				options: {
-					...queryOptions,
-					skip: contracts.length,
-					limit: loadMoreLimit,
-				},
-			},
-		});
+					setContracts(applyUpdates(allContracts, updates));
+					accumulate = false;
+					resolve();
+				});
+			});
+		},
+		[contracts],
+	);
 
-		stream.on('dataset', ({ data }) => {
-			if (queryId === data.id) {
-				setContracts([...contracts, ...data.contracts]);
-			}
-		});
-	}, [contracts.length]);
-
-	return [contracts, loadMoreContracts];
+	return [contracts, next];
 };

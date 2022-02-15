@@ -2,6 +2,7 @@
   "extends": "@balena/jellyfish-config/config/tsconfig.json",
   "compilerOptions": {
     "target": "es2018",
-    "jsx": "react"
+    "jsx": "react",
+    "noUncheckedIndexedAccess": true
   }
 }
