@@ -43,7 +43,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "peerDependencies": {
-    "@balena/jellyfish-ui-components": "^14.0.9",
+    "@balena/jellyfish-ui-components": "^14.1.5",
     "rendition": "^25.6.0",
     "styled-components": "^5.3.3"
   },
@@ -62,7 +62,7 @@
     "@balena/jellyfish-client-sdk": "^7.0.39",
     "@balena/jellyfish-config": "^2.0.2",
     "@balena/jellyfish-types": "^1.2.42",
-    "@balena/jellyfish-ui-components": "^14.0.9",
+    "@balena/jellyfish-ui-components": "^14.1.5",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.4.0",
     "@types/sinon": "^10.0.9",
