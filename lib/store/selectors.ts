@@ -2,10 +2,14 @@ import filter from 'lodash/filter';
 import orderBy from 'lodash/orderBy';
 import get from 'lodash/get';
 import every from 'lodash/every';
-import { core, JSONSchema } from '@balena/jellyfish-types';
+import type { JsonSchema } from '@balena/jellyfish-types';
+import type {
+	Contract,
+	UserContract,
+} from '@balena/jellyfish-types/build/core';
 
 export const selectThreadListQuery = () => {
-	return (state): JSONSchema => {
+	return (state): JsonSchema => {
 		return {
 			$$links: {
 				'has attached element': {
@@ -57,7 +61,7 @@ export const selectCardsByType = (type) => {
 	};
 };
 
-export const selectCardById = <TContract extends core.Contract>(id: string) => {
+export const selectCardById = <TContract extends Contract>(id: string) => {
 	return (state): TContract | null => {
 		return state.cards[id] || null;
 	};
@@ -86,8 +90,8 @@ export const selectThreads = () => {
 };
 
 export const selectCurrentUser = () => {
-	return (state): core.UserContract | null => {
-		return selectCardById<core.UserContract>(state.currentUser)(state);
+	return (state): UserContract | null => {
+		return selectCardById<UserContract>(state.currentUser)(state);
 	};
 };
 
@@ -125,8 +129,8 @@ export const selectNotificationsByThread = (threadId: string) => {
 };
 
 export const areEqualArrayOfContracts = (
-	leftContracts: core.Contract[],
-	rightContracts: core.Contract[],
+	leftContracts: Contract[],
+	rightContracts: Contract[],
 ) => {
 	return (
 		leftContracts.length === rightContracts.length &&

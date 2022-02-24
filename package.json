@@ -43,7 +43,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "peerDependencies": {
-    "@balena/jellyfish-ui-components": "^14.0.9",
+    "@balena/jellyfish-ui-components": "^15.0.0",
     "rendition": "^25.6.0",
     "styled-components": "^5.3.3"
   },
@@ -59,12 +59,13 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@balena/jellyfish-client-sdk": "^7.0.39",
+    "@balena/jellyfish-client-sdk": "^10.1.2",
     "@balena/jellyfish-config": "^2.0.2",
-    "@balena/jellyfish-types": "^1.2.42",
-    "@balena/jellyfish-ui-components": "^14.0.9",
+    "@balena/jellyfish-types": "^2.0.4",
+    "@balena/jellyfish-ui-components": "^15.0.0",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.4.0",
+    "@types/react-router-dom": "^5.3.3",
     "@types/sinon": "^10.0.9",
     "copyfiles": "^2.4.1",
     "deplint": "^1.1.3",

@@ -2,7 +2,7 @@ import React from 'react';
 import { CardLoaderContext } from '@balena/jellyfish-ui-components';
 import { selectCardById } from '../store/selectors';
 import { useActions } from '../hooks';
-import { core } from '@balena/jellyfish-types';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 
 export const CardLoaderContextProvider = React.memo(({ children }) => {
 	const actions = useActions();
@@ -10,7 +10,7 @@ export const CardLoaderContextProvider = React.memo(({ children }) => {
 	const cardLoaderCtx = React.useMemo(() => {
 		return {
 			getCard: actions.getCard,
-			selectCard: <TCard extends core.Contract>(id) => {
+			selectCard: <TCard extends Contract>(id) => {
 				return (state): TCard => {
 					return selectCardById<TCard>(id)(state)!;
 				};
