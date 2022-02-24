@@ -25,7 +25,9 @@ export const ChatRoute = () => {
 	const currentUser = useSelector(selectCurrentUser())!;
 	const groups = useSelector(selectGroups());
 	const loadThreadDataTask = useTask(actions.loadThreadData);
-	const threadId = router.match.params.thread;
+	// TS-TODO: `thread` does not exist in the type and does not seem to exist
+	// in the code either. Casting to `any` here until this can be investigated
+	const threadId = (router.match.params as any).thread;
 	const messages = useSelector(selectMessages(threadId));
 	const thread = useSelector(selectCardById(threadId));
 	const notifications = useSelector(selectNotificationsByThread(threadId));
