@@ -180,9 +180,11 @@ export const fetchThreads = (ctx: ActionCreatorContext) => {
 			sortBy: ['created_at'],
 			sortDir: 'desc',
 			links: {
-				limit,
-				sortBy: ['created_at'],
-				sortDir: 'desc',
+				'has attached element': {
+					limit,
+					sortBy: ['created_at'],
+					sortDir: 'desc',
+				},
 			},
 		});
 
