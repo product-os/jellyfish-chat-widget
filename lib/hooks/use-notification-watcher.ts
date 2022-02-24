@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuid } from 'uuid';
-import { JSONSchema } from '@balena/jellyfish-types';
+import type { JsonSchema } from '@balena/jellyfish-types';
 import { useSetup } from '@balena/jellyfish-ui-components';
 import { SET_CARDS, DELETE_CARD } from '../store/action-types';
 import {
@@ -26,7 +26,7 @@ export const useNotificationWatcher = ({ onNotificationsChange }) => {
 			return;
 		}
 
-		const query: JSONSchema = {
+		const query: JsonSchema = {
 			type: 'object',
 			required: ['type'],
 			properties: {

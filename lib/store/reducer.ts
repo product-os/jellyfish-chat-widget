@@ -1,6 +1,6 @@
 import update from 'immutability-helper';
 import merge from 'lodash/merge';
-import { core } from '@balena/jellyfish-types';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 import {
 	SET_CARDS,
 	SET_CURRENT_USER,
@@ -32,7 +32,7 @@ export const createReducer = ({ product, productTitle, inbox }) => {
 		product,
 		productTitle,
 		inbox,
-		cards: {} as { [key: string]: core.Contract[] },
+		cards: {} as { [key: string]: Contract[] },
 		currentUser: null,
 	};
 

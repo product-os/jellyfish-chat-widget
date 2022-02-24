@@ -13,7 +13,8 @@ import {
 	selectThreadListQuery,
 	selectThreads,
 } from './selectors';
-import type { core, JSONSchema } from '@balena/jellyfish-types';
+import type { JsonSchema } from '@balena/jellyfish-types';
+import type { UserContract } from '@balena/jellyfish-types/build/core';
 import type { JellyfishSDK } from '@balena/jellyfish-client-sdk';
 
 export interface ActionCreatorContext {
@@ -32,7 +33,7 @@ const getLoop = (product: string): string => {
 		: 'loop-balena-io@1.0.0';
 };
 
-const allGroupsWithUsersQuery: JSONSchema = {
+const allGroupsWithUsersQuery: JsonSchema = {
 	type: 'object',
 	description: 'Get all groups with member user slugs',
 	required: ['type', 'name'],
@@ -179,9 +180,11 @@ export const fetchThreads = (ctx: ActionCreatorContext) => {
 			sortBy: ['created_at'],
 			sortDir: 'desc',
 			links: {
-				limit,
-				sortBy: ['created_at'],
-				sortDir: 'desc',
+				'has attached element': {
+					limit,
+					sortBy: ['created_at'],
+					sortDir: 'desc',
+				},
 			},
 		});
 
@@ -216,7 +219,7 @@ export const getActor = (ctx: ActionCreatorContext) => {
 	return async (id) => {
 		const actor = (await getCard(ctx)(id, 'user', [
 			'is member of',
-		])) as core.UserContract;
+		])) as UserContract;
 		const state = ctx.store.getState();
 
 		if (!actor) {

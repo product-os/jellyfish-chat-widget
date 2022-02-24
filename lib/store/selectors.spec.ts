@@ -1,12 +1,12 @@
-import { core } from '@balena/jellyfish-types';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 import { v4 as uuidv4 } from 'uuid';
 import { createReducer } from './reducer';
 import { selectMessages, areEqualArrayOfContracts } from './selectors';
 
 describe('areEqualArrayOfContracts', () => {
-	const contractA = { id: 'a' } as core.Contract;
-	const contractB = { id: 'b' } as core.Contract;
-	const contractC = { id: 'c' } as core.Contract;
+	const contractA = { id: 'a' } as Contract;
+	const contractB = { id: 'b' } as Contract;
+	const contractC = { id: 'c' } as Contract;
 
 	it('returns false if arrays are of different lengths', () => {
 		const res = areEqualArrayOfContracts([contractA], [contractA, contractB]);

@@ -35,8 +35,9 @@ export const Header = ({ onClose }) => {
 		>
 			<Img src={logoSrc} />
 			<Separator />
-
-			{router.history.canGo(-1) && (
+			// `canGo` is present in `router.history` but it's missing from //
+			`@types/history`
+			{(router.history as any).canGo(-1) && (
 				<Button
 					ml="12px"
 					fontSize="20px"
@@ -46,14 +47,11 @@ export const Header = ({ onClose }) => {
 					data-test="navigate-back-button"
 				/>
 			)}
-
 			<Box flex="1" fontSize="20px" mt="2px" ml="12px">
 				<Txt.span bold>{productTitle}</Txt.span>&nbsp;
 				<Txt.span color={theme.colors.tertiary.light}>chat</Txt.span>
 			</Box>
-
 			<AvailabilityStatus />
-
 			<Button
 				data-test="close-chat-widget"
 				fontSize="14px"
