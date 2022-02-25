@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update sinon from 12.0.1 to 13.0.1
+      hash: d79a61222ad3ffae8174ee54e119dfc066e3ba5f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 14.0.3
+  title: "'Update sinon from 12.0.1 to 13.0.1'"
+  date: 2022-02-25T10:56:07.807Z
+- commits:
     - subject: Update typedoc from 0.22.11 to 0.22.12
       hash: ee48a8ee33260bc71963a7f03c39e736e455e83d
       body: ""
