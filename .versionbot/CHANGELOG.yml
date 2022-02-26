@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependencies (external non-major bumps)
+      hash: ec9b93758f3c498fd6cfaa3b23dd906956778017
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 14.0.4
+  title: "'Update dependencies (external non-major bumps)'"
+  date: 2022-02-26T01:20:48.094Z
+- commits:
     - subject: Update sinon from 12.0.1 to 13.0.1
       hash: d79a61222ad3ffae8174ee54e119dfc066e3ba5f
       body: ""
