@@ -35,8 +35,7 @@ export const Header = ({ onClose }) => {
 		>
 			<Img src={logoSrc} />
 			<Separator />
-			// `canGo` is present in `router.history` but it's missing from //
-			`@types/history`
+			{/*`canGo` is present in `router.history` but it's missing from `@types/history`*/}
 			{(router.history as any).canGo(-1) && (
 				<Button
 					ml="12px"
