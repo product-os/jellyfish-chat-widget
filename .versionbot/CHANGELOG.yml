@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix visible comment
+      hash: 2ae22771940d654608495ed485e94d303baaf695
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: karaxuna
+      nested: []
+  version: 14.0.6
+  title: "'Fix visible comment'"
+  date: 2022-02-28T12:08:55.731Z
+- commits:
     - subject: Update internal-patch
       hash: b7ce3ed713d88091de16c09c173d47578274d750
       body: ""
