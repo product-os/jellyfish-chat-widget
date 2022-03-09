@@ -1,4 +1,17 @@
 - commits:
+    - subject: Archive notice
+      hash: 932a30ab292fe36002bbaac1eaef22dcb15578fd
+      body: |
+        Chat widget code has been moved to main jellyfish repo, under `apps/ui`.
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: karaxuna
+      nested: []
+  version: 14.1.0
+  title: "'Archive notice'"
+  date: 2022-03-09T16:16:18.996Z
+- commits:
     - subject: Update internal-patch
       hash: f3daa663067f94e3f51f13b75140072c6144865a
       body: ""
