@@ -1,3 +1,5 @@
+**Notice: The chat widget is now included directly in the [`jellyfish repo`](https://github.com/product-os/jellyfish) (under ui app).**
+
 # Jellyfish Chat Widget
 
 The chat widget is an embeddable component to allow external clients to send
